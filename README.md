@@ -29,13 +29,15 @@ https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model
 
 https://developer.mozilla.org/en-US/docs/Web/API/Blob.slice
 
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace
-
-https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Properties_Reference
-
 https://developer.mozilla.org/en-US/docs/Web/API/Element
 
 https://developer.mozilla.org/en-US/docs/Web/API/NamedNodeMap
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_when_to_use_them
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Properties_Reference
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace
 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number
 
