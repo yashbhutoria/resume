@@ -23,6 +23,8 @@ http://helephant.com/2008/08/17/how-javascript-objects-work/
 
 http://www.hunlock.com/blogs/Functional_Javascript
 
+https://www.w3.org/community/webed/wiki/A_Short_History_of_JavaScript
+
 **JavaScript Docs**
 
 https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model
