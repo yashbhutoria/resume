@@ -13,6 +13,10 @@ http://foundation.zurb.com/docs/
 
 http://compass-style.org/
 
+**Google Map Styles**
+
+http://snazzymaps.com/
+
 **General JavaScript Articles**
 
 http://toddmotto.com/everything-you-wanted-to-know-about-javascript-scope/
