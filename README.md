@@ -17,6 +17,10 @@ http://compass-style.org/
 
 http://snazzymaps.com/
 
+**Polymer**
+
+https://www.polymer-project.org/
+
 **General JavaScript Articles**
 
 http://toddmotto.com/everything-you-wanted-to-know-about-javascript-scope/
