@@ -1,7 +1,9 @@
 #P02 - Interactive Resume
 
-CSS Preprocessor: SASS + Compass
 
+**Responsive Framework:** Foundation
+
+**CSS Preprocessor:** SASS with Compass
 
 ###Resources
 
@@ -12,6 +14,10 @@ http://foundation.zurb.com/docs/
 **Compass Docs**
 
 http://compass-style.org/
+
+**HTML5**
+
+http://html5doctor.com/aside-revisited/
 
 **Google Map Styles**
 
