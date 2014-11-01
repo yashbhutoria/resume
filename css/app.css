@@ -3402,42 +3402,42 @@ header {
   padding: 5px;
 }
 
-/* line 35, ../scss/_custom.scss */
+/* line 41, ../scss/_custom.scss */
 .work-experience {
   padding: 5px;
 }
 
-/* line 41, ../scss/_custom.scss */
+/* line 47, ../scss/_custom.scss */
 .projects {
   padding: 5px;
 }
 
-/* line 47, ../scss/_custom.scss */
+/* line 53, ../scss/_custom.scss */
 .education {
   padding: 5px;
 }
 
-/* line 53, ../scss/_custom.scss */
+/* line 59, ../scss/_custom.scss */
 .skills {
   padding: 5px;
 }
 
-/* line 59, ../scss/_custom.scss */
+/* line 65, ../scss/_custom.scss */
 .map {
   padding: 5px;
 }
-/* line 61, ../scss/_custom.scss */
+/* line 67, ../scss/_custom.scss */
 .map #mapDiv {
   height: 400px;
   width: 100%;
 }
-/* line 65, ../scss/_custom.scss */
+/* line 71, ../scss/_custom.scss */
 .map #map {
   display: block;
   height: 100%;
 }
 
-/* line 74, ../scss/_custom.scss */
+/* line 80, ../scss/_custom.scss */
 footer {
   padding: 5px;
 }
