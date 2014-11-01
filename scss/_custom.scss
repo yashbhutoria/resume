@@ -4,3 +4,16 @@
 * {
 	outline: 1px solid pink !important;
 }
+
+// Vertical Rhythm
+
+$rhythm-unit: 'rem';
+$font-unit: 1rem;
+$base-font-size: $rem-base;
+$base-line-height: $rem-base * 1.5;
+@include establish-baseline;
+
+body {
+	background: #fafafa;
+	@include debug-vertical-alignment;
+}
