@@ -219,24 +219,5 @@ function inName(name) {
 
 }
 
-$("#main").append(internationalizeButton);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // Foundation JavaScript
-// Documentation can be found at: http://foundation.zurb.com/docs
 $(document).foundation();
