@@ -91,10 +91,10 @@ var education =  {
 
 bio.display = function() {
 
-	var formattedRole = HTMLheaderRole.replace("%data%", bio.role);
-	$("#header").prepend(formattedRole);
 	var formattedName = HTMLheaderName.replace("%data%", bio.name);
-	$("#header").prepend(formattedName);
+	$("#header").append(formattedName);
+	var formattedRole = HTMLheaderRole.replace("%data%", bio.role);
+	$("#header").append(formattedRole);
 	var formattedBioPic = HTMLbioPic.replace("%data%", bio.bioPic);
 	$("#header").append(formattedBioPic);
 
