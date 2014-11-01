@@ -3363,3 +3363,7 @@ th.hide-for-touch {
     display: table-cell !important;
   }
 }
+/* line 4, ../scss/_custom.scss */
+* {
+  outline: 1px solid pink !important;
+}
