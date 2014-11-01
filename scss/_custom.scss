@@ -17,3 +17,9 @@ body {
 	background: #fafafa;
 	@include debug-vertical-alignment;
 }
+
+.screen-reader {
+	position: absolute;
+	top: -9999px;
+	left: -9999px;
+}
