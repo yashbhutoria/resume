@@ -21,6 +21,12 @@ http://html5doctor.com/aside-revisited/
 
 http://stackoverflow.com/questions/7183132/how-to-correctly-use-section-tag-in-html5
 
+**Google Maps**
+
+https://developers.google.com/maps/documentation/javascript/reference#InfoWindow
+
+https://developers.google.com/maps/documentation/javascript/examples/infowindow-simple
+
 **Google Map Styles**
 
 http://snazzymaps.com/
