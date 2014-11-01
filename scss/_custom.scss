@@ -14,7 +14,7 @@ $base-line-height: $rem-base * 1.5;
 @include establish-baseline;
 
 body {
-	background: #fafafa;
+	background: #f5f8fa;
 	@include debug-vertical-alignment;
 }
 
