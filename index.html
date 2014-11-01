@@ -1,10 +1,31 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Foundation</title>
-  <link href="css/style.css" rel="stylesheet" type="text/css"></link>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Mike Joyce Resume</title>
+  <link rel="canonical" href="">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Twitter Card Data -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:creator" content="iammikejoyce">
+  <meta name="twitter:title" content="">
+  <meta name="twitter:description" content="">
+  <meta name="twitter:url" content="">
+  <meta name="twitter:image" content="">
+
+  <!-- Facebook Open Graph Data -->
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:title" content="" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="" />
+  <meta property="og:image" content="" />
+  <meta property="og:description" content="" /> 
+
   <link rel="stylesheet" href="stylesheets/app.css" />
   <script src="bower_components/modernizr/modernizr.js"></script>
   <script src="bower_components/jquery/dist/jquery.min.js"></script>
@@ -12,6 +33,92 @@
   <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?libraries=places"></script>
 </head>
 <body unresolved>
+
+  <!-- Page -->
+  <div id="page">
+
+    <!-- Header -->
+    <header>
+      <div class="row">
+        <div class="small-12 medium-12 large-12 column">
+
+        </div>
+      </div>
+    </header>
+    <!-- /Header -->
+
+    <!-- Work Experience -->
+    <div id="workExperience" class="work-experience">
+      <div class="row">
+        <div class="small 12 medium-12 large-12">
+          <section>
+
+          </section>
+        </div>
+      </div>
+    </div>
+    <!-- /Work Experience -->
+
+    <!-- Projects -->
+    <div id="projects" class="projects">
+      <div class="row">
+        <div class="small-12 medium-12 large-12 column">
+          <section>
+
+          </section>
+        </div>
+      </div>
+    </div>
+    <!-- /Projects -->
+
+    <!-- Education -->
+    <div id="education" class="education">
+      <div class="row">
+        <div class="small-12 medium-12 large-12">
+          <section>
+
+          </section>
+        </div>
+      </div>
+    </div>
+    <!-- /Education -->
+
+    <!-- Skills -->
+    <div id="skills" class="education">
+      <div class="row">
+        <div class="small-12 medium-12 large-12"> 
+          <section>
+
+          </section>
+        </div>
+      </div>
+    </div>
+    <!-- /Skills -->
+
+    <!-- Map -->
+    <div id="mapDiv" class="map">
+      <div class="row">
+        <div class="small-12 medium-12 large-12">
+          <section>
+            <h2>Where I've Been</h2>
+          </section>
+        </div>
+      </div>
+    </div>
+    <!-- /Map -->
+
+    <!-- Footer -->
+    <footer>
+      <div class="row">
+        <div class="small-12 medium-12 large-12">
+
+        </div>
+    </footer>
+    <!-- /Footer -->
+
+  </div>
+  <!-- /Page-->
+
   <div id="main">
     <div id="header" class="center-content">
       <ul id="topContacts" class='flex-box'></ul>
@@ -39,35 +146,6 @@
     </div>
   </div>
 
-  <script src="js/resumeBuilder.js"></script>
-
-  <script type="text/javascript">
-
-  if(document.getElementsByClassName("flex-item").length === 0) {
-    document.getElementById("topContacts").style.display = "none";
-  }
-  if(document.getElementsByTagName("h1").length === 0) {
-    document.getElementById("header").style.display = "none";
-  }
-  if(document.getElementsByClassName("work-entry").length === 0) {
-    document.getElementById("workExperience").style.display = "none";
-  }
-  if(document.getElementsByClassName("project-entry").length === 0) {
-    document.getElementById("projects").style.display = "none";
-  }
-  if(document.getElementsByClassName("education-entry").length === 0) {
-    document.getElementById("education").style.display = "none";
-  }
-  if(document.getElementsByClassName("skills-entry").length === 0) {
-    document.getElementById("skillsChart").style.display = "none";
-  }
-  if(document.getElementsByClassName("flex-item").length === 0) {
-    document.getElementById("letsConnect").style.display = "none";
-  }
-  if(document.getElementById("map") == undefined) {
-    document.getElementById("mapDiv").style.display = "none";
-  }
-  </script>
   <script src="bower_components/foundation/js/foundation.min.js"></script>
   <script src="js/app.js"></script>
 </body>
