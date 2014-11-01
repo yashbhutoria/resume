@@ -11,7 +11,6 @@ var bio = {
 		"twitter" : "@iammikejoyce",
 		"location" : "Nelson, New Zealand"
 	},
-	"welcomeMessage" : "This is welcome message",
 	"skills" : [
 		"skill01", "skill02", "skill03", "skill04"
 	],
@@ -91,14 +90,12 @@ var education =  {
 
 bio.display = function() {
 
-	var formattedRole = HTMLheaderRole.replace("%data%", bio.role);
-	$("#header").prepend(formattedRole);
 	var formattedName = HTMLheaderName.replace("%data%", bio.name);
-	$("#header").prepend(formattedName);
+	$("#header").append(formattedName);
+	var formattedRole = HTMLheaderRole.replace("%data%", bio.role);
+	$("#header").append(formattedRole);
 	var formattedBioPic = HTMLbioPic.replace("%data%", bio.bioPic);
 	$("#header").append(formattedBioPic);
-	var formattedWelcomeMsg = HTMLWelcomeMsg.replace("%data%", bio.welcomeMessage);	
-	$("#header").append(formattedWelcomeMsg);
 
 	var formattedMobile = HTMLmobile.replace("%data%", bio.contacts.mobile);
 	$("#topContacts").append(formattedMobile);

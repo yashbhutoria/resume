@@ -19,6 +19,8 @@ http://compass-style.org/
 
 http://html5doctor.com/aside-revisited/
 
+http://stackoverflow.com/questions/7183132/how-to-correctly-use-section-tag-in-html5
+
 **Google Map Styles**
 
 http://snazzymaps.com/
