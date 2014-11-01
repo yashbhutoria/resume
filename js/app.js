@@ -11,7 +11,6 @@ var bio = {
 		"twitter" : "@iammikejoyce",
 		"location" : "Nelson, New Zealand"
 	},
-	"welcomeMessage" : "This is welcome message",
 	"skills" : [
 		"skill01", "skill02", "skill03", "skill04"
 	],
