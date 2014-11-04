@@ -11,6 +11,10 @@
 
 http://foundation.zurb.com/docs/
 
+**Bower Docs**
+
+http://bower.io/docs/api/
+
 **Compass Docs**
 
 http://compass-style.org/
