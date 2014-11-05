@@ -1,21 +1,59 @@
 
 // Objects
 
-var bio = {
-	"name" : "Mike Joyce",
-	"role" : "Front-End Developer",
-	"contacts" : {
-		"mobile" : "094-2930-930",
-		"email" : "contact@mikejoyce.me",
-		"github" : "mikejoycegit",
-		"twitter" : "@iammikejoyce",
-		"location" : "Nelson, New Zealand"
+
+var language = {
+	"eng" : {
+		"bio" : {
+			"name" : "Mike Joyce",
+			"role" : "Front-End Developer",
+			"contacts" : {
+				"mobile" : "094-2930-930",
+				"email" : "contact@mikejoyce.me",
+				"github" : "mikejoycegit",
+				"twitter" : "@iammikejoyce",
+				"location" : "Nelson, New Zealand"
+			},
+			"skills" : [
+				"skill01", "skill02", "skill03", "skill04"
+			],
+			"bioPic" : "img/fry.jpg"
+		}
 	},
-	"skills" : [
-		"skill01", "skill02", "skill03", "skill04"
-	],
-	"bioPic" : "img/fry.jpg"
+	"esp" : {
+		"bio" : {
+			"name" : "Mike Joyce",
+			"role" : "Devloper",
+			"contacts" : {
+				"mobile" : "094-2930-930",
+				"email" : "contact@mikejoyce.me",
+				"github" : "mikejoycegit",
+				"twitter" : "@iammikejoyce",
+				"location" : "Nelson, New Zealand"
+			},
+			"skills" : [
+				"skill01", "skill02", "skill03", "skill04"
+			],
+			"bioPic" : "img/fry.jpg"
+			}
+	}
 }
+
+// var bio = {
+// 	"name" : "Mike Joyce",
+// 	"role" : "Front-End Developer",
+// 	"contacts" : {
+// 		"mobile" : "094-2930-930",
+// 		"email" : "contact@mikejoyce.me",
+// 		"github" : "mikejoycegit",
+// 		"twitter" : "@iammikejoyce",
+// 		"location" : "Nelson, New Zealand"
+// 	},
+// 	"skills" : [
+// 		"skill01", "skill02", "skill03", "skill04"
+// 	],
+// 	"bioPic" : "img/fry.jpg"
+// }
 
 
 var work = {
@@ -88,34 +126,44 @@ var education =  {
 
 // Display Objects
 
-bio.display = function() {
+$("#header").append("<button id='lang'>Click</button>");
 
-	var formattedName = HTMLheaderName.replace("%data%", bio.name);
+
+var lang = language.eng;
+
+$(document).on('click', '#lang', function() {
+	return lang = language.esp;	
+});
+
+
+lang.bio.display = function() {
+
+	var formattedName = HTMLheaderName.replace("%data%", lang.bio.name);
 	$("#header").append(formattedName);
-	var formattedRole = HTMLheaderRole.replace("%data%", bio.role);
+	var formattedRole = HTMLheaderRole.replace("%data%", lang.bio.role);
 	$("#header").append(formattedRole);
-	var formattedBioPic = HTMLbioPic.replace("%data%", bio.bioPic);
+	var formattedBioPic = HTMLbioPic.replace("%data%", lang.bio.bioPic);
 	$("#header").append(formattedBioPic);
 
-	var formattedMobile = HTMLmobile.replace("%data%", bio.contacts.mobile);
+	var formattedMobile = HTMLmobile.replace("%data%", lang.bio.contacts.mobile);
 	$("#topContacts").append(formattedMobile);
 
-	var formattedEmail = HTMLemail.replace("%data%", bio.contacts.email);
+	var formattedEmail = HTMLemail.replace("%data%", lang.bio.contacts.email);
 	$("#topContacts").append(formattedEmail);
 
-	var formattedGithub = HTMLgithub.replace("%data%", bio.contacts.github);
+	var formattedGithub = HTMLgithub.replace("%data%", lang.bio.contacts.github);
 	$("#topContacts").append(formattedGithub);
 
-	var formattedTwitter = HTMLtwitter.replace("%data%", bio.contacts.twitter);
+	var formattedTwitter = HTMLtwitter.replace("%data%", lang.bio.contacts.twitter);
 	$("#topContacts").append(formattedTwitter);
 
-	var formattedLocation = HTMLlocation.replace("%data%", bio.contacts.location);
+	var formattedLocation = HTMLlocation.replace("%data%", lang.bio.contacts.location);
 	$("#topContacts").append(formattedLocation);
 
-	if(bio.skills.length > 0) {
+	if(lang.bio.skills.length > 0) {
 		$("#header").append(HTMLskillsStart);	
-		for(skill in bio.skills) {
-			var formattedSkill = HTMLskills.replace("%data%", bio.skills[skill]);
+		for(skill in lang.bio.skills) {
+			var formattedSkill = HTMLskills.replace("%data%", lang.bio.skills[skill]);
 			$("#skills").append(formattedSkill);
 		}
 	}
