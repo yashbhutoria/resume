@@ -31,6 +31,10 @@ https://developers.google.com/maps/documentation/javascript/reference#InfoWindow
 
 https://developers.google.com/maps/documentation/javascript/examples/infowindow-simple
 
+**Google Web Component**
+
+http://googlewebcomponents.github.io/google-map/components/google-map/
+
 **Google Map Styles**
 
 http://snazzymaps.com/
