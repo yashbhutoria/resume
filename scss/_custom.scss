@@ -55,6 +55,7 @@ header {
 		margin-bottom: 1rem;
 		@media #{$large-up} {
 			display: inline-block;
+			margin: 1rem;
 		}
 	}
 	.role {
