@@ -69,6 +69,7 @@ var projects = {
 }
 
 var education =  {
+	"header": "Education",
 	"schools": [
 		{
 			"name": "School Name",
@@ -187,8 +188,8 @@ work.display = function() {
 
 projects.display = function() {
 
-	var formattedProjectHeader = HTMLprojectHeader.replace("%data%", projects.header);
-	$("#projects").append(formattedProjectHeader);
+	var formattedProjectsHeader = HTMLprojectsHeader.replace("%data%", projects.header);
+	$("#projects").append(formattedProjectsHeader);
 
 	for(project in projects.projects) {
 		$("#projects").append(HTMLprojectStart);
@@ -214,6 +215,9 @@ projects.display = function() {
 }();
 
 education.display = function() {
+
+	var formattedEducationHeader = HTMLeducationHeader.replace("%data%", education.header);
+	$("#education").append(formattedEducationHeader);
 
 	for(school in education.schools) {
 		$("#education").append(HTMLschoolStart);
