@@ -3,10 +3,7 @@ var HTMLheaderName = "<h1 id='name'>%data%</h1>";
 var HTMLheaderRole = "<span>%data%</span>";
 var HTMLbioPic = "<img src='%data%' class='biopic'>";
 
-var HTMLmobile = "<div class='small-3 medium-3 large-3 column'><span class='fa fa-mobile'></span>%data%</div>";
-var HTMLemail = "<div class='small-3 medium-3 large-3 column'><span class='fa fa-envelope'></span>%data%</div>";
-var HTMLtwitter = "<div class='small-3 medium-3 large-3 column'><span class='fa fa-github-alt'></span>%data%</div>";
-var HTMLgithub = "<div class='small-3 medium-3 large-3 column'><span class='fa fa-twitter'></span>%data%</div>";
+var HTMLnavigation = "<li><a href='#'>%data%</a></li>";
 
 var HTMLlocation = "<li class='flex-item'><span class='orange-text'>location</span><span class='white-text'>%data%</span></li>";
 
@@ -42,7 +39,12 @@ var HTMLonlineSchool = " - %data%</a>";
 var HTMLonlineDates = "<div class='date-text'>%data%</div>";
 var HTMLonlineURL = "<br><a href='#'>%data%</a>";
 
-var HTMLnavigation = "<li><a href='#'>%data%</a></li>";
+var HTMLskillsHeader = "<h2>Skills</h2>";
+
+var HTMLmobile = "<div class='small-3 medium-3 large-3 column'><span class='fa fa-mobile'></span>%data%</div>";
+var HTMLemail = "<div class='small-3 medium-3 large-3 column'><span class='fa fa-envelope'></span>%data%</div>";
+var HTMLtwitter = "<div class='small-3 medium-3 large-3 column'><span class='fa fa-github-alt'></span>%data%</div>";
+var HTMLgithub = "<div class='small-3 medium-3 large-3 column'><span class='fa fa-twitter'></span>%data%</div>";
 
 var internationalizeButton = "<button>Internationalize</button>";
 var googleMap = "<div id='map'></div>";

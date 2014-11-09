@@ -26,6 +26,10 @@ var contacts = {
 	"twitter" : "@iammikejoyce"
 }
 
+var skills = {
+	"header": "Skills"
+}
+
 var work = {
 	"header": "Work",
 	"jobs": [
@@ -95,6 +99,10 @@ var education =  {
 			"url": "http://www.udacity.com"
 		}
 	]
+}
+
+var map = {
+	"header" "Where I've Been",
 }
 
 // Display Objects
@@ -241,6 +249,13 @@ education.display = function() {
 		}
 
 	}
+
+}();
+
+skills.display = function() {
+
+	var formattedSkillsHeader = HTMLskillsHeader.replace("%data%", skills.header);
+	$("#skills").append(formattedSkillsHeader);
 
 }();
 
