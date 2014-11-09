@@ -6092,30 +6092,31 @@ h1, h2, h3, h4, h5, h6 {
 /* line 51, ../scss/_custom.scss */
 header {
   padding: 1.5rem 0 2.5rem;
+  position: relative;
 }
-/* line 53, ../scss/_custom.scss */
+/* line 54, ../scss/_custom.scss */
 header h1 {
   text-align: center;
   margin-bottom: 1rem;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 53, ../scss/_custom.scss */
+  /* line 54, ../scss/_custom.scss */
   header h1 {
     display: inline-block;
     margin: 1rem;
   }
 }
-/* line 61, ../scss/_custom.scss */
+/* line 62, ../scss/_custom.scss */
 header .role {
   text-align: center;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 61, ../scss/_custom.scss */
+  /* line 62, ../scss/_custom.scss */
   header .role {
     display: inline-block;
   }
 }
-/* line 67, ../scss/_custom.scss */
+/* line 68, ../scss/_custom.scss */
 header img {
   -moz-border-radius: 150px;
   -webkit-border-radius: 150px;
@@ -6124,79 +6125,79 @@ header img {
   margin: auto;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 67, ../scss/_custom.scss */
+  /* line 68, ../scss/_custom.scss */
   header img {
     display: inline-block;
   }
 }
 
-/* line 79, ../scss/_custom.scss */
+/* line 80, ../scss/_custom.scss */
 .navigation {
   background: #fff;
   margin-bottom: 50px;
 }
-/* line 82, ../scss/_custom.scss */
+/* line 83, ../scss/_custom.scss */
 .navigation nav {
   text-align: center;
 }
-/* line 84, ../scss/_custom.scss */
+/* line 85, ../scss/_custom.scss */
 .navigation nav ul {
   padding: 10px 0;
 }
-/* line 86, ../scss/_custom.scss */
+/* line 87, ../scss/_custom.scss */
 .navigation nav ul li {
   font-size: 0.8rem;
   margin: 0;
   padding: 0;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 86, ../scss/_custom.scss */
+  /* line 87, ../scss/_custom.scss */
   .navigation nav ul li {
     font-size: 1rem;
   }
 }
 
-/* line 100, ../scss/_custom.scss */
+/* line 101, ../scss/_custom.scss */
 .work-experience {
   padding: 5px;
 }
 
-/* line 106, ../scss/_custom.scss */
+/* line 107, ../scss/_custom.scss */
 .projects {
   padding: 5px;
 }
-/* line 108, ../scss/_custom.scss */
+/* line 109, ../scss/_custom.scss */
 .projects img {
   display: block;
   margin: auto auto 1rem;
 }
 
-/* line 116, ../scss/_custom.scss */
+/* line 117, ../scss/_custom.scss */
 .education {
   padding: 5px;
 }
 
-/* line 122, ../scss/_custom.scss */
+/* line 123, ../scss/_custom.scss */
 .skills {
   padding: 5px;
 }
 
-/* line 128, ../scss/_custom.scss */
+/* line 129, ../scss/_custom.scss */
 .map {
   padding: 5px;
 }
-/* line 130, ../scss/_custom.scss */
+/* line 131, ../scss/_custom.scss */
 .map #mapDiv {
   height: 400px;
   width: 100%;
 }
-/* line 134, ../scss/_custom.scss */
+/* line 135, ../scss/_custom.scss */
 .map #map {
   display: block;
   height: 100%;
 }
 
-/* line 143, ../scss/_custom.scss */
+/* line 144, ../scss/_custom.scss */
 footer {
   color: #66757f;
   background: #fff;
@@ -6206,7 +6207,7 @@ footer {
   padding: 7px;
   text-align: center;
 }
-/* line 151, ../scss/_custom.scss */
+/* line 152, ../scss/_custom.scss */
 footer .fa {
   margin: 5px;
 }
