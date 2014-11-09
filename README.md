@@ -19,6 +19,22 @@ http://bower.io/docs/api/
 
 http://compass-style.org/
 
+**Sublime Text**
+
+https://github.com/guillermooo/Vintageous
+
+http://alittlecode.com/open-a-file-in-sublime-text-via-os-x-terminal/
+
+https://www.udacity.com/wiki/ud775/sublime
+
+http://wbond.net/sublime_packages/terminal
+
+https://github.com/kemayo/sublime-text-git
+
+https://github.com/jisaacks/GitGutter
+
+https://github.com/spadgos/sublime-jsdocs
+
 **Font Awesome**
 
 http://fortawesome.github.io/Font-Awesome/
