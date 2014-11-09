@@ -3439,5 +3439,8 @@ header {
 
 /* line 80, ../scss/_custom.scss */
 footer {
-  padding: 5px;
+  bottom: 0;
+  height: 50px;
+  position: fixed;
+  width: 100%;
 }
