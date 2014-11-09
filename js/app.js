@@ -47,6 +47,7 @@ var work = {
 }
 
 var projects = {
+	"header": "Projects",
 	"projects": [
 		{
 			"title": "title",
@@ -185,6 +186,9 @@ work.display = function() {
 }();
 
 projects.display = function() {
+
+	var formattedProjectHeader = HTMLprojectHeader.replace("%data%", projects.header);
+	$("#projects").append(formattedProjectHeader);
 
 	for(project in projects.projects) {
 		$("#projects").append(HTMLprojectStart);
