@@ -51,9 +51,15 @@ header {
 	h1 {
 		text-align: center;
 		margin-bottom: 1rem;
+		@media #{$large-up} {
+			display: inline-block;
+		}
 	}
 	.role {
 		text-align: center;
+		@media #{$large-up} {
+			display: inline-block;
+		}
 	}
 	img {
 		@include border-radius(150px);
