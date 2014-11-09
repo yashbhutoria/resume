@@ -84,6 +84,9 @@ header {
 			padding: 10px 0;
 			li {
 				font-size: 0.8rem;
+				@media #{$large-up} {
+					font-size: 1rem;
+				}
 				margin: 0;
 				padding: 0;
 			}
