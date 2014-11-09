@@ -6060,90 +6060,94 @@ html {
 /* line 16, ../scss/_custom.scss */
 body {
   background: #f5f8fa;
-  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjEuMCIgeDI9IjAuNSIgeTI9IjAuMCI+PHN0b3Agb2Zmc2V0PSI1JSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjUiLz48c3RvcCBvZmZzZXQ9IjUlIiBzdG9wLWNvbG9yPSIjMDAwMDAwIiBzdG9wLW9wYWNpdHk9IjAuMCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
-  background-size: 100%;
-  background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(5%, rgba(0, 0, 0, 0.5)), color-stop(5%, rgba(0, 0, 0, 0)));
-  background-image: -moz-linear-gradient(bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-  -moz-background-size: 100% 1.5rem;
-  -o-background-size: 100% 1.5rem;
-  -webkit-background-size: 100% 1.5rem;
-  background-size: 100% 1.5rem;
-  background-position: left top;
+  font-family: "Roboto", sans-serif;
 }
 
-/* line 21, ../scss/_custom.scss */
+/* line 22, ../scss/_custom.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  margin: 1em 0;
+}
+
+/* line 32, ../scss/_custom.scss */
 .screen-reader {
   position: absolute;
   top: -9999px;
   left: -9999px;
 }
 
-/* line 29, ../scss/_custom.scss */
+/* line 38, ../scss/_custom.scss */
 .content {
   background: #fff;
+  border: 1px solid #e1e8ed;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
-  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
-  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
   margin: 10px;
   padding: 10px;
 }
 
-/* line 39, ../scss/_custom.scss */
+/* line 49, ../scss/_custom.scss */
 header {
   padding: 5px;
 }
+/* line 51, ../scss/_custom.scss */
+header h1 {
+  display: inline-block;
+}
 
-/* line 45, ../scss/_custom.scss */
+/* line 58, ../scss/_custom.scss */
 .navigation {
   background: #fff;
   margin-bottom: 50px;
 }
 
-/* line 52, ../scss/_custom.scss */
+/* line 65, ../scss/_custom.scss */
 .work-experience {
   padding: 5px;
 }
 
-/* line 58, ../scss/_custom.scss */
+/* line 71, ../scss/_custom.scss */
 .projects {
   padding: 5px;
 }
 
-/* line 64, ../scss/_custom.scss */
+/* line 77, ../scss/_custom.scss */
 .education {
   padding: 5px;
 }
 
-/* line 70, ../scss/_custom.scss */
+/* line 83, ../scss/_custom.scss */
 .skills {
   padding: 5px;
 }
 
-/* line 76, ../scss/_custom.scss */
+/* line 89, ../scss/_custom.scss */
 .map {
   padding: 5px;
 }
-/* line 78, ../scss/_custom.scss */
+/* line 91, ../scss/_custom.scss */
 .map #mapDiv {
   height: 400px;
   width: 100%;
 }
-/* line 82, ../scss/_custom.scss */
+/* line 95, ../scss/_custom.scss */
 .map #map {
   display: block;
   height: 100%;
 }
 
-/* line 91, ../scss/_custom.scss */
+/* line 104, ../scss/_custom.scss */
 footer {
   background: #fff;
   bottom: 0;
-  height: 50px;
   position: fixed;
   width: 100%;
+  padding: 7px;
+  text-align: center;
+}
+/* line 111, ../scss/_custom.scss */
+footer .fa {
+  margin: 5px;
 }
