@@ -62,7 +62,9 @@ header {
 	.role {
 		text-align: center;
 		@media #{$large-up} {
-			display: inline-block;
+		    position: absolute;
+		    top: 7.5rem;
+		    left: 14.7rem;
 		}
 	}
 	img {
