@@ -6197,6 +6197,7 @@ header img {
 
 /* line 142, ../scss/_custom.scss */
 footer {
+  color: #66757f;
   background: #fff;
   bottom: 0;
   position: fixed;
@@ -6204,7 +6205,7 @@ footer {
   padding: 7px;
   text-align: center;
 }
-/* line 149, ../scss/_custom.scss */
+/* line 150, ../scss/_custom.scss */
 footer .fa {
   margin: 5px;
 }
