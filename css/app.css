@@ -3371,8 +3371,8 @@ th.hide-for-touch {
  * -------------------------- */
 @font-face {
   font-family: 'FontAwesome';
-  src: url("../../bower_components/font-awesome/fonts/fontawesome-webfont.eot?v=4.2.0");
-  src: url("../../bower_components/font-awesome/fonts/fontawesome-webfont.eot?#iefix&v=4.2.0") format("embedded-opentype"), url("../../bower_components/font-awesome/fonts/fontawesome-webfont.woff?v=4.2.0") format("woff"), url("../../bower_components/font-awesome/fonts/fontawesome-webfont.ttf?v=4.2.0") format("truetype"), url("../../bower_components/font-awesome/fonts/fontawesome-webfont.svg?v=4.2.0#fontawesomeregular") format("svg");
+  src: url("../bower_components/font-awesome/fonts/fontawesome-webfont.eot?v=4.2.0");
+  src: url("../bower_components/font-awesome/fonts/fontawesome-webfont.eot?#iefix&v=4.2.0") format("embedded-opentype"), url("../bower_components/font-awesome/fonts/fontawesome-webfont.woff?v=4.2.0") format("woff"), url("../bower_components/font-awesome/fonts/fontawesome-webfont.ttf?v=4.2.0") format("truetype"), url("../bower_components/font-awesome/fonts/fontawesome-webfont.svg?v=4.2.0#fontawesomeregular") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -6090,43 +6090,50 @@ header {
   padding: 5px;
 }
 
-/* line 41, ../scss/_custom.scss */
+/* line 35, ../scss/_custom.scss */
+.navigation {
+  background: #fff;
+  margin-bottom: 50px;
+}
+
+/* line 42, ../scss/_custom.scss */
 .work-experience {
   padding: 5px;
 }
 
-/* line 47, ../scss/_custom.scss */
+/* line 48, ../scss/_custom.scss */
 .projects {
   padding: 5px;
 }
 
-/* line 53, ../scss/_custom.scss */
+/* line 54, ../scss/_custom.scss */
 .education {
   padding: 5px;
 }
 
-/* line 59, ../scss/_custom.scss */
+/* line 60, ../scss/_custom.scss */
 .skills {
   padding: 5px;
 }
 
-/* line 65, ../scss/_custom.scss */
+/* line 66, ../scss/_custom.scss */
 .map {
   padding: 5px;
 }
-/* line 67, ../scss/_custom.scss */
+/* line 68, ../scss/_custom.scss */
 .map #mapDiv {
   height: 400px;
   width: 100%;
 }
-/* line 71, ../scss/_custom.scss */
+/* line 72, ../scss/_custom.scss */
 .map #map {
   display: block;
   height: 100%;
 }
 
-/* line 80, ../scss/_custom.scss */
+/* line 81, ../scss/_custom.scss */
 footer {
+  background: #fff;
   bottom: 0;
   height: 50px;
   position: fixed;
