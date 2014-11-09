@@ -6115,43 +6115,47 @@ header img {
   background: #fff;
   margin-bottom: 50px;
 }
+/* line 70, ../scss/_custom.scss */
+.navigation nav {
+  text-align: center;
+}
 
-/* line 74, ../scss/_custom.scss */
+/* line 77, ../scss/_custom.scss */
 .work-experience {
   padding: 5px;
 }
 
-/* line 80, ../scss/_custom.scss */
+/* line 83, ../scss/_custom.scss */
 .projects {
   padding: 5px;
 }
 
-/* line 86, ../scss/_custom.scss */
+/* line 89, ../scss/_custom.scss */
 .education {
   padding: 5px;
 }
 
-/* line 92, ../scss/_custom.scss */
+/* line 95, ../scss/_custom.scss */
 .skills {
   padding: 5px;
 }
 
-/* line 98, ../scss/_custom.scss */
+/* line 101, ../scss/_custom.scss */
 .map {
   padding: 5px;
 }
-/* line 100, ../scss/_custom.scss */
+/* line 103, ../scss/_custom.scss */
 .map #mapDiv {
   height: 400px;
   width: 100%;
 }
-/* line 104, ../scss/_custom.scss */
+/* line 107, ../scss/_custom.scss */
 .map #map {
   display: block;
   height: 100%;
 }
 
-/* line 113, ../scss/_custom.scss */
+/* line 116, ../scss/_custom.scss */
 footer {
   background: #fff;
   bottom: 0;
@@ -6160,7 +6164,7 @@ footer {
   padding: 7px;
   text-align: center;
 }
-/* line 120, ../scss/_custom.scss */
+/* line 123, ../scss/_custom.scss */
 footer .fa {
   margin: 5px;
 }
