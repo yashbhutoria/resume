@@ -1,60 +1,22 @@
 
 // Objects
 
-
-var language = {
-	"eng" : {
-		"bio" : {
-			"name" : "Mike Joyce",
-			"role" : "Front-End Developer",
-			"contacts" : {
-				"mobile" : "094-2930-930",
-				"email" : "contact@mikejoyce.me",
-				"github" : "mikejoycegit",
-				"twitter" : "@iammikejoyce",
-				"location" : "Nelson, New Zealand"
-			},
-			"skills" : [
-				"skill01", "skill02", "skill03", "skill04"
-			],
-			"bioPic" : "img/fry.jpg"
-		}
-	},
-	"esp" : {
-		"bio" : {
-			"name" : "Mike Joyce",
-			"role" : "Devloper",
-			"contacts" : {
-				"mobile" : "094-2930-930",
-				"email" : "contact@mikejoyce.me",
-				"github" : "mikejoycegit",
-				"twitter" : "@iammikejoyce",
-				"location" : "Nelson, New Zealand"
-			},
-			"skills" : [
-				"skill01", "skill02", "skill03", "skill04"
-			],
-			"bioPic" : "img/fry.jpg"
-			}
-	}
+var bio = {
+	"name" : "Mike Joyce",
+	"role" : "Front-End Developer",
+	"location" : "Nelson, New Zealand",
+	"skills" : [
+		"skill01", "skill02", "skill03", "skill04"
+	],
+	"bioPic" : "img/fry.jpg"
 }
 
-// var bio = {
-// 	"name" : "Mike Joyce",
-// 	"role" : "Front-End Developer",
-// 	"contacts" : {
-// 		"mobile" : "094-2930-930",
-// 		"email" : "contact@mikejoyce.me",
-// 		"github" : "mikejoycegit",
-// 		"twitter" : "@iammikejoyce",
-// 		"location" : "Nelson, New Zealand"
-// 	},
-// 	"skills" : [
-// 		"skill01", "skill02", "skill03", "skill04"
-// 	],
-// 	"bioPic" : "img/fry.jpg"
-// }
-
+var contacts = {
+	"mobile" : "094-2930-930",
+	"email" : "contact@mikejoyce.me",
+	"github" : "mikejoycegit",
+	"twitter" : "@iammikejoyce"
+}
 
 var work = {
 	"jobs": [
@@ -126,47 +88,43 @@ var education =  {
 
 // Display Objects
 
-$("#header").append("<button id='lang'>Click</button>");
+bio.display = function() {
 
-
-var lang = language.eng;
-
-$(document).on('click', '#lang', function() {
-	return lang = language.esp;	
-});
-
-
-lang.bio.display = function() {
-
-	var formattedName = HTMLheaderName.replace("%data%", lang.bio.name);
+	var formattedName = HTMLheaderName.replace("%data%", bio.name);
 	$("#header").append(formattedName);
-	var formattedRole = HTMLheaderRole.replace("%data%", lang.bio.role);
+
+	var formattedRole = HTMLheaderRole.replace("%data%", bio.role);
 	$("#header").append(formattedRole);
-	var formattedBioPic = HTMLbioPic.replace("%data%", lang.bio.bioPic);
+
+	var formattedBioPic = HTMLbioPic.replace("%data%", bio.bioPic);
 	$("#header").append(formattedBioPic);
 
-	var formattedMobile = HTMLmobile.replace("%data%", lang.bio.contacts.mobile);
-	$("#topContacts").append(formattedMobile);
-
-	var formattedEmail = HTMLemail.replace("%data%", lang.bio.contacts.email);
-	$("#topContacts").append(formattedEmail);
-
-	var formattedGithub = HTMLgithub.replace("%data%", lang.bio.contacts.github);
-	$("#topContacts").append(formattedGithub);
-
-	var formattedTwitter = HTMLtwitter.replace("%data%", lang.bio.contacts.twitter);
-	$("#topContacts").append(formattedTwitter);
-
-	var formattedLocation = HTMLlocation.replace("%data%", lang.bio.contacts.location);
+	var formattedLocation = HTMLlocation.replace("%data%", bio.location);
 	$("#topContacts").append(formattedLocation);
 
-	if(lang.bio.skills.length > 0) {
-		$("#header").append(HTMLskillsStart);	
-		for(skill in lang.bio.skills) {
-			var formattedSkill = HTMLskills.replace("%data%", lang.bio.skills[skill]);
-			$("#skills").append(formattedSkill);
-		}
-	}
+	// if(bio.skills.length > 0) {
+	// 	$("#header").append(HTMLskillsStart);	
+	// 	for(skill in bio.skills) {
+	// 		var formattedSkill = HTMLskills.replace("%data%", bio.skills[skill]);
+	// 		$("#skills").append(formattedSkill);
+	// 	}
+	// }
+
+}();
+
+contacts.display = function() {
+
+	var formattedMobile = HTMLmobile.replace("%data%", contacts.mobile);
+	$("#footer").append(formattedMobile);
+
+	var formattedEmail = HTMLemail.replace("%data%", contacts.email);
+	$("#footer").append(formattedEmail);
+
+	var formattedGithub = HTMLgithub.replace("%data%", contacts.github);
+	$("#footer").append(formattedGithub);
+
+	var formattedTwitter = HTMLtwitter.replace("%data%", contacts.twitter);
+	$("#footer").append(formattedTwitter);
 
 }();
 
