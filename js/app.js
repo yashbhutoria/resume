@@ -8,7 +8,7 @@ var bio = {
 	"skills": [
 		"skill01", "skill02", "skill03", "skill04"
 	],
-	"bioPic": "img/fry.jpg"
+	"bioPic": "img/200x200.gif"
 }
 
 var navigation = {
