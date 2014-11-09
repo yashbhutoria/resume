@@ -6139,33 +6139,38 @@ header img {
 .projects {
   padding: 5px;
 }
+/* line 93, ../scss/_custom.scss */
+.projects img {
+  display: block;
+  margin: auto auto 1rem;
+}
 
-/* line 97, ../scss/_custom.scss */
+/* line 101, ../scss/_custom.scss */
 .education {
   padding: 5px;
 }
 
-/* line 103, ../scss/_custom.scss */
+/* line 107, ../scss/_custom.scss */
 .skills {
   padding: 5px;
 }
 
-/* line 109, ../scss/_custom.scss */
+/* line 113, ../scss/_custom.scss */
 .map {
   padding: 5px;
 }
-/* line 111, ../scss/_custom.scss */
+/* line 115, ../scss/_custom.scss */
 .map #mapDiv {
   height: 400px;
   width: 100%;
 }
-/* line 115, ../scss/_custom.scss */
+/* line 119, ../scss/_custom.scss */
 .map #map {
   display: block;
   height: 100%;
 }
 
-/* line 124, ../scss/_custom.scss */
+/* line 128, ../scss/_custom.scss */
 footer {
   background: #fff;
   bottom: 0;
@@ -6174,7 +6179,7 @@ footer {
   padding: 7px;
   text-align: center;
 }
-/* line 131, ../scss/_custom.scss */
+/* line 135, ../scss/_custom.scss */
 footer .fa {
   margin: 5px;
 }
