@@ -109,14 +109,14 @@ var worldMap = {
 
 bio.display = function() {
 
+	var formattedBioPic = HTMLbioPic.replace("%data%", bio.bioPic);
+	$("#header").append(formattedBioPic);
+
 	var formattedName = HTMLheaderName.replace("%data%", bio.name);
 	$("#header").append(formattedName);
 
 	var formattedRole = HTMLheaderRole.replace("%data%", bio.role);
 	$("#header").append(formattedRole);
-
-	var formattedBioPic = HTMLbioPic.replace("%data%", bio.bioPic);
-	$("#header").append(formattedBioPic);
 
 	var formattedLocation = HTMLlocation.replace("%data%", bio.location);
 	$("#topContacts").append(formattedLocation);
