@@ -49,18 +49,23 @@ section h2 {
 // Header 
 
 header {
+	background: #1eaede;
 	padding: 1.5rem 0 2.5rem;
+	position: relative;
 	h1 {
 		text-align: center;
 		margin-bottom: 1rem;
 		@media #{$large-up} {
 			display: inline-block;
+			margin: 1rem;
 		}
 	}
 	.role {
 		text-align: center;
 		@media #{$large-up} {
-			display: inline-block;
+		    position: absolute;
+		    top: 7.5rem;
+		    left: 14.7rem;
 		}
 	}
 	img {
@@ -140,7 +145,8 @@ header {
 // Footer 
 
 footer {
-	background: #fff;
+	background: #444;
+	color: #66757f;
 	bottom: 0;
 	position: fixed;
 	width: 100%;
