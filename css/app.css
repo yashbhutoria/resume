@@ -6090,7 +6090,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* line 49, ../scss/_custom.scss */
 header {
-  padding: 5px;
+  padding: 1.5rem 0 2.5rem;
 }
 /* line 51, ../scss/_custom.scss */
 header h1 {
