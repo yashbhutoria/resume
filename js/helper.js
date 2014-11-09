@@ -48,7 +48,7 @@ var HTMLtwitter = "<div class='small-3 medium-3 large-3 column'><span class='fa 
 var HTMLgithub = "<div class='small-3 medium-3 large-3 column'><span class='fa fa-twitter'></span><span class='show-for-medium-up'>%data%</span></div>";
 
 var HTMLmapHeader ="<h2>%data%</h2>";
-var googleMap = "<div id='map'></div>";
+var googleMap = "<div id='map' class='content'></div>";
 
 // Internationalize Name
 
