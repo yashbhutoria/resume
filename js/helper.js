@@ -4,10 +4,10 @@ var HTMLheaderRole = "<span>%data%</span>";
 
 var HTMLcontactGeneric = "<li class='flex-item'><span class='orange-text'>%contact%</span><span class='white-text'>%data%</span></li>";
 
-var HTMLmobile = "<div class='small-3 medium-3 large-3 column'><span class='fa fa-mobile'></span><div>%data%</div></div>";
-var HTMLemail = "<div class='small-3 medium-3 large-3 column'><span class='fa fa-envelope'></span><div>%data%</div></div>";
-var HTMLtwitter = "<div class='small-3 medium-3 large-3 column'><span class='fa fa-github-alt'></span><div>%data%</div></div>";
-var HTMLgithub = "<div class='small-3 medium-3 large-3 column'><span class='fa fa-twitter'></span><div>%data%</div></div>";
+var HTMLmobile = "<div class='small-3 medium-3 large-3 column'><span class='fa fa-mobile'></span>%data%</div>";
+var HTMLemail = "<div class='small-3 medium-3 large-3 column'><span class='fa fa-envelope'></span>%data%</div>";
+var HTMLtwitter = "<div class='small-3 medium-3 large-3 column'><span class='fa fa-github-alt'></span>%data%</div>";
+var HTMLgithub = "<div class='small-3 medium-3 large-3 column'><span class='fa fa-twitter'></span>%data%</div>";
 
 var HTMLlocation = "<li class='flex-item'><span class='orange-text'>location</span><span class='white-text'>%data%</span></li>";
 
