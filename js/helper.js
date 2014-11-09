@@ -1,8 +1,7 @@
 
 var HTMLheaderName = "<h1 id='name'>%data%</h1>";
 var HTMLheaderRole = "<span>%data%</span>";
-
-var HTMLcontactGeneric = "<li class='flex-item'><span class='orange-text'>%contact%</span><span class='white-text'>%data%</span></li>";
+var HTMLbioPic = "<img src='%data%' class='biopic'>";
 
 var HTMLmobile = "<div class='small-3 medium-3 large-3 column'><span class='fa fa-mobile'></span>%data%</div>";
 var HTMLemail = "<div class='small-3 medium-3 large-3 column'><span class='fa fa-envelope'></span>%data%</div>";
@@ -10,8 +9,6 @@ var HTMLtwitter = "<div class='small-3 medium-3 large-3 column'><span class='fa 
 var HTMLgithub = "<div class='small-3 medium-3 large-3 column'><span class='fa fa-twitter'></span>%data%</div>";
 
 var HTMLlocation = "<li class='flex-item'><span class='orange-text'>location</span><span class='white-text'>%data%</span></li>";
-
-var HTMLbioPic = "<img src='%data%' class='biopic'>";
 
 var HTMLskillsStart = "<h3 id='skillsH3'>Skills at a Glance:</h3><ul id='skills' class='flex-box'></ul>";
 var HTMLskills = "<li class='flex-item'><span class='white-text'>%data%</span></li>";
@@ -41,6 +38,8 @@ var HTMLonlineTitle = "<a href='#'>%data%";
 var HTMLonlineSchool = " - %data%</a>";
 var HTMLonlineDates = "<div class='date-text'>%data%</div>";
 var HTMLonlineURL = "<br><a href='#'>%data%</a>";
+
+var HTMLnavigation = "<li><a href='#'>%data%</a></li>";
 
 var internationalizeButton = "<button>Internationalize</button>";
 var googleMap = "<div id='map'></div>";

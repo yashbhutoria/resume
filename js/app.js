@@ -2,13 +2,21 @@
 // Objects
 
 var bio = {
-	"name" : "Mike Joyce",
-	"role" : "Front-End Developer",
-	"location" : "Nelson, New Zealand",
-	"skills" : [
+	"name": "Mike Joyce",
+	"role": "Front-End Developer",
+	"location": "Nelson, New Zealand",
+	"skills": [
 		"skill01", "skill02", "skill03", "skill04"
 	],
-	"bioPic" : "img/fry.jpg"
+	"bioPic": "img/fry.jpg"
+}
+
+var navigation = {
+	"work": "Work",
+	"projects": "Projects",
+	"education": "Education",
+	"skills": "Skills",
+	"map": "Map"
 }
 
 var contacts = {
@@ -125,6 +133,25 @@ contacts.display = function() {
 
 	var formattedTwitter = HTMLtwitter.replace("%data%", contacts.twitter);
 	$("#footer").append(formattedTwitter);
+
+}();
+
+navigation.display = function() {
+
+	var formattedNavWork = HTMLnavigation.replace("%data%", navigation.work);
+	$("#nav").append(formattedNavWork);	
+
+	var formattedNavProjects = HTMLnavigation.replace("%data%", navigation.projects);
+	$("#nav").append(formattedNavProjects);
+
+	var formattedNavEducation = HTMLnavigation.replace("%data%", navigation.education);
+	$("#nav").append(formattedNavEducation);
+
+	var formattedNavSkills = HTMLnavigation.replace("%data%", navigation.skills);
+	$("#nav").append(formattedNavSkills);
+
+	var formattedNavMap = HTMLnavigation.replace("%data%", navigation.map);
+	$("#nav").append(formattedNavMap);
 
 }();
 
