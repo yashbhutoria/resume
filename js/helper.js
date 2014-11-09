@@ -46,7 +46,7 @@ var HTMLemail = "<div class='small-3 medium-3 large-3 column'><span class='fa fa
 var HTMLtwitter = "<div class='small-3 medium-3 large-3 column'><span class='fa fa-github-alt'></span>%data%</div>";
 var HTMLgithub = "<div class='small-3 medium-3 large-3 column'><span class='fa fa-twitter'></span>%data%</div>";
 
-var internationalizeButton = "<button>Internationalize</button>";
+var HTMLmapHeader ="<h2>%data%</h2>";
 var googleMap = "<div id='map'></div>";
 
 // Internationalize Name

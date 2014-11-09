@@ -101,8 +101,8 @@ var education =  {
 	]
 }
 
-var map = {
-	"header" "Where I've Been",
+var worldMap = {
+	"header": "Map"
 }
 
 // Display Objects
@@ -259,9 +259,17 @@ skills.display = function() {
 
 }();
 
+worldMap.display = function() {
+
+	var formattedMapHeader = HTMLmapHeader.replace("%data%", worldMap.header);
+	$("#mapDiv").append(formattedMapHeader);
+
+	$("#mapDiv").append(googleMap);
+
+}();
+
 // Google Map
 
-$("#mapDiv").append(googleMap);
 
 // International Name
 
