@@ -6051,11 +6051,6 @@ th.hide-for-touch {
   content: "\f20c";
 }
 
-/* line 4, ../scss/_custom.scss */
-* {
-  outline: 1px solid pink !important;
-}
-
 /* line 106, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/typography/_vertical_rhythm.scss */
 html {
   font-size: 100%;
@@ -6086,52 +6081,65 @@ body {
 }
 
 /* line 29, ../scss/_custom.scss */
+.content {
+  background: #fff;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 10px;
+}
+
+/* line 39, ../scss/_custom.scss */
 header {
   padding: 5px;
 }
 
-/* line 35, ../scss/_custom.scss */
+/* line 45, ../scss/_custom.scss */
 .navigation {
   background: #fff;
   margin-bottom: 50px;
 }
 
-/* line 42, ../scss/_custom.scss */
+/* line 52, ../scss/_custom.scss */
 .work-experience {
   padding: 5px;
 }
 
-/* line 48, ../scss/_custom.scss */
+/* line 58, ../scss/_custom.scss */
 .projects {
   padding: 5px;
 }
 
-/* line 54, ../scss/_custom.scss */
+/* line 64, ../scss/_custom.scss */
 .education {
   padding: 5px;
 }
 
-/* line 60, ../scss/_custom.scss */
+/* line 70, ../scss/_custom.scss */
 .skills {
   padding: 5px;
 }
 
-/* line 66, ../scss/_custom.scss */
+/* line 76, ../scss/_custom.scss */
 .map {
   padding: 5px;
 }
-/* line 68, ../scss/_custom.scss */
+/* line 78, ../scss/_custom.scss */
 .map #mapDiv {
   height: 400px;
   width: 100%;
 }
-/* line 72, ../scss/_custom.scss */
+/* line 82, ../scss/_custom.scss */
 .map #map {
   display: block;
   height: 100%;
 }
 
-/* line 81, ../scss/_custom.scss */
+/* line 91, ../scss/_custom.scss */
 footer {
   background: #fff;
   bottom: 0;
