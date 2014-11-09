@@ -1,7 +1,6 @@
 #P02 - Interactive Resume
 
 
-
 **Responsive Framework:** Foundation
 
 **CSS Preprocessor:** SASS with Compass
@@ -19,6 +18,10 @@ http://bower.io/docs/api/
 **Compass Docs**
 
 http://compass-style.org/
+
+**Font Awesome**
+
+http://fortawesome.github.io/Font-Awesome/
 
 **HTML5**
 
