@@ -23,7 +23,8 @@ var HTMLprojectStart = "<div class='project-entry content'></div>";
 var HTMLprojectTitle = "<a href='#'>%data%</a>";
 var HTMLprojectDates = "<div class='date-text'>%data%</div>";
 var HTMLprojectDescription = "<p><br>%data%</p>";
-var HTMLprojectImage = "<img src='%data%'>";
+var HTMLprojectImageStart = "<div class='project-images row'></div>";
+var HTMLprojectImage = "<div class='small-12 medium-4 large-4 columns'><img src='%data%'></div>";
 
 var HTMLeducationHeader ="<h2>%data%</h2>";
 var HTMLschoolStart = "<div class='education-entry content'></div>";
