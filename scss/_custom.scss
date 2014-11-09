@@ -59,6 +59,9 @@ header {
 		@include border-radius(150px);
 		display: block;
 		margin: auto;
+		@media #{$large-up} {
+			display: inline-block;
+		}
 	}
 }
 
