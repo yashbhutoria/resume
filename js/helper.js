@@ -1,6 +1,6 @@
 
 var HTMLheaderName = "<h1 id='name'>%data%</h1>";
-var HTMLheaderRole = "<span>%data%</span>";
+var HTMLheaderRole = "<div class='role'>%data%</div>";
 var HTMLbioPic = "<img src='%data%' class='biopic'>";
 
 var HTMLnavigation = "<li><a href='#'>%data%</a></li>";
@@ -23,7 +23,8 @@ var HTMLprojectStart = "<div class='project-entry content'></div>";
 var HTMLprojectTitle = "<a href='#'>%data%</a>";
 var HTMLprojectDates = "<div class='date-text'>%data%</div>";
 var HTMLprojectDescription = "<p><br>%data%</p>";
-var HTMLprojectImage = "<img src='%data%'>";
+var HTMLprojectImageStart = "<div class='project-images row'></div>";
+var HTMLprojectImage = "<div class='small-12 medium-4 large-4 columns'><img src='%data%'></div>";
 
 var HTMLeducationHeader ="<h2>%data%</h2>";
 var HTMLschoolStart = "<div class='education-entry content'></div>";
@@ -41,13 +42,13 @@ var HTMLonlineURL = "<br><a href='#'>%data%</a>";
 
 var HTMLskillsHeader = "<h2>Skills</h2>";
 
-var HTMLmobile = "<div class='small-3 medium-3 large-3 column'><span class='fa fa-mobile'></span>%data%</div>";
-var HTMLemail = "<div class='small-3 medium-3 large-3 column'><span class='fa fa-envelope'></span>%data%</div>";
-var HTMLtwitter = "<div class='small-3 medium-3 large-3 column'><span class='fa fa-github-alt'></span>%data%</div>";
-var HTMLgithub = "<div class='small-3 medium-3 large-3 column'><span class='fa fa-twitter'></span>%data%</div>";
+var HTMLmobile = "<div class='small-3 medium-3 large-3 column'><span class='fa fa-mobile'></span><span class='show-for-medium-up'>%data%</span></div>";
+var HTMLemail = "<div class='small-3 medium-3 large-3 column'><span class='fa fa-envelope'></span><span class='show-for-medium-up'>%data%</span></div>";
+var HTMLtwitter = "<div class='small-3 medium-3 large-3 column'><span class='fa fa-github-alt'></span><span class='show-for-medium-up'>%data%</span></div>";
+var HTMLgithub = "<div class='small-3 medium-3 large-3 column'><span class='fa fa-twitter'></span><span class='show-for-medium-up'>%data%</span></div>";
 
 var HTMLmapHeader ="<h2>%data%</h2>";
-var googleMap = "<div id='map'></div>";
+var googleMap = "<div id='map' class='content'></div>";
 
 // Internationalize Name
 
