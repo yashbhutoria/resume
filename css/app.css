@@ -10,10 +10,10 @@ Syntax error: Invalid CSS after "	font": expected "{", was "}"
 52: 	font
 53: }
 54: 
-55: .light-text {
-56: 	color: #ccc;
-57: 	text-transform: uppercase;
-58: }
+55: .location-text {
+56: 	font-family: $font-normal;
+57: }
+58: 
 
 Backtrace:
 /Users/mikejoyce/Development/udacity/p02/scss/_custom.scss:53
@@ -79,4 +79,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Invalid CSS after \"	font\": expected \"{\", was \"}\"\A         on line 53 of /Users/mikejoyce/Development/udacity/p02/scss/_custom.scss\A         from line 55 of /Users/mikejoyce/Development/udacity/p02/scss/app.scss\A \A 48: }\A 49: \A 50: .date-text {\A 51: 	font-family: $font-normal;\A 52: 	font\A 53: }\A 54: \A 55: .light-text {\A 56: 	color: #ccc;\A 57: 	text-transform: uppercase;\A 58: }"; }
+  content: "Syntax error: Invalid CSS after \"	font\": expected \"{\", was \"}\"\A         on line 53 of /Users/mikejoyce/Development/udacity/p02/scss/_custom.scss\A         from line 55 of /Users/mikejoyce/Development/udacity/p02/scss/app.scss\A \A 48: }\A 49: \A 50: .date-text {\A 51: 	font-family: $font-normal;\A 52: 	font\A 53: }\A 54: \A 55: .location-text {\A 56: 	font-family: $font-normal;\A 57: }\A 58: "; }
