@@ -146,35 +146,30 @@ navigation.display = function() {
 
 	var formattedNavWork = HTMLnavigation.replace("%data%", navigation.work).replace("%id%", navigation.work);
 	$("#nav").append(formattedNavWork);	
-
 	$(document).on("click", "#linkWork", function() {
 		anchorScroll("#work");
 	});
 
 	var formattedNavProjects = HTMLnavigation.replace("%data%", navigation.projects).replace("%id%", navigation.projects);
 	$("#nav").append(formattedNavProjects);
-
 	$(document).on("click", "#linkProjects", function() {
 		anchorScroll("#projects");
 	});
 
 	var formattedNavEducation = HTMLnavigation.replace("%data%", navigation.education).replace("%id%", navigation.education);
 	$("#nav").append(formattedNavEducation);
-
 	$(document).on("click", "#linkEducation", function() {
 		anchorScroll("#education");
 	});
 
 	var formattedNavSkills = HTMLnavigation.replace("%data%", navigation.skills).replace("%id%", navigation.skills);
 	$("#nav").append(formattedNavSkills);
-
 	$(document).on("click", "#linkSkills", function() {
 		anchorScroll("#skills");
 	});
 
 	var formattedNavMap = HTMLnavigation.replace("%data%", navigation.map).replace("%id%", navigation.map);
 	$("#nav").append(formattedNavMap);
-
 	$(document).on("click", "#linkMap", function() {
 		anchorScroll("#map");
 	});

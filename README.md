@@ -65,6 +65,10 @@ http://snazzymaps.com/
 
 https://www.polymer-project.org/
 
+**Multiple jQuery Replace**
+
+http://stackoverflow.com/questions/16297320/replace-multiple-occurences-in-a-string-with-javascript
+
 **General JavaScript Articles**
 
 http://toddmotto.com/everything-you-wanted-to-know-about-javascript-scope/
