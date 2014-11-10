@@ -3363,7 +3363,6 @@ th.hide-for-touch {
     display: table-cell !important;
   }
 }
-@imprt "compass/typography/links";
 /*!
  *  Font Awesome 4.2.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
@@ -6098,35 +6097,34 @@ h1, h2, h3, h4, h5, h6 {
 
 /* line 56, ../scss/_custom.scss */
 header {
-  background: #1eaede;
   padding: 1.5rem 0 2.5rem;
   position: relative;
 }
-/* line 60, ../scss/_custom.scss */
+/* line 59, ../scss/_custom.scss */
 header h1 {
   text-align: center;
   margin-bottom: 1rem;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 60, ../scss/_custom.scss */
+  /* line 59, ../scss/_custom.scss */
   header h1 {
     display: inline-block;
     margin: 1rem;
   }
 }
-/* line 68, ../scss/_custom.scss */
+/* line 67, ../scss/_custom.scss */
 header .role {
   text-align: center;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 68, ../scss/_custom.scss */
+  /* line 67, ../scss/_custom.scss */
   header .role {
     position: absolute;
     top: 7.5rem;
     left: 14.7rem;
   }
 }
-/* line 76, ../scss/_custom.scss */
+/* line 75, ../scss/_custom.scss */
 header img {
   -moz-border-radius: 150px;
   -webkit-border-radius: 150px;
@@ -6135,79 +6133,79 @@ header img {
   margin: auto;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 76, ../scss/_custom.scss */
+  /* line 75, ../scss/_custom.scss */
   header img {
     display: inline-block;
   }
 }
 
-/* line 88, ../scss/_custom.scss */
+/* line 87, ../scss/_custom.scss */
 .navigation {
   background: #fff;
   margin-bottom: 50px;
 }
-/* line 91, ../scss/_custom.scss */
+/* line 90, ../scss/_custom.scss */
 .navigation nav {
   text-align: center;
 }
-/* line 93, ../scss/_custom.scss */
+/* line 92, ../scss/_custom.scss */
 .navigation nav ul {
   padding: 10px 0;
 }
-/* line 95, ../scss/_custom.scss */
+/* line 94, ../scss/_custom.scss */
 .navigation nav ul li {
   font-size: 0.8rem;
   margin: 0;
   padding: 0;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 95, ../scss/_custom.scss */
+  /* line 94, ../scss/_custom.scss */
   .navigation nav ul li {
     font-size: 1rem;
   }
 }
 
-/* line 109, ../scss/_custom.scss */
+/* line 108, ../scss/_custom.scss */
 .work-experience {
   padding: 5px;
 }
 
-/* line 115, ../scss/_custom.scss */
+/* line 114, ../scss/_custom.scss */
 .projects {
   padding: 5px;
 }
-/* line 117, ../scss/_custom.scss */
+/* line 116, ../scss/_custom.scss */
 .projects img {
   display: block;
   margin: auto auto 1rem;
 }
 
-/* line 125, ../scss/_custom.scss */
+/* line 124, ../scss/_custom.scss */
 .education {
   padding: 5px;
 }
 
-/* line 131, ../scss/_custom.scss */
+/* line 130, ../scss/_custom.scss */
 .skills {
   padding: 5px;
 }
 
-/* line 137, ../scss/_custom.scss */
+/* line 136, ../scss/_custom.scss */
 .map {
   padding: 5px;
 }
-/* line 139, ../scss/_custom.scss */
+/* line 138, ../scss/_custom.scss */
 .map #mapDiv {
   height: 400px;
   width: 100%;
 }
-/* line 143, ../scss/_custom.scss */
+/* line 142, ../scss/_custom.scss */
 .map #map {
   display: block;
   height: 100%;
 }
 
-/* line 152, ../scss/_custom.scss */
+/* line 151, ../scss/_custom.scss */
 footer {
   background: #444;
   color: #66757f;
@@ -6217,7 +6215,7 @@ footer {
   padding: 7px;
   text-align: center;
 }
-/* line 160, ../scss/_custom.scss */
+/* line 159, ../scss/_custom.scss */
 footer .fa {
   margin: 5px;
 }
