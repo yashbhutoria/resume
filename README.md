@@ -61,6 +61,8 @@ https://github.com/GoogleWebComponents/google-map
 
 http://snazzymaps.com/
 
+http://snazzymaps.com/style/1/pale-dawn
+
 **Polymer**
 
 https://www.polymer-project.org/
