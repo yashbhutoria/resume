@@ -24,7 +24,7 @@ body {
 	color: #555;
 	font-family: $font-normal;
 	font-weight: 700;
-	margin: 1em 0;
+	margin: 2.355rem 0;
 }
 
 h2 {
@@ -34,6 +34,10 @@ h2 {
 p {
 	font-family: $font-condensed;
 	font-weight: 300;
+}
+
+a {
+	@include single-transition(all, .3s, ease-in-out);
 }
 
 a.link-text {
@@ -65,10 +69,6 @@ a.link-text {
 .info-light {
 	color: #ccc;
 	font-family: $font-normal;
-}
-
-section h2 {
-
 }
 
 .screen-reader {
@@ -176,6 +176,7 @@ header {
 
 .map {
 	padding: 5px;
+	margin-bottom: 10rem;
 	#mapDiv {
 		height: 400px;
 		width: 100%;
@@ -199,13 +200,12 @@ footer {
 	.fa {
 		color: #888;
 		font-size: 1.28rem;
-		margin: 5px;
+		margin: .3rem;
 	}
 	.info {
 		display: none;
 	}
 }
-
 
 
 

@@ -6068,7 +6068,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #555;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
-  margin: 1em 0;
+  margin: 2.355rem 0;
 }
 
 /* line 30, ../scss/_custom.scss */
@@ -6083,37 +6083,45 @@ p {
 }
 
 /* line 39, ../scss/_custom.scss */
+a {
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+/* line 43, ../scss/_custom.scss */
 a.link-text {
   color: #3cf;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 1.1rem;
 }
-/* line 44, ../scss/_custom.scss */
+/* line 48, ../scss/_custom.scss */
 a.link-text:hover {
   color: #3cf;
   background: #eee;
 }
 
-/* line 50, ../scss/_custom.scss */
+/* line 54, ../scss/_custom.scss */
 .date-text {
   color: #555;
   font-family: "Roboto", sans-serif;
 }
 
-/* line 55, ../scss/_custom.scss */
+/* line 59, ../scss/_custom.scss */
 .location-text {
   color: #555;
   font-family: "Roboto", sans-serif;
 }
 
-/* line 60, ../scss/_custom.scss */
+/* line 64, ../scss/_custom.scss */
 .light-text {
   color: #ccc;
   text-transform: uppercase;
 }
 
-/* line 65, ../scss/_custom.scss */
+/* line 69, ../scss/_custom.scss */
 .info-light {
   color: #ccc;
   font-family: "Roboto", sans-serif;
@@ -6237,19 +6245,20 @@ header img {
 /* line 177, ../scss/_custom.scss */
 .map {
   padding: 5px;
+  margin-bottom: 10rem;
 }
-/* line 179, ../scss/_custom.scss */
+/* line 180, ../scss/_custom.scss */
 .map #mapDiv {
   height: 400px;
   width: 100%;
 }
-/* line 183, ../scss/_custom.scss */
+/* line 184, ../scss/_custom.scss */
 .map #map {
   display: block;
   height: 100%;
 }
 
-/* line 192, ../scss/_custom.scss */
+/* line 193, ../scss/_custom.scss */
 footer {
   background: #444;
   color: #66757f;
@@ -6258,13 +6267,13 @@ footer {
   width: 100%;
   text-align: center;
 }
-/* line 199, ../scss/_custom.scss */
+/* line 200, ../scss/_custom.scss */
 footer .fa {
   color: #888;
   font-size: 1.28rem;
-  margin: 5px;
+  margin: .3rem;
 }
-/* line 204, ../scss/_custom.scss */
+/* line 205, ../scss/_custom.scss */
 footer .info {
   display: none;
 }

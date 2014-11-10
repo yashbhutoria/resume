@@ -5,10 +5,13 @@ var bio = {
 	"name": "Mike Joyce",
 	"role": "Front-End Developer",
 	"location": "Nelson, New Zealand",
-	"skills": [
+	"bioPic": "img/profile.jpg"
+}
+
+var skills = {
+	"skills" : [
 		"skill01", "skill02", "skill03", "skill04"
-	],
-	"bioPic": "img/200x200.gif"
+	]
 }
 
 var navigation = {
@@ -121,14 +124,6 @@ bio.display = function() {
 	var formattedLocation = HTMLlocation.replace("%data%", bio.location);
 	$("#topContacts").append(formattedLocation);
 
-	// if(bio.skills.length > 0) {
-	// 	$("#header").append(HTMLskillsStart);	
-	// 	for(skill in bio.skills) {
-	// 		var formattedSkill = HTMLskills.replace("%data%", bio.skills[skill]);
-	// 		$("#skills").append(formattedSkill);
-	// 	}
-	// }
-
 }();
 
 contacts.display = function() {
@@ -168,8 +163,8 @@ navigation.display = function() {
 
 work.display = function() {
 
-		var formattedWorkHeader = HTMLworkHeader.replace("%data%", work.header);
-		$("#workExperience").append(formattedWorkHeader);
+	var formattedWorkHeader = HTMLworkHeader.replace("%data%", work.header);
+	$("#workExperience").append(formattedWorkHeader);
 
 	for(job in work.jobs) {
 		// create new div for work experience
@@ -256,6 +251,14 @@ education.display = function() {
 
 skills.display = function() {
 
+	// if(bio.skills.length > 0) {
+	// 	$("#header").append(HTMLskillsStart);	
+	// 	for(skill in bio.skills) {
+	// 		var formattedSkill = HTMLskills.replace("%data%", bio.skills[skill]);
+	// 		$("#skills").append(formattedSkill);
+	// 	}
+	// }
+
 	var formattedSkillsHeader = HTMLskillsHeader.replace("%data%", skills.header);
 	$("#skills").append(formattedSkillsHeader);
 
@@ -269,22 +272,6 @@ worldMap.display = function() {
 	$("#mapDiv").append(googleMap);
 
 }();
-
-// Google Map
-
-
-// International Name
-
-function inName(name) {
-
-  name = name.trim().split(" ");
-
-  name[1] = name[1].toUpperCase();
-  name[0] = name[0].slice(0,1).toUpperCase() + name[0].slice(1).toLowerCase();
-
-  return name[0] +" "+ name[1];
-
-}
 
 // Foundation JavaScript
 $(document).foundation();
