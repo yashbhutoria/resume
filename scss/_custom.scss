@@ -46,6 +46,10 @@ a.link-text {
 	}
 }
 
+.date-text {
+	font-family: $font-normal;
+}
+
 .light {
 	color: #ccc;
 	text-transform: uppercase;
@@ -53,10 +57,6 @@ a.link-text {
 
 .info-light {
 	color: #ccc;
-	font-family: $font-normal;
-}
-
-.info-dates {
 	font-family: $font-normal;
 }
 

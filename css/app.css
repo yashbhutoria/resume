@@ -6095,19 +6095,19 @@ a.link-text:hover {
 }
 
 /* line 49, ../scss/_custom.scss */
+.date-text {
+  font-family: "Roboto", sans-serif;
+}
+
+/* line 53, ../scss/_custom.scss */
 .light {
   color: #ccc;
   text-transform: uppercase;
 }
 
-/* line 54, ../scss/_custom.scss */
+/* line 58, ../scss/_custom.scss */
 .info-light {
   color: #ccc;
-  font-family: "Roboto", sans-serif;
-}
-
-/* line 59, ../scss/_custom.scss */
-.info-dates {
   font-family: "Roboto", sans-serif;
 }
 
