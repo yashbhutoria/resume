@@ -159,6 +159,12 @@ navigation.display = function() {
 	var formattedNavMap = HTMLnavigation.replace("%data%", navigation.map);
 	$("#nav").append(formattedNavMap);
 
+	function anchorScroll(target) {
+	    $('html,body').animate({
+	        scrollTop: $(target).offset().top
+	    }, 2000);
+	}
+
 }();
 
 work.display = function() {
@@ -272,14 +278,6 @@ worldMap.display = function() {
 	$("#mapDiv").append(googleMap);
 
 }();
-
-// Scroll to Anchor
-
-function anchorScroll(target) {
-    $('html,body').animate({
-        scrollTop: $(target).offset().top
-    }, 2000);
-}
 
 // Foundation JavaScript
 $(document).foundation();
