@@ -6100,7 +6100,7 @@ a.link-text:hover {
 }
 
 /* line 53, ../scss/_custom.scss */
-.light {
+.light-text {
   color: #ccc;
   text-transform: uppercase;
 }
