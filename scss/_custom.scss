@@ -36,7 +36,7 @@ p {
 	font-weight: 300;
 }
 
-a.info {
+a.link-text {
 	color: #3cf;
 	font-family: $font-normal;
 	font-weight: 500;
@@ -53,6 +53,10 @@ a.info {
 
 .info-light {
 	color: #ccc;
+	font-family: $font-normal;
+}
+
+.info-dates {
 	font-family: $font-normal;
 }
 
