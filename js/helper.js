@@ -1,6 +1,6 @@
 
 var HTMLheaderName = "<h1 id='name'>%data%</h1>";
-var HTMLheaderRole = "<div class='role light'>%data%</div>";
+var HTMLheaderRole = "<div class='role light-text'>%data%</div>";
 var HTMLbioPic = "<img src='%data%' class='biopic'>";
 
 var HTMLnavigation = "<li><a href='#'>%data%</a></li>";
