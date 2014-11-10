@@ -1,6 +1,6 @@
 
 var HTMLheaderName = "<h1 id='name'>%data%</h1>";
-var HTMLheaderRole = "<div class='role'>%data%</div>";
+var HTMLheaderRole = "<div class='role light-text'>%data%</div>";
 var HTMLbioPic = "<img src='%data%' class='biopic'>";
 
 var HTMLnavigation = "<li><a href='#'>%data%</a></li>";
@@ -12,8 +12,8 @@ var HTMLskills = "<li class='flex-item'><span class='white-text'>%data%</span></
 
 var HTMLworkHeader ="<h2>%data%</h2>";
 var HTMLworkStart = "<div class='work-entry content'></div>";
-var HTMLworkEmployer = "<a href='#'>%data%";
-var HTMLworkTitle = " - %data%</a>";
+var HTMLworkEmployer = "<a class='link-text' href='#'>%data%";
+var HTMLworkTitle = " <span class='info-light'>- %data%</span></a>";
 var HTMLworkDates = "<div class='date-text'>%data%</div>";
 var HTMLworkLocation = "<div class='location-text'>%data%</div>";
 var HTMLworkDescription = "<p><br>%data%</p>";
@@ -42,10 +42,10 @@ var HTMLonlineURL = "<br><a href='#'>%data%</a>";
 
 var HTMLskillsHeader = "<h2>Skills</h2>";
 
-var HTMLmobile = "<div class='small-3 medium-3 large-3 column'><span class='fa fa-mobile'></span><span class='info show-for-medium-up'>%data%</span></div>";
-var HTMLemail = "<div class='small-3 medium-3 large-3 column'><span class='fa fa-envelope'></span><span class='info show-for-medium-up'>%data%</span></div>";
-var HTMLtwitter = "<div class='small-3 medium-3 large-3 column'><span class='fa fa-github-alt'></span><span class='info show-for-medium-up'>%data%</span></div>";
-var HTMLgithub = "<div class='small-3 medium-3 large-3 column'><span class='fa fa-twitter'></span><span class='info show-for-medium-up'>%data%</span></div>";
+var HTMLskype = "<div class='small-3 medium-3 large-3 column'><span class='fa fa-skype'></span><span class='info'>%data%</span></div>";
+var HTMLemail = "<div class='small-3 medium-3 large-3 column'><span class='fa fa-envelope'></span><span class='info'>%data%</span></div>";
+var HTMLtwitter = "<div class='small-3 medium-3 large-3 column'><span class='fa fa-github-alt'></span><span class='info'>%data%</span></div>";
+var HTMLgithub = "<div class='small-3 medium-3 large-3 column'><span class='fa fa-twitter'></span><span class='info'>%data%</span></div>";
 
 var HTMLmapHeader ="<h2>%data%</h2>";
 var googleMap = "<div id='map' class='content'></div>";

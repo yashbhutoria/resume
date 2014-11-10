@@ -16,15 +16,55 @@ $base-line-height: $rem-base * 1.5;
 body {
 	//background: #f5f8fa;
 	background: #fafafa;
-	font-family: $font-family;
+	font-family: $font-normal;
 	//@include debug-vertical-alignment;
 }
 
 #{headings(all)} {
 	color: #555;
-	font-family: $font-family;
+	font-family: $font-normal;
 	font-weight: 700;
 	margin: 1em 0;
+}
+
+h2 {
+	text-align: center;
+}
+
+p {
+	font-family: $font-condensed;
+	font-weight: 300;
+}
+
+a.link-text {
+	color: #3cf;
+	font-family: $font-normal;
+	font-weight: 500;
+	font-size: 1.1rem;
+	&:hover {
+		color: #3cf;
+		background: #eee;
+	}
+}
+
+.date-text {
+	color: #555;
+	font-family: $font-normal;
+}
+
+.location-text {
+	color: #555;
+	font-family: $font-normal;
+}
+
+.light-text {
+	color: #ccc;
+	text-transform: uppercase;
+}
+
+.info-light {
+	color: #ccc;
+	font-family: $font-normal;
 }
 
 section h2 {
@@ -38,9 +78,9 @@ section h2 {
 }
 
 .content {
-	background: #fff;
-	border: 1px solid #e1e8ed;
-	@include border-radius(5px);
+	// background: #fff;
+	// border: 1px solid #e1e8ed;
+	// @include border-radius(5px);
 	//@include box-shadow(0 1px 1px rgba(0, 0, 0, 0.1));
 	margin: 10px;
 	padding: 10px;
@@ -49,7 +89,6 @@ section h2 {
 // Header 
 
 header {
-	background: #1eaede;
 	padding: 1.5rem 0 2.5rem;
 	position: relative;
 	h1 {
@@ -94,6 +133,12 @@ header {
 				}
 				margin: 0;
 				padding: 0;
+				a {
+					color: #666;
+					text-transform: uppercase;
+					font-family: $font-normal;
+					font-weight: 700; 
+				}
 			}
 		}
 	}
@@ -150,10 +195,14 @@ footer {
 	bottom: 0;
 	position: fixed;
 	width: 100%;
-	padding: 7px;
 	text-align: center;
 	.fa {
+		color: #888;
+		font-size: 1.28rem;
 		margin: 5px;
+	}
+	.info {
+		display: none;
 	}
 }
 
