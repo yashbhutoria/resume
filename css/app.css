@@ -6219,48 +6219,28 @@ header img {
   border-bottom: 2px solid #666;
 }
 
-/* line 151, ../scss/_custom.scss */
-.work {
-  padding: 5px;
-}
-
-/* line 157, ../scss/_custom.scss */
-.projects {
-  padding: 5px;
-}
-/* line 159, ../scss/_custom.scss */
+/* line 158, ../scss/_custom.scss */
 .projects img {
   display: block;
   margin: auto auto 1rem;
 }
 
-/* line 167, ../scss/_custom.scss */
-.education {
-  padding: 5px;
-}
-
-/* line 173, ../scss/_custom.scss */
-.skills {
-  padding: 5px;
-}
-
-/* line 179, ../scss/_custom.scss */
+/* line 178, ../scss/_custom.scss */
 .map {
-  padding: 5px;
   margin-bottom: 10rem;
 }
-/* line 182, ../scss/_custom.scss */
+/* line 180, ../scss/_custom.scss */
 .map #mapDiv {
   height: 400px;
   width: 100%;
 }
-/* line 186, ../scss/_custom.scss */
+/* line 184, ../scss/_custom.scss */
 .map #map {
   display: block;
   height: 100%;
 }
 
-/* line 195, ../scss/_custom.scss */
+/* line 193, ../scss/_custom.scss */
 footer {
   background: #444;
   color: #66757f;
@@ -6269,13 +6249,13 @@ footer {
   width: 100%;
   text-align: center;
 }
-/* line 202, ../scss/_custom.scss */
+/* line 200, ../scss/_custom.scss */
 footer .fa {
   color: #888;
   font-size: 1.28rem;
   margin: .3rem;
 }
-/* line 207, ../scss/_custom.scss */
+/* line 205, ../scss/_custom.scss */
 footer .info {
   display: none;
 }
