@@ -15,11 +15,11 @@ var skills = {
 }
 
 var navigation = {
-	"work": "Work",
-	"projects": "Projects",
-	"education": "Education",
-	"skills": "Skills",
-	"map": "Map"
+	"work": "work",
+	"projects": "projects",
+	"education": "education",
+	"skills": "skills",
+	"map": "map"
 }
 
 var contacts = {
@@ -144,7 +144,7 @@ contacts.display = function() {
 
 navigation.display = function() {
 
-	var formattedNavWork = HTMLnavigation.replace("%data%", navigation.work);
+	var formattedNavWork = HTMLnavigation.replace("%data%", navigation.work).replace("%id%", navigation.work);
 	$("#nav").append(formattedNavWork);	
 
 	var formattedNavProjects = HTMLnavigation.replace("%data%", navigation.projects);
