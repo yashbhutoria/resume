@@ -273,5 +273,13 @@ worldMap.display = function() {
 
 }();
 
+// Scroll to Anchor
+
+function anchorScroll(target) {
+    $('html,body').animate({
+        scrollTop: $(target).offset().top
+    }, 2000);
+}
+
 // Foundation JavaScript
 $(document).foundation();
