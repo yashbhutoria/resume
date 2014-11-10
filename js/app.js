@@ -5,10 +5,13 @@ var bio = {
 	"name": "Mike Joyce",
 	"role": "Front-End Developer",
 	"location": "Nelson, New Zealand",
-	"skills": [
-		"skill01", "skill02", "skill03", "skill04"
-	],
 	"bioPic": "img/profile.jpg"
+}
+
+var skills = {
+	"skills" : [
+		"skill01", "skill02", "skill03", "skill04"
+	]
 }
 
 var navigation = {
@@ -120,14 +123,6 @@ bio.display = function() {
 
 	var formattedLocation = HTMLlocation.replace("%data%", bio.location);
 	$("#topContacts").append(formattedLocation);
-
-	// if(bio.skills.length > 0) {
-	// 	$("#header").append(HTMLskillsStart);	
-	// 	for(skill in bio.skills) {
-	// 		var formattedSkill = HTMLskills.replace("%data%", bio.skills[skill]);
-	// 		$("#skills").append(formattedSkill);
-	// 	}
-	// }
 
 }();
 
@@ -255,6 +250,14 @@ education.display = function() {
 }();
 
 skills.display = function() {
+
+	// if(bio.skills.length > 0) {
+	// 	$("#header").append(HTMLskillsStart);	
+	// 	for(skill in bio.skills) {
+	// 		var formattedSkill = HTMLskills.replace("%data%", bio.skills[skill]);
+	// 		$("#skills").append(formattedSkill);
+	// 	}
+	// }
 
 	var formattedSkillsHeader = HTMLskillsHeader.replace("%data%", skills.header);
 	$("#skills").append(formattedSkillsHeader);
