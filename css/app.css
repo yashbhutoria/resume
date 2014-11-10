@@ -6083,13 +6083,13 @@ p {
 }
 
 /* line 39, ../scss/_custom.scss */
-a {
+a.info {
   color: #3cf;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
 }
 /* line 43, ../scss/_custom.scss */
-a:hover {
+a.info:hover {
   color: #3cf;
   background: #eee;
 }
