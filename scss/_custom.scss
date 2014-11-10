@@ -16,13 +16,13 @@ $base-line-height: $rem-base * 1.5;
 body {
 	//background: #f5f8fa;
 	background: #fafafa;
-	font-family: $font-family;
+	font-family: $font-normal;
 	//@include debug-vertical-alignment;
 }
 
 #{headings(all)} {
 	color: #555;
-	font-family: $font-family;
+	font-family: $font-normal;
 	font-weight: 700;
 	margin: 1em 0;
 }
@@ -100,7 +100,8 @@ header {
 				padding: 0;
 				a {
 					color: #666;
-					text-transform: uppercase; 
+					text-transform: uppercase;
+					font-family: $font-normal; 
 				}
 			}
 		}
