@@ -32,6 +32,16 @@ p {
 	font-weight: 300;
 }
 
+a {
+	color: #3cf;
+	font-family: $font-normal;
+	font-weight: 500;
+	&:hover {
+		color: #3cf;
+		background: #eee;
+	}
+}
+
 .light {
 	color: #ccc;
 	text-transform: uppercase;
