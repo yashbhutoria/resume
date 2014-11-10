@@ -3,7 +3,7 @@ var HTMLheaderName = "<h1 id='name'>%data%</h1>";
 var HTMLheaderRole = "<div class='role light-text'>%data%</div>";
 var HTMLbioPic = "<img src='%data%' class='biopic'>";
 
-var HTMLnavigation = "<li><a href='#'>%data%</a></li>";
+var HTMLnavigation = "<li><a href='#' id='%id%'>%data%</a></li>";
 
 var HTMLlocation = "<li class='flex-item'><span class='orange-text'>location</span><span class='white-text'>%data%</span></li>";
 
@@ -20,7 +20,7 @@ var HTMLworkDescription = "<p><br>%data%</p>";
 
 var HTMLprojectsHeader ="<h2>%data%</h2>";
 var HTMLprojectStart = "<div class='project-entry content'></div>";
-var HTMLprojectTitle = "<a href='#'>%data%</a>";
+var HTMLprojectTitle = "<a class='link-text' href='#'>%data%</a>";
 var HTMLprojectDates = "<div class='date-text'>%data%</div>";
 var HTMLprojectDescription = "<p><br>%data%</p>";
 var HTMLprojectImageStart = "<div class='project-images row'></div>";
