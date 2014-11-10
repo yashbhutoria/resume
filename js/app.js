@@ -144,19 +144,19 @@ contacts.display = function() {
 
 navigation.display = function() {
 
-	var formattedNavWork = HTMLnavigation.replace("%data%", navigation.work).replace("%id%", navigation.work);
+	var formattedNavWork = HTMLnavigation.replace("%data%", navigation.work).replace("%name%", navigation.work);
 	$("#nav").append(formattedNavWork);	
 
-	var formattedNavProjects = HTMLnavigation.replace("%data%", navigation.projects);
+	var formattedNavProjects = HTMLnavigation.replace("%data%", navigation.projects).replace("%name%", navigation.projects);
 	$("#nav").append(formattedNavProjects);
 
-	var formattedNavEducation = HTMLnavigation.replace("%data%", navigation.education);
+	var formattedNavEducation = HTMLnavigation.replace("%data%", navigation.education).replace("%name%", navigation.education);
 	$("#nav").append(formattedNavEducation);
 
-	var formattedNavSkills = HTMLnavigation.replace("%data%", navigation.skills);
+	var formattedNavSkills = HTMLnavigation.replace("%data%", navigation.skills).replace("%name%", navigation.skills);
 	$("#nav").append(formattedNavSkills);
 
-	var formattedNavMap = HTMLnavigation.replace("%data%", navigation.map);
+	var formattedNavMap = HTMLnavigation.replace("%data%", navigation.map).replace("%name%", navigation.map);
 	$("#nav").append(formattedNavMap);
 
 	function anchorScroll(target) {
