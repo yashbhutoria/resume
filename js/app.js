@@ -20,7 +20,7 @@ var navigation = {
 }
 
 var contacts = {
-	"mobile" : "094-2930-930",
+	"skype" : "michael.james.joyce",
 	"email" : "contact@mikejoyce.me",
 	"github" : "mikejoycegit",
 	"twitter" : "@iammikejoyce"
@@ -133,7 +133,7 @@ bio.display = function() {
 
 contacts.display = function() {
 
-	var formattedMobile = HTMLmobile.replace("%data%", contacts.mobile);
+	var formattedMobile = HTMLskype.replace("%data%", contacts.skype);
 	$("#footer").append(formattedMobile);
 
 	var formattedEmail = HTMLemail.replace("%data%", contacts.email);
