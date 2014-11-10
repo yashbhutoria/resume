@@ -13,7 +13,7 @@ var HTMLskills = "<li class='flex-item'><span class='white-text'>%data%</span></
 var HTMLworkHeader ="<h2>%data%</h2>";
 var HTMLworkStart = "<div class='work-entry content'></div>";
 var HTMLworkEmployer = "<a class='link-text' href='#'>%data%";
-var HTMLworkTitle = " <span class='info-light'>- %data%</span></a>";
+var HTMLworkTitle = " <span class='light-text'>- %data%</span></a>";
 var HTMLworkDates = "<div class='date-text'>%data%</div>";
 var HTMLworkLocation = "<div class='location-text'>%data%</div>";
 var HTMLworkDescription = "<p><br>%data%</p>";
