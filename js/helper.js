@@ -28,8 +28,8 @@ var HTMLprojectImage = "<div class='small-12 medium-4 large-4 columns'><img src=
 
 var HTMLeducationHeader ="<h2>%data%</h2>";
 var HTMLschoolStart = "<div class='education-entry content'></div>";
-var HTMLschoolName = "<a href='#'>%data%";
-var HTMLschoolQualification = " -- %data%</a>";
+var HTMLschoolName = "<a class='link-text' href='#'>%data%";
+var HTMLschoolQualification = " - %data%</a>";
 var HTMLschoolDates = "<div class='date-text'>%data%</div>";
 var HTMLschoolLocation = "<div class='location-text'>%data%</div>";
 var HTMLschoolMajor = "<em><br>Major: %data%</em>"
