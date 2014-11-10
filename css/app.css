@@ -6216,49 +6216,55 @@ header img {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
 }
+/* line 141, ../scss/_custom.scss */
+.navigation nav ul li a:hover,
+.navigation nav ul li a :active,
+.navigation nav ul li a :focus {
+  border-bottom: 2px solid #666;
+}
 
-/* line 149, ../scss/_custom.scss */
+/* line 154, ../scss/_custom.scss */
 .work-experience {
   padding: 5px;
 }
 
-/* line 155, ../scss/_custom.scss */
+/* line 160, ../scss/_custom.scss */
 .projects {
   padding: 5px;
 }
-/* line 157, ../scss/_custom.scss */
+/* line 162, ../scss/_custom.scss */
 .projects img {
   display: block;
   margin: auto auto 1rem;
 }
 
-/* line 165, ../scss/_custom.scss */
+/* line 170, ../scss/_custom.scss */
 .education {
   padding: 5px;
 }
 
-/* line 171, ../scss/_custom.scss */
+/* line 176, ../scss/_custom.scss */
 .skills {
   padding: 5px;
 }
 
-/* line 177, ../scss/_custom.scss */
+/* line 182, ../scss/_custom.scss */
 .map {
   padding: 5px;
   margin-bottom: 10rem;
 }
-/* line 180, ../scss/_custom.scss */
+/* line 185, ../scss/_custom.scss */
 .map #mapDiv {
   height: 400px;
   width: 100%;
 }
-/* line 184, ../scss/_custom.scss */
+/* line 189, ../scss/_custom.scss */
 .map #map {
   display: block;
   height: 100%;
 }
 
-/* line 193, ../scss/_custom.scss */
+/* line 198, ../scss/_custom.scss */
 footer {
   background: #444;
   color: #66757f;
@@ -6267,13 +6273,13 @@ footer {
   width: 100%;
   text-align: center;
 }
-/* line 200, ../scss/_custom.scss */
+/* line 205, ../scss/_custom.scss */
 footer .fa {
   color: #888;
   font-size: 1.28rem;
   margin: .3rem;
 }
-/* line 205, ../scss/_custom.scss */
+/* line 210, ../scss/_custom.scss */
 footer .info {
   display: none;
 }
