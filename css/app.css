@@ -6127,49 +6127,49 @@ a.link-text:hover {
   font-family: "Roboto", sans-serif;
 }
 
-/* line 78, ../scss/_custom.scss */
+/* line 74, ../scss/_custom.scss */
 .screen-reader {
   position: absolute;
   top: -9999px;
   left: -9999px;
 }
 
-/* line 84, ../scss/_custom.scss */
+/* line 80, ../scss/_custom.scss */
 .content {
   margin: 10px;
   padding: 10px;
 }
 
-/* line 95, ../scss/_custom.scss */
+/* line 91, ../scss/_custom.scss */
 header {
   padding: 1.5rem 0 2.5rem;
   position: relative;
 }
-/* line 98, ../scss/_custom.scss */
+/* line 94, ../scss/_custom.scss */
 header h1 {
   text-align: center;
   margin-bottom: 1rem;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 98, ../scss/_custom.scss */
+  /* line 94, ../scss/_custom.scss */
   header h1 {
     display: inline-block;
     margin: 1rem;
   }
 }
-/* line 106, ../scss/_custom.scss */
+/* line 102, ../scss/_custom.scss */
 header .role {
   text-align: center;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 106, ../scss/_custom.scss */
+  /* line 102, ../scss/_custom.scss */
   header .role {
     position: absolute;
     top: 7.5rem;
     left: 14.7rem;
   }
 }
-/* line 114, ../scss/_custom.scss */
+/* line 110, ../scss/_custom.scss */
 header img {
   -moz-border-radius: 150px;
   -webkit-border-radius: 150px;
@@ -6178,38 +6178,38 @@ header img {
   margin: auto;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 114, ../scss/_custom.scss */
+  /* line 110, ../scss/_custom.scss */
   header img {
     display: inline-block;
   }
 }
 
-/* line 126, ../scss/_custom.scss */
+/* line 122, ../scss/_custom.scss */
 .navigation {
   background: #fff;
   margin-bottom: 50px;
 }
-/* line 129, ../scss/_custom.scss */
+/* line 125, ../scss/_custom.scss */
 .navigation nav {
   text-align: center;
 }
-/* line 131, ../scss/_custom.scss */
+/* line 127, ../scss/_custom.scss */
 .navigation nav ul {
   padding: 10px 0;
 }
-/* line 133, ../scss/_custom.scss */
+/* line 129, ../scss/_custom.scss */
 .navigation nav ul li {
   font-size: 0.8rem;
   margin: 0;
   padding: 0;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 133, ../scss/_custom.scss */
+  /* line 129, ../scss/_custom.scss */
   .navigation nav ul li {
     font-size: 1rem;
   }
 }
-/* line 140, ../scss/_custom.scss */
+/* line 136, ../scss/_custom.scss */
 .navigation nav ul li a {
   color: #666;
   text-transform: uppercase;
@@ -6217,48 +6217,48 @@ header img {
   font-weight: 700;
 }
 
-/* line 153, ../scss/_custom.scss */
+/* line 149, ../scss/_custom.scss */
 .work-experience {
   padding: 5px;
 }
 
-/* line 159, ../scss/_custom.scss */
+/* line 155, ../scss/_custom.scss */
 .projects {
   padding: 5px;
 }
-/* line 161, ../scss/_custom.scss */
+/* line 157, ../scss/_custom.scss */
 .projects img {
   display: block;
   margin: auto auto 1rem;
 }
 
-/* line 169, ../scss/_custom.scss */
+/* line 165, ../scss/_custom.scss */
 .education {
   padding: 5px;
 }
 
-/* line 175, ../scss/_custom.scss */
+/* line 171, ../scss/_custom.scss */
 .skills {
   padding: 5px;
 }
 
-/* line 181, ../scss/_custom.scss */
+/* line 177, ../scss/_custom.scss */
 .map {
   padding: 5px;
   margin-bottom: 10rem;
 }
-/* line 184, ../scss/_custom.scss */
+/* line 180, ../scss/_custom.scss */
 .map #mapDiv {
   height: 400px;
   width: 100%;
 }
-/* line 188, ../scss/_custom.scss */
+/* line 184, ../scss/_custom.scss */
 .map #map {
   display: block;
   height: 100%;
 }
 
-/* line 197, ../scss/_custom.scss */
+/* line 193, ../scss/_custom.scss */
 footer {
   background: #444;
   color: #66757f;
@@ -6267,13 +6267,13 @@ footer {
   width: 100%;
   text-align: center;
 }
-/* line 204, ../scss/_custom.scss */
+/* line 200, ../scss/_custom.scss */
 footer .fa {
   color: #888;
   font-size: 1.28rem;
   margin: .3rem;
 }
-/* line 209, ../scss/_custom.scss */
+/* line 205, ../scss/_custom.scss */
 footer .info {
   display: none;
 }
