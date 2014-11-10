@@ -6092,11 +6092,6 @@ p {
 
 /* line 50, ../scss/_custom.scss */
 .content {
-  background: #fff;
-  border: 1px solid #e1e8ed;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
   margin: 10px;
   padding: 10px;
 }
