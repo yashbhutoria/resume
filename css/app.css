@@ -6225,14 +6225,15 @@ footer {
   bottom: 0;
   position: fixed;
   width: 100%;
-  padding: 7px;
   text-align: center;
 }
-/* line 170, ../scss/_custom.scss */
+/* line 169, ../scss/_custom.scss */
 footer .fa {
+  color: #888;
+  font-size: 1.28rem;
   margin: 5px;
 }
-/* line 173, ../scss/_custom.scss */
+/* line 174, ../scss/_custom.scss */
 footer .info {
   display: none;
 }
