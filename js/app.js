@@ -15,11 +15,11 @@ var skills = {
 }
 
 var navigation = {
-	"work": "work",
-	"projects": "projects",
-	"education": "education",
-	"skills": "skills",
-	"map": "map"
+	"work": "Work",
+	"projects": "Projects",
+	"education": "Education",
+	"skills": "Skills",
+	"map": "Map"
 }
 
 var contacts = {
@@ -144,20 +144,40 @@ contacts.display = function() {
 
 navigation.display = function() {
 
-	var formattedNavWork = HTMLnavigation.replace("%data%", navigation.work).replace("%name%", navigation.work);
+	var formattedNavWork = HTMLnavigation.replace("%data%", navigation.work).replace("%id%", navigation.work);
 	$("#nav").append(formattedNavWork);	
 
-	var formattedNavProjects = HTMLnavigation.replace("%data%", navigation.projects).replace("%name%", navigation.projects);
+	$(document).on("click", "#linkWork", function() {
+		anchorScroll("#work");
+	});
+
+	var formattedNavProjects = HTMLnavigation.replace("%data%", navigation.projects).replace("%id%", navigation.projects);
 	$("#nav").append(formattedNavProjects);
 
-	var formattedNavEducation = HTMLnavigation.replace("%data%", navigation.education).replace("%name%", navigation.education);
+	$(document).on("click", "#linkProjects", function() {
+		anchorScroll("#projects");
+	});
+
+	var formattedNavEducation = HTMLnavigation.replace("%data%", navigation.education).replace("%id%", navigation.education);
 	$("#nav").append(formattedNavEducation);
 
-	var formattedNavSkills = HTMLnavigation.replace("%data%", navigation.skills).replace("%name%", navigation.skills);
+	$(document).on("click", "#linkEducation", function() {
+		anchorScroll("#education");
+	});
+
+	var formattedNavSkills = HTMLnavigation.replace("%data%", navigation.skills).replace("%id%", navigation.skills);
 	$("#nav").append(formattedNavSkills);
 
-	var formattedNavMap = HTMLnavigation.replace("%data%", navigation.map).replace("%name%", navigation.map);
+	$(document).on("click", "#linkSkills", function() {
+		anchorScroll("#skills");
+	});
+
+	var formattedNavMap = HTMLnavigation.replace("%data%", navigation.map).replace("%id%", navigation.map);
 	$("#nav").append(formattedNavMap);
+
+	$(document).on("click", "#linkMap", function() {
+		anchorScroll("#map");
+	});
 
 	function anchorScroll(target) {
 	    $('html,body').animate({
