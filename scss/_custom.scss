@@ -72,6 +72,10 @@ a.link-text {
 	left: -9999px;
 }
 
+.wrapper {
+	 padding: 5px;	
+}
+
 .content {
 	margin: 10px;
 	padding: 10px;
@@ -145,13 +149,12 @@ header {
 // Work Experience 
  
 .work {
-	padding: 5px;
+
 }
 
 // Projects 
 
 .projects {
-	padding: 5px;
 	img {
 		display: block;
 		margin: auto auto 1rem;
@@ -167,13 +170,12 @@ header {
 // Skills
 
 .skills {
-	padding: 5px;
+
 }
 
 // Map 
 
 .map {
-	padding: 5px;
 	margin-bottom: 10rem;
 	#mapDiv {
 		height: 400px;
