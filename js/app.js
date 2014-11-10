@@ -163,8 +163,8 @@ navigation.display = function() {
 
 work.display = function() {
 
-		var formattedWorkHeader = HTMLworkHeader.replace("%data%", work.header);
-		$("#workExperience").append(formattedWorkHeader);
+	var formattedWorkHeader = HTMLworkHeader.replace("%data%", work.header);
+	$("#workExperience").append(formattedWorkHeader);
 
 	for(job in work.jobs) {
 		// create new div for work experience
