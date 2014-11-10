@@ -61,9 +61,15 @@ https://github.com/GoogleWebComponents/google-map
 
 http://snazzymaps.com/
 
+http://snazzymaps.com/style/1/pale-dawn
+
 **Polymer**
 
 https://www.polymer-project.org/
+
+**Multiple jQuery Replace**
+
+http://stackoverflow.com/questions/16297320/replace-multiple-occurences-in-a-string-with-javascript
 
 **General JavaScript Articles**
 

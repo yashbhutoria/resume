@@ -63,11 +63,6 @@ a.link-text {
 
 .light-text {
 	color: #ccc;
-	text-transform: uppercase;
-}
-
-.info-light {
-	color: #ccc;
 	font-family: $font-normal;
 }
 
@@ -100,6 +95,8 @@ header {
 		}
 	}
 	.role {
+		color: #ccc;
+		text-transform: uppercase;
 		text-align: center;
 		@media #{$large-up} {
 		    position: absolute;
@@ -138,6 +135,11 @@ header {
 					text-transform: uppercase;
 					font-family: $font-normal;
 					font-weight: 700; 
+					&:hover,
+					:active,
+					:focus {
+						border-bottom: 2px solid #666;
+					}
 				}
 			}
 		}
@@ -146,7 +148,7 @@ header {
 
 // Work Experience 
  
-.work-experience {
+.work {
 	padding: 5px;
 }
 

@@ -144,31 +144,52 @@ contacts.display = function() {
 
 navigation.display = function() {
 
-	var formattedNavWork = HTMLnavigation.replace("%data%", navigation.work);
+	var formattedNavWork = HTMLnavigation.replace("%data%", navigation.work).replace("%id%", navigation.work);
 	$("#nav").append(formattedNavWork);	
+	$(document).on("click", "#linkWork", function() {
+		anchorScroll("#work");
+	});
 
-	var formattedNavProjects = HTMLnavigation.replace("%data%", navigation.projects);
+	var formattedNavProjects = HTMLnavigation.replace("%data%", navigation.projects).replace("%id%", navigation.projects);
 	$("#nav").append(formattedNavProjects);
+	$(document).on("click", "#linkProjects", function() {
+		anchorScroll("#projects");
+	});
 
-	var formattedNavEducation = HTMLnavigation.replace("%data%", navigation.education);
+	var formattedNavEducation = HTMLnavigation.replace("%data%", navigation.education).replace("%id%", navigation.education);
 	$("#nav").append(formattedNavEducation);
+	$(document).on("click", "#linkEducation", function() {
+		anchorScroll("#education");
+	});
 
-	var formattedNavSkills = HTMLnavigation.replace("%data%", navigation.skills);
+	var formattedNavSkills = HTMLnavigation.replace("%data%", navigation.skills).replace("%id%", navigation.skills);
 	$("#nav").append(formattedNavSkills);
+	$(document).on("click", "#linkSkills", function() {
+		anchorScroll("#skills");
+	});
 
-	var formattedNavMap = HTMLnavigation.replace("%data%", navigation.map);
+	var formattedNavMap = HTMLnavigation.replace("%data%", navigation.map).replace("%id%", navigation.map);
 	$("#nav").append(formattedNavMap);
+	$(document).on("click", "#linkMap", function() {
+		anchorScroll("#map");
+	});
+
+	function anchorScroll(target) {
+	    $('html,body').animate({
+	        scrollTop: $(target).offset().top
+	    }, 2000);
+	}
 
 }();
 
 work.display = function() {
 
 	var formattedWorkHeader = HTMLworkHeader.replace("%data%", work.header);
-	$("#workExperience").append(formattedWorkHeader);
+	$("#work").append(formattedWorkHeader);
 
 	for(job in work.jobs) {
 		// create new div for work experience
-		$("#workExperience").append(HTMLworkStart);
+		$("#work").append(HTMLworkStart);
 
 		// concat employer and title 
 		var formattedEmployer = HTMLworkEmployer.replace("%data%", work.jobs[job].employer);

@@ -1,26 +1,23 @@
 
 var HTMLheaderName = "<h1 id='name'>%data%</h1>";
-var HTMLheaderRole = "<div class='role light-text'>%data%</div>";
+var HTMLheaderRole = "<div class='role'>%data%</div>";
 var HTMLbioPic = "<img src='%data%' class='biopic'>";
 
-var HTMLnavigation = "<li><a href='#'>%data%</a></li>";
+var HTMLnavigation = "<li><a href='#' id='link%id%'>%data%</a></li>";
 
 var HTMLlocation = "<li class='flex-item'><span class='orange-text'>location</span><span class='white-text'>%data%</span></li>";
-
-var HTMLskillsStart = "<h3 id='skillsH3'>Skills at a Glance:</h3><ul id='skills' class='flex-box'></ul>";
-var HTMLskills = "<li class='flex-item'><span class='white-text'>%data%</span></li>";
 
 var HTMLworkHeader ="<h2>%data%</h2>";
 var HTMLworkStart = "<div class='work-entry content'></div>";
 var HTMLworkEmployer = "<a class='link-text' href='#'>%data%";
-var HTMLworkTitle = " <span class='info-light'>- %data%</span></a>";
+var HTMLworkTitle = " <span class='light-text'>- %data%</span></a>";
 var HTMLworkDates = "<div class='date-text'>%data%</div>";
 var HTMLworkLocation = "<div class='location-text'>%data%</div>";
 var HTMLworkDescription = "<p><br>%data%</p>";
 
 var HTMLprojectsHeader ="<h2>%data%</h2>";
 var HTMLprojectStart = "<div class='project-entry content'></div>";
-var HTMLprojectTitle = "<a href='#'>%data%</a>";
+var HTMLprojectTitle = "<a class='link-text' href='#'>%data%</a>";
 var HTMLprojectDates = "<div class='date-text'>%data%</div>";
 var HTMLprojectDescription = "<p><br>%data%</p>";
 var HTMLprojectImageStart = "<div class='project-images row'></div>";
@@ -28,8 +25,8 @@ var HTMLprojectImage = "<div class='small-12 medium-4 large-4 columns'><img src=
 
 var HTMLeducationHeader ="<h2>%data%</h2>";
 var HTMLschoolStart = "<div class='education-entry content'></div>";
-var HTMLschoolName = "<a href='#'>%data%";
-var HTMLschoolQualification = " -- %data%</a>";
+var HTMLschoolName = "<a class='link-text' href='#'>%data%";
+var HTMLschoolQualification = " <span class='light-text'> - %data%</span></a>";
 var HTMLschoolDates = "<div class='date-text'>%data%</div>";
 var HTMLschoolLocation = "<div class='location-text'>%data%</div>";
 var HTMLschoolMajor = "<em><br>Major: %data%</em>"
@@ -41,6 +38,8 @@ var HTMLonlineDates = "<div class='date-text'>%data%</div>";
 var HTMLonlineURL = "<br><a href='#'>%data%</a>";
 
 var HTMLskillsHeader = "<h2>Skills</h2>";
+var HTMLskillsStart = "<h3 id='skillsH3'>Skills at a Glance:</h3><ul id='skills' class='flex-box'></ul>";
+var HTMLskills = "<li class='flex-item'><span class='white-text'>%data%</span></li>";
 
 var HTMLskype = "<div class='small-3 medium-3 large-3 column'><a href='skype:michael.james.joyce?call'><span class='fa fa-skype'></span><span class='info'>%data%</span></a></div>";
 var HTMLemail = "<div class='small-3 medium-3 large-3 column'><a href='mailto:hello@mikejoyce.me'><span class='fa fa-envelope'></span><span class='info'>%data%</span></a></div>";
@@ -89,7 +88,8 @@ function initializeMap() {
   var locations;        
 
   var mapOptions = {
-    disableDefaultUI: true
+    disableDefaultUI: true,
+    styles:[{"featureType":"water","stylers":[{"visibility":"on"},{"color":"#acbcc9"}]},{"featureType":"landscape","stylers":[{"color":"#f2e5d4"}]},{"featureType":"road.highway","elementType":"geometry","stylers":[{"color":"#c5c6c6"}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#e4d7c6"}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#fbfaf7"}]},{"featureType":"poi.park","elementType":"geometry","stylers":[{"color":"#c5dac6"}]},{"featureType":"administrative","stylers":[{"visibility":"on"},{"lightness":33}]},{"featureType":"road"},{"featureType":"poi.park","elementType":"labels","stylers":[{"visibility":"on"},{"lightness":20}]},{},{"featureType":"road","stylers":[{"lightness":20}]}]
   };
 
   map = new google.maps.Map(document.querySelector('#map'), mapOptions);
