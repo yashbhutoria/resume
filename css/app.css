@@ -6237,19 +6237,20 @@ header img {
 /* line 177, ../scss/_custom.scss */
 .map {
   padding: 5px;
+  margin-bottom: 10rem;
 }
-/* line 179, ../scss/_custom.scss */
+/* line 180, ../scss/_custom.scss */
 .map #mapDiv {
   height: 400px;
   width: 100%;
 }
-/* line 183, ../scss/_custom.scss */
+/* line 184, ../scss/_custom.scss */
 .map #map {
   display: block;
   height: 100%;
 }
 
-/* line 192, ../scss/_custom.scss */
+/* line 193, ../scss/_custom.scss */
 footer {
   background: #444;
   color: #66757f;
@@ -6258,13 +6259,13 @@ footer {
   width: 100%;
   text-align: center;
 }
-/* line 199, ../scss/_custom.scss */
+/* line 200, ../scss/_custom.scss */
 footer .fa {
   color: #888;
   font-size: 1.28rem;
   margin: 5px;
 }
-/* line 204, ../scss/_custom.scss */
+/* line 205, ../scss/_custom.scss */
 footer .info {
   display: none;
 }
