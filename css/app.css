@@ -6232,3 +6232,7 @@ footer {
 footer .fa {
   margin: 5px;
 }
+/* line 173, ../scss/_custom.scss */
+footer .info {
+  display: none;
+}

@@ -42,10 +42,10 @@ var HTMLonlineURL = "<br><a href='#'>%data%</a>";
 
 var HTMLskillsHeader = "<h2>Skills</h2>";
 
-var HTMLmobile = "<div class='small-3 medium-3 large-3 column'><span class='fa fa-mobile'></span><span class='info show-for-medium-up'>%data%</span></div>";
-var HTMLemail = "<div class='small-3 medium-3 large-3 column'><span class='fa fa-envelope'></span><span class='info show-for-medium-up'>%data%</span></div>";
-var HTMLtwitter = "<div class='small-3 medium-3 large-3 column'><span class='fa fa-github-alt'></span><span class='info show-for-medium-up'>%data%</span></div>";
-var HTMLgithub = "<div class='small-3 medium-3 large-3 column'><span class='fa fa-twitter'></span><span class='info show-for-medium-up'>%data%</span></div>";
+var HTMLmobile = "<div class='small-3 medium-3 large-3 column'><span class='fa fa-mobile'></span><span class='info'>%data%</span></div>";
+var HTMLemail = "<div class='small-3 medium-3 large-3 column'><span class='fa fa-envelope'></span><span class='info'>%data%</span></div>";
+var HTMLtwitter = "<div class='small-3 medium-3 large-3 column'><span class='fa fa-github-alt'></span><span class='info'>%data%</span></div>";
+var HTMLgithub = "<div class='small-3 medium-3 large-3 column'><span class='fa fa-twitter'></span><span class='info'>%data%</span></div>";
 
 var HTMLmapHeader ="<h2>%data%</h2>";
 var googleMap = "<div id='map' class='content'></div>";
