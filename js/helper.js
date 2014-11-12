@@ -38,8 +38,8 @@ var HTMLonlineDates = "<div class='date-text'>%data%</div>";
 var HTMLonlineURL = "<br><a href='#'>%data%</a>";
 
 var HTMLskillsHeader = "<h2>Skills</h2>";
-var HTMLskillsStart = "<h3 id='skillsH3'>Skills at a Glance:</h3><ul id='skills' class='flex-box'></ul>";
-var HTMLskills = "<li class='flex-item'><span class='white-text'>%data%</span></li>";
+var HTMLskillsStart = "<h3>Skills at a Glance:</h3><ul id='skills' class='flex-box'></ul>";
+var HTMLskill = "<div id='%id%' class='small-3 medium-3 large-3 columns'></div>";
 
 var HTMLskype = "<div class='small-3 medium-3 large-3 column'><a href='skype:michael.james.joyce?call'><span class='fa fa-skype'></span><span class='info'>%data%</span></a></div>";
 var HTMLemail = "<div class='small-3 medium-3 large-3 column'><a href='mailto:hello@mikejoyce.me'><span class='fa fa-envelope'></span><span class='info'>%data%</span></a></div>";
