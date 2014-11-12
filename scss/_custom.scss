@@ -173,10 +173,6 @@ header {
 	h2 {
 		margin-bottom: 5.5rem;
 	}
-	#css .arc {
-      stroke-weight: 0.1;
-      fill: #f0a417;
-    }
     #css, #html, #sass, #js {
 
     }
@@ -185,9 +181,27 @@ header {
     }
 	g.component {
 		margin: auto;	
+		fill: #e1e1e1;
+		text.label {
+			font-family: $font-normal;
+			font-weight: 700;
+			fill: #555;
+			text-transform: uppercase;
+		}
 	}
+
 	g.labels {
-		border: 1px solid black;
+		text.label {
+			fill: #ccc;
+		}
+	}
+	g.arcs {
+		path.arc {
+			fill: #1EAEDE;
+		}
+		path.arc2 {
+			fill: green;
+		}
 	}
 	svg.radial-svg {
 	    display: block;
