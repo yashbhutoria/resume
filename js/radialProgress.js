@@ -88,6 +88,7 @@ function radialProgress(parent) {
             background.append("text")
                 .attr("class", "label")
                 .attr("transform", "translate(" + _width/2 + "," + (_width + _fontSize) + ")")
+                .attr("text-anchor", "middle")
                 .text(_label);
            var g = svg.select("g")
                 .attr("transform", "translate(" + _margin.left + "," + _margin.top + ")");
@@ -116,6 +117,7 @@ function radialProgress(parent) {
                 .attr("y",_width/2+_fontSize/3)
                 .attr("x",_width/2)
                 .attr("cursor","pointer")
+                .attr("text-anchor", "middle")
                 .attr("width",_width)
                 // .attr("x",(3*_fontSize/2))
                 .text(function (d) { return Math.round((_value-_minValue)/(_maxValue-_minValue)*100) + "%" })
