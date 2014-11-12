@@ -9,8 +9,24 @@ var bio = {
 }
 
 var skills = {
+	"header": "Skills",
 	"skills" : [
-		"skill01", "skill02", "skill03", "skill04"
+		{
+			"skill": "html",
+			"percent": "50"
+		},
+		{
+			"skill": "css",
+			"percent": "40"
+		},	
+		{
+			"skill": "sass",
+			"percent": "30"
+		},	
+		{
+			"skill": "js",
+			"percent": "20"
+		}	
 	]
 }
 
@@ -27,10 +43,6 @@ var contacts = {
 	"email" : "contact@mikejoyce.me",
 	"github" : "mikejoycegit",
 	"twitter" : "@iammikejoyce"
-}
-
-var skills = {
-	"header": "Skills"
 }
 
 var work = {
@@ -282,6 +294,23 @@ skills.display = function() {
 
 	var formattedSkillsHeader = HTMLskillsHeader.replace("%data%", skills.header);
 	$("#skills").append(formattedSkillsHeader);
+
+	for(skill in skills.skills) {
+		var formattedSkill = HTMLskill.replace("%id%", skills.skills[skill].skill);
+		$("#skills").append(formattedSkill);
+
+		var id = skills.skills[skill].skill;
+		var label = skills.skills[skill].skill;
+		var percent = skills.skills[skill].percent;
+
+		var id =d3.select(document.getElementById(id));
+
+	    var rp = radialProgress(document.getElementById(skills.skills[skill].skill))
+        .label(label)
+        .diameter(150)
+        .value(percent)
+        .render();
+	}
 
 }();
 
