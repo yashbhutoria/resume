@@ -307,7 +307,7 @@ skills.display = function() {
 
 	    var rp = radialProgress(document.getElementById(skills.skills[skill].skill))
         .label(label)
-        .diameter(150)
+        .diameter(120)
         .value(percent)
         .render();
 	}

@@ -170,6 +170,29 @@ header {
 // Skills
 
 .skills {
+	h2 {
+		margin-bottom: 2rem;
+	}
+	#css .arc {
+      stroke-weight: 0.1;
+      fill: #f0a417;
+    }
+    #css, #html, #sass, #js {
+
+    }
+    rect.background {
+    	fill: transparent;
+    }
+	g.component {
+		margin: auto;	
+	}
+	g.labels {
+		border: 1px solid black;
+	}
+	svg.radial-svg {
+	    display: block;
+	    margin: auto;
+	}
 
 }
 

@@ -51,6 +51,8 @@ http://d3js.org/
 
 http://www.brightpointinc.com/clients/brightpointinc.com/library/radialProgress/index.html?source=d3js
 
+http://stackoverflow.com/questions/11857615/placing-labels-at-the-center-of-nodes-in-d3-js
+
 **Google Maps**
 
 https://developers.google.com/maps/documentation/javascript/reference#InfoWindow
