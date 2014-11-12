@@ -45,6 +45,12 @@ http://html5doctor.com/aside-revisited/
 
 http://stackoverflow.com/questions/7183132/how-to-correctly-use-section-tag-in-html5
 
+**D3 Data Visualisation**
+
+http://d3js.org/
+
+http://www.brightpointinc.com/clients/brightpointinc.com/library/radialProgress/index.html?source=d3js
+
 **Google Maps**
 
 https://developers.google.com/maps/documentation/javascript/reference#InfoWindow
