@@ -31,11 +31,7 @@ var skills = {
 }
 
 var navigation = {
-	"work": "Work",
-	"projects": "Projects",
-	"education": "Education",
-	"skills": "Skills",
-	"map": "Map"
+	"nav": ["work", "projects", "education", "skills", "map"]
 }
 
 var contacts = {
@@ -156,40 +152,19 @@ contacts.display = function() {
 
 navigation.display = function() {
 
-	var formattedNavWork = HTMLnavigation.replace("%data%", navigation.work).replace("%id%", navigation.work);
-	$("#nav").append(formattedNavWork);	
-	$(document).on("click", "#linkWork", function() {
-		anchorScroll("#work");
-	});
+	for(nav in navigation.nav) {
+		var formattedNavigation = HTMLnavigation.replace("%data%", navigation.nav[nav]).replace("%id%", navigation.nav[nav]);
+		$("#nav").append(formattedNavigation);
 
-	var formattedNavProjects = HTMLnavigation.replace("%data%", navigation.projects).replace("%id%", navigation.projects);
-	$("#nav").append(formattedNavProjects);
-	$(document).on("click", "#linkProjects", function() {
-		anchorScroll("#projects");
-	});
-
-	var formattedNavEducation = HTMLnavigation.replace("%data%", navigation.education).replace("%id%", navigation.education);
-	$("#nav").append(formattedNavEducation);
-	$(document).on("click", "#linkEducation", function() {
-		anchorScroll("#education");
-	});
-
-	var formattedNavSkills = HTMLnavigation.replace("%data%", navigation.skills).replace("%id%", navigation.skills);
-	$("#nav").append(formattedNavSkills);
-	$(document).on("click", "#linkSkills", function() {
-		anchorScroll("#skills");
-	});
-
-	var formattedNavMap = HTMLnavigation.replace("%data%", navigation.map).replace("%id%", navigation.map);
-	$("#nav").append(formattedNavMap);
-	$(document).on("click", "#linkMap", function() {
-		anchorScroll("#map");
-	});
+		anchorScroll(navigation.nav[nav]);
+	}
 
 	function anchorScroll(target) {
-	    $('html,body').animate({
-	        scrollTop: $(target).offset().top
-	    }, 2000);
+		$(document).on("click", "#link"+target, function() {	
+	    	$('html,body').animate({
+	        	scrollTop: $("#"+target).offset().top
+	    	}, 2000);
+	    });
 	}
 
 }();
