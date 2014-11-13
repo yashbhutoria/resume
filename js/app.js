@@ -68,6 +68,7 @@ var projects = {
 	"projects": [
 		{
 			"title": "title",
+			"url": "http://google.com",
 			"dates": "dates",
 			"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum atque omnis quasi expedita eum voluptate tenetur ipsa adipisci illum corporis aspernatur, corrupti dolore at, architecto voluptatem? Atque, consequuntur similique doloremque!",
 			"images": [
@@ -76,6 +77,7 @@ var projects = {
 		},
 		{
 			"title": "title",
+			"url": "http://google.com",
 			"dates": "dates",
 			"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo vel saepe autem officia quidem, velit eligendi eius perspiciatis nulla ipsum libero natus voluptate quisquam veniam, laboriosam, labore vero delectus maiores.",
 			"images": [
@@ -206,7 +208,7 @@ projects.display = function() {
 	for(project in projects.projects) {
 		$("#projects").append(HTMLprojectStart);
 
-		var formattedTitle = HTMLprojectTitle.replace("%data%", projects.projects[project].title);
+		var formattedTitle = HTMLprojectTitle.replace("%data%", projects.projects[project].title).replace("%url%", projects.projects[project].url);
 		$(".project-entry:last").append(formattedTitle);
 
 		var formattedDates = HTMLprojectDates.replace("%data%", projects.projects[project].dates);
