@@ -88,7 +88,8 @@ var projects = {
 }
 
 var education =  {
-	"header": "Education",
+	"educationHeader": "Education",
+	"onlineHeader": "Online Courses",
 	"schools": [
 		{
 			"name": "School Name",
@@ -111,9 +112,15 @@ var education =  {
 	"onlineCourses": [
 		{
 			"title": "Title",
+			"url": "http://www.google.com",
 			"school": "Udacity",
-			"dates": 2014,
-			"url": "http://www.udacity.com"
+			"dates": 2014
+		},
+		{
+			"title": "Title",
+			"url": "http://www.google.com",
+			"school": "Udacity",
+			"dates": 2014
 		}
 	]
 }
@@ -234,7 +241,7 @@ projects.display = function() {
 
 education.display = function() {
 
-	var formattedEducationHeader = HTMLeducationHeader.replace("%data%", education.header);
+	var formattedEducationHeader = HTMLeducationHeader.replace("%data%", education.educationHeader);
 	$("#education").append(formattedEducationHeader);
 
 	for(school in education.schools) {
@@ -257,6 +264,21 @@ education.display = function() {
 				$(".education-entry:last").append(formattedMajor);
 			}
 		}
+	}
+
+	var formattedOnlineClasses = HTMLonlineClasses.replace("%data%", education.onlineHeader);
+	$("#education").append(formattedOnlineClasses);
+
+	for(course in education.onlineCourses) {
+		$("#education").append(HTMLonlineStart);
+		
+		var formattedOnlineName = HTMLonlineName.replace("%data%", education.onlineCourses[course].title).replace("%url%", education.onlineCourses[course].url);
+		var formattedOnlineSchool = HTMLonlineSchool.replace("%data%", education.onlineCourses[course].school);
+		var formattedOnlineTitle =  formattedOnlineName + formattedOnlineSchool;
+		$(".online-entry:last").append(formattedOnlineTitle);
+
+		var formattedOnlineDates = HTMLonlineDates.replace("%data%", education.onlineCourses[course].dates);
+		$(".online-entry:last").append(formattedOnlineDates);
 
 	}
 
