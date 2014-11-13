@@ -9,7 +9,7 @@ var HTMLlocation = "<li class='flex-item'><span class='orange-text'>location</sp
 
 var HTMLworkHeader ="<h2>%data%</h2>";
 var HTMLworkStart = "<div class='work-entry content'></div>";
-var HTMLworkEmployer = "<a class='link-text' href='#'>%data%";
+var HTMLworkEmployer = "<a class='link-text' href='%url%' target='_blank'>%data%";
 var HTMLworkTitle = " <span class='light-text'>- %data%</span></a>";
 var HTMLworkDates = "<div class='date-text'>%data%</div>";
 var HTMLworkLocation = "<div class='location-text'>%data%</div>";

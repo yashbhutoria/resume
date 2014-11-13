@@ -45,14 +45,16 @@ var work = {
 	"header": "Work",
 	"jobs": [
 		{
-			"employer": "employer01",
-			"title": "title",
+			"employer": "Mikejoyce.me",
+			"url": "http://mikejoyce.me",
+			"title": "Freelance Front-End Developer",
 			"location": "New York, USA",
 			"dates": "January 2000 - Present",
 			"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed modi ratione ducimus impedit dolorum ipsa et aspernatur, dolor deleniti quisquam quam nobis aliquid ab mollitia numquam iste similique eveniet. Eos."
 		},
 		{
 			"employer": "employer02",
+			"url": "http://google.com",
 			"title": "title",
 			"location": "Nottingham, UK",
 			"dates": "Febuary 2005 - June 2011",
@@ -178,7 +180,7 @@ work.display = function() {
 
 		$("#work").append(HTMLworkStart);
 
-		var formattedEmployer = HTMLworkEmployer.replace("%data%", work.jobs[job].employer);
+		var formattedEmployer = HTMLworkEmployer.replace("%data%", work.jobs[job].employer).replace("%url%", work.jobs[job].url);
 		var formattedTitle = HTMLworkTitle.replace("%data%", work.jobs[job].title);
 		var formattedEmployerTitle = formattedEmployer + formattedTitle;
 		$(".work-entry:last").append(formattedEmployerTitle);
