@@ -13,19 +13,19 @@ var skills = {
 	"skills" : [
 		{
 			"skill": "html",
-			"percent": "50"
+			"percent": "80"
 		},
 		{
 			"skill": "css",
-			"percent": "40"
+			"percent": "90"
 		},	
 		{
 			"skill": "sass",
-			"percent": "30"
+			"percent": "60"
 		},	
 		{
 			"skill": "js",
-			"percent": "20"
+			"percent": "50"
 		}	
 	]
 }
@@ -51,14 +51,14 @@ var work = {
 		{
 			"employer": "employer01",
 			"title": "title",
-			"location": "Madrid, Spain",
+			"location": "New York, USA",
 			"dates": "January 2000 - Present",
 			"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed modi ratione ducimus impedit dolorum ipsa et aspernatur, dolor deleniti quisquam quam nobis aliquid ab mollitia numquam iste similique eveniet. Eos."
 		},
 		{
 			"employer": "employer02",
 			"title": "title",
-			"location": "Rome, Italy",
+			"location": "Nottingham, UK",
 			"dates": "Febuary 2005 - June 2011",
 			"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores sint, sed eveniet incidunt, ex, laudantium dolore perspiciatis velit eos nobis quasi pariatur inventore itaque! Autem error accusamus velit minima nulla."		
 		}
@@ -92,14 +92,14 @@ var education =  {
 	"schools": [
 		{
 			"name": "School Name",
-			"location": "Christchurch, New Zealand",
+			"location": "Bangkok, Thailand",
 			"qualification": "BA",
 			"dates": "2012 - 2014",
 			"major": ["major01", "major02"]
 		},
 		{
 			"name": "School Name",
-			"location": "Auckland, New Zealand",
+			"location": "Nelson, New Zealand",
 			"qualification": "BA",
 			"dates": "2024 - 2015",
 			"major": ["major01", "major02"]
@@ -200,10 +200,9 @@ work.display = function() {
 	$("#work").append(formattedWorkHeader);
 
 	for(job in work.jobs) {
-		// create new div for work experience
+
 		$("#work").append(HTMLworkStart);
 
-		// concat employer and title 
 		var formattedEmployer = HTMLworkEmployer.replace("%data%", work.jobs[job].employer);
 		var formattedTitle = HTMLworkTitle.replace("%data%", work.jobs[job].title);
 		var formattedEmployerTitle = formattedEmployer + formattedTitle;
@@ -283,14 +282,6 @@ education.display = function() {
 }();
 
 skills.display = function() {
-
-	// if(bio.skills.length > 0) {
-	// 	$("#header").append(HTMLskillsStart);	
-	// 	for(skill in bio.skills) {
-	// 		var formattedSkill = HTMLskills.replace("%data%", bio.skills[skill]);
-	// 		$("#skills").append(formattedSkill);
-	// 	}
-	// }
 
 	var formattedSkillsHeader = HTMLskillsHeader.replace("%data%", skills.header);
 	$("#skills").append(formattedSkillsHeader);
