@@ -92,6 +92,7 @@ var education =  {
 	"schools": [
 		{
 			"name": "School Name",
+			"url": "http://google.com",
 			"location": "Bangkok, Thailand",
 			"qualification": "BA",
 			"dates": "2012 - 2014",
@@ -99,6 +100,7 @@ var education =  {
 		},
 		{
 			"name": "School Name",
+			"url": "http://google.com",
 			"location": "Nelson, New Zealand",
 			"qualification": "BA",
 			"dates": "2024 - 2015",
@@ -238,7 +240,7 @@ education.display = function() {
 	for(school in education.schools) {
 		$("#education").append(HTMLschoolStart);
 
-		var formattedName = HTMLschoolName.replace("%data%", education.schools[school].name);
+		var formattedName = HTMLschoolName.replace("%data%", education.schools[school].name).replace("%url%", education.schools[school].url);
 		var formattedQualification = HTMLschoolQualification.replace("%data%", education.schools[school].qualification);
 		var formattedTitle = formattedName + formattedQualification;
 		$(".education-entry:last").append(formattedTitle);
