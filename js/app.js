@@ -31,11 +31,7 @@ var skills = {
 }
 
 var navigation = {
-	"work": "Work",
-	"projects": "Projects",
-	"education": "Education",
-	"skills": "Skills",
-	"map": "Map"
+	"nav": ["work", "projects", "education", "skills", "map"]
 }
 
 var contacts = {
@@ -49,14 +45,16 @@ var work = {
 	"header": "Work",
 	"jobs": [
 		{
-			"employer": "employer01",
-			"title": "title",
+			"employer": "Mikejoyce.me",
+			"url": "http://mikejoyce.me",
+			"title": "Freelance Front-End Developer",
 			"location": "New York, USA",
 			"dates": "January 2000 - Present",
 			"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed modi ratione ducimus impedit dolorum ipsa et aspernatur, dolor deleniti quisquam quam nobis aliquid ab mollitia numquam iste similique eveniet. Eos."
 		},
 		{
 			"employer": "employer02",
+			"url": "http://google.com",
 			"title": "title",
 			"location": "Nottingham, UK",
 			"dates": "Febuary 2005 - June 2011",
@@ -70,6 +68,7 @@ var projects = {
 	"projects": [
 		{
 			"title": "title",
+			"url": "http://google.com",
 			"dates": "dates",
 			"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum atque omnis quasi expedita eum voluptate tenetur ipsa adipisci illum corporis aspernatur, corrupti dolore at, architecto voluptatem? Atque, consequuntur similique doloremque!",
 			"images": [
@@ -78,6 +77,7 @@ var projects = {
 		},
 		{
 			"title": "title",
+			"url": "http://google.com",
 			"dates": "dates",
 			"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo vel saepe autem officia quidem, velit eligendi eius perspiciatis nulla ipsum libero natus voluptate quisquam veniam, laboriosam, labore vero delectus maiores.",
 			"images": [
@@ -88,10 +88,12 @@ var projects = {
 }
 
 var education =  {
-	"header": "Education",
+	"educationHeader": "Education",
+	"onlineHeader": "Online Courses",
 	"schools": [
 		{
 			"name": "School Name",
+			"url": "http://google.com",
 			"location": "Bangkok, Thailand",
 			"qualification": "BA",
 			"dates": "2012 - 2014",
@@ -99,6 +101,7 @@ var education =  {
 		},
 		{
 			"name": "School Name",
+			"url": "http://google.com",
 			"location": "Nelson, New Zealand",
 			"qualification": "BA",
 			"dates": "2024 - 2015",
@@ -109,9 +112,15 @@ var education =  {
 	"onlineCourses": [
 		{
 			"title": "Title",
+			"url": "http://www.google.com",
 			"school": "Udacity",
-			"dates": 2014,
-			"url": "http://www.udacity.com"
+			"dates": 2014
+		},
+		{
+			"title": "Title",
+			"url": "http://www.google.com",
+			"school": "Udacity",
+			"dates": 2014
 		}
 	]
 }
@@ -156,40 +165,19 @@ contacts.display = function() {
 
 navigation.display = function() {
 
-	var formattedNavWork = HTMLnavigation.replace("%data%", navigation.work).replace("%id%", navigation.work);
-	$("#nav").append(formattedNavWork);	
-	$(document).on("click", "#linkWork", function() {
-		anchorScroll("#work");
-	});
+	for(nav in navigation.nav) {
+		var formattedNavigation = HTMLnavigation.replace("%data%", navigation.nav[nav]).replace("%id%", navigation.nav[nav]);
+		$("#nav").append(formattedNavigation);
 
-	var formattedNavProjects = HTMLnavigation.replace("%data%", navigation.projects).replace("%id%", navigation.projects);
-	$("#nav").append(formattedNavProjects);
-	$(document).on("click", "#linkProjects", function() {
-		anchorScroll("#projects");
-	});
-
-	var formattedNavEducation = HTMLnavigation.replace("%data%", navigation.education).replace("%id%", navigation.education);
-	$("#nav").append(formattedNavEducation);
-	$(document).on("click", "#linkEducation", function() {
-		anchorScroll("#education");
-	});
-
-	var formattedNavSkills = HTMLnavigation.replace("%data%", navigation.skills).replace("%id%", navigation.skills);
-	$("#nav").append(formattedNavSkills);
-	$(document).on("click", "#linkSkills", function() {
-		anchorScroll("#skills");
-	});
-
-	var formattedNavMap = HTMLnavigation.replace("%data%", navigation.map).replace("%id%", navigation.map);
-	$("#nav").append(formattedNavMap);
-	$(document).on("click", "#linkMap", function() {
-		anchorScroll("#map");
-	});
+		anchorScroll(navigation.nav[nav]);
+	}
 
 	function anchorScroll(target) {
-	    $('html,body').animate({
-	        scrollTop: $(target).offset().top
-	    }, 2000);
+		$(document).on("click", "#link"+target, function() {	
+	    	$('html,body').animate({
+	        	scrollTop: $("#"+target).offset().top
+	    	}, 2000);
+	    });
 	}
 
 }();
@@ -203,7 +191,7 @@ work.display = function() {
 
 		$("#work").append(HTMLworkStart);
 
-		var formattedEmployer = HTMLworkEmployer.replace("%data%", work.jobs[job].employer);
+		var formattedEmployer = HTMLworkEmployer.replace("%data%", work.jobs[job].employer).replace("%url%", work.jobs[job].url);
 		var formattedTitle = HTMLworkTitle.replace("%data%", work.jobs[job].title);
 		var formattedEmployerTitle = formattedEmployer + formattedTitle;
 		$(".work-entry:last").append(formattedEmployerTitle);
@@ -229,7 +217,7 @@ projects.display = function() {
 	for(project in projects.projects) {
 		$("#projects").append(HTMLprojectStart);
 
-		var formattedTitle = HTMLprojectTitle.replace("%data%", projects.projects[project].title);
+		var formattedTitle = HTMLprojectTitle.replace("%data%", projects.projects[project].title).replace("%url%", projects.projects[project].url);
 		$(".project-entry:last").append(formattedTitle);
 
 		var formattedDates = HTMLprojectDates.replace("%data%", projects.projects[project].dates);
@@ -253,13 +241,13 @@ projects.display = function() {
 
 education.display = function() {
 
-	var formattedEducationHeader = HTMLeducationHeader.replace("%data%", education.header);
+	var formattedEducationHeader = HTMLeducationHeader.replace("%data%", education.educationHeader);
 	$("#education").append(formattedEducationHeader);
 
 	for(school in education.schools) {
 		$("#education").append(HTMLschoolStart);
 
-		var formattedName = HTMLschoolName.replace("%data%", education.schools[school].name);
+		var formattedName = HTMLschoolName.replace("%data%", education.schools[school].name).replace("%url%", education.schools[school].url);
 		var formattedQualification = HTMLschoolQualification.replace("%data%", education.schools[school].qualification);
 		var formattedTitle = formattedName + formattedQualification;
 		$(".education-entry:last").append(formattedTitle);
@@ -276,7 +264,21 @@ education.display = function() {
 				$(".education-entry:last").append(formattedMajor);
 			}
 		}
+	}
 
+	var formattedOnlineClasses = HTMLonlineClasses.replace("%data%", education.onlineHeader);
+	$("#education").append(formattedOnlineClasses);
+
+	for(course in education.onlineCourses) {
+		$("#education").append(HTMLonlineStart);
+		
+		var formattedOnlineName = HTMLonlineName.replace("%data%", education.onlineCourses[course].title).replace("%url%", education.onlineCourses[course].url);
+		var formattedOnlineSchool = HTMLonlineSchool.replace("%data%", education.onlineCourses[course].school);
+		var formattedOnlineTitle =  formattedOnlineName + formattedOnlineSchool;
+		$(".online-entry:last").append(formattedOnlineTitle);
+
+		var formattedOnlineDates = HTMLonlineDates.replace("%data%", education.onlineCourses[course].dates);
+		$(".online-entry:last").append(formattedOnlineDates);
 	}
 
 }();
