@@ -6087,9 +6087,10 @@ p {
   color: #555;
   font-family: "Roboto Condensed", sans-serif;
   font-weight: 300;
+  font-size: 1.1rem;
 }
 
-/* line 45, ../scss/_custom.scss */
+/* line 46, ../scss/_custom.scss */
 a {
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
@@ -6097,87 +6098,87 @@ a {
   transition: all 0.3s ease-in-out;
 }
 
-/* line 49, ../scss/_custom.scss */
+/* line 50, ../scss/_custom.scss */
 a.link-text {
   color: #1eaede;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 1.1rem;
 }
-/* line 55, ../scss/_custom.scss */
+/* line 56, ../scss/_custom.scss */
 a.link-text:hover {
   color: #1eaede;
   background: #eee;
 }
 
-/* line 62, ../scss/_custom.scss */
+/* line 63, ../scss/_custom.scss */
 .date-text {
   color: #555;
   font-family: "Roboto", sans-serif;
 }
 
-/* line 67, ../scss/_custom.scss */
+/* line 68, ../scss/_custom.scss */
 .location-text {
   color: #555;
   font-family: "Roboto", sans-serif;
 }
 
-/* line 72, ../scss/_custom.scss */
+/* line 73, ../scss/_custom.scss */
 .light-text {
   color: #ccc;
   font-family: "Roboto", sans-serif;
 }
 
-/* line 77, ../scss/_custom.scss */
+/* line 78, ../scss/_custom.scss */
 .screen-reader {
   position: absolute;
   top: -9999px;
   left: -9999px;
 }
 
-/* line 83, ../scss/_custom.scss */
+/* line 84, ../scss/_custom.scss */
 .wrapper {
   padding: 5px;
 }
 
-/* line 87, ../scss/_custom.scss */
+/* line 88, ../scss/_custom.scss */
 .content {
   margin: 10px;
   padding: 10px;
 }
 
-/* line 94, ../scss/_custom.scss */
+/* line 95, ../scss/_custom.scss */
 header {
   padding: 1.5rem 0 2.5rem;
   position: relative;
 }
-/* line 97, ../scss/_custom.scss */
+/* line 98, ../scss/_custom.scss */
 header h1 {
   text-align: center;
   margin-bottom: 1rem;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 97, ../scss/_custom.scss */
+  /* line 98, ../scss/_custom.scss */
   header h1 {
     display: inline-block;
     margin: 1rem;
   }
 }
-/* line 105, ../scss/_custom.scss */
+/* line 106, ../scss/_custom.scss */
 header .role {
   color: #ccc;
   text-transform: uppercase;
   text-align: center;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 105, ../scss/_custom.scss */
+  /* line 106, ../scss/_custom.scss */
   header .role {
     position: absolute;
     top: 7.5rem;
     left: 14.7rem;
   }
 }
-/* line 115, ../scss/_custom.scss */
+/* line 116, ../scss/_custom.scss */
 header img {
   -moz-border-radius: 150px;
   -webkit-border-radius: 150px;
@@ -6186,66 +6187,66 @@ header img {
   margin: auto;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 115, ../scss/_custom.scss */
+  /* line 116, ../scss/_custom.scss */
   header img {
     display: inline-block;
   }
 }
 
-/* line 127, ../scss/_custom.scss */
+/* line 128, ../scss/_custom.scss */
 .navigation {
   background: #fff;
   margin-bottom: 50px;
   z-index: 99999;
 }
-/* line 131, ../scss/_custom.scss */
+/* line 132, ../scss/_custom.scss */
 .navigation.sticky {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
 }
-/* line 137, ../scss/_custom.scss */
+/* line 138, ../scss/_custom.scss */
 .navigation nav {
   text-align: center;
 }
-/* line 139, ../scss/_custom.scss */
+/* line 140, ../scss/_custom.scss */
 .navigation nav ul {
   padding: 10px 0;
 }
-/* line 141, ../scss/_custom.scss */
+/* line 142, ../scss/_custom.scss */
 .navigation nav ul li {
   font-size: 0.75rem;
   margin: 0;
   padding: 0;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 141, ../scss/_custom.scss */
+  /* line 142, ../scss/_custom.scss */
   .navigation nav ul li {
     font-size: 0.8rem;
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 141, ../scss/_custom.scss */
+  /* line 142, ../scss/_custom.scss */
   .navigation nav ul li {
     font-size: 1rem;
   }
 }
-/* line 151, ../scss/_custom.scss */
+/* line 152, ../scss/_custom.scss */
 .navigation nav ul li a {
   color: #666;
   text-transform: uppercase;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
 }
-/* line 156, ../scss/_custom.scss */
+/* line 157, ../scss/_custom.scss */
 .navigation nav ul li a:hover,
 .navigation nav ul li a :active,
 .navigation nav ul li a :focus {
   border-bottom: 2px solid #666;
 }
 
-/* line 176, ../scss/_custom.scss */
+/* line 177, ../scss/_custom.scss */
 .projects img {
   background: #fff;
   display: block;
@@ -6253,65 +6254,65 @@ header img {
   padding: 0.4rem;
 }
 
-/* line 186, ../scss/_custom.scss */
+/* line 187, ../scss/_custom.scss */
 .education {
   padding: 5px;
 }
 
-/* line 193, ../scss/_custom.scss */
+/* line 194, ../scss/_custom.scss */
 .skills h2 {
   margin-bottom: 5.5rem;
 }
-/* line 199, ../scss/_custom.scss */
+/* line 200, ../scss/_custom.scss */
 .skills rect.background {
   fill: transparent;
 }
-/* line 202, ../scss/_custom.scss */
+/* line 203, ../scss/_custom.scss */
 .skills g.component {
   margin: auto;
   fill: #e1e1e1;
 }
-/* line 205, ../scss/_custom.scss */
+/* line 206, ../scss/_custom.scss */
 .skills g.component text.label {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   fill: #555;
   text-transform: uppercase;
 }
-/* line 214, ../scss/_custom.scss */
+/* line 215, ../scss/_custom.scss */
 .skills g.labels text.label {
   fill: #ccc;
 }
-/* line 219, ../scss/_custom.scss */
+/* line 220, ../scss/_custom.scss */
 .skills g.arcs path.arc {
   fill: #1EAEDE;
 }
-/* line 222, ../scss/_custom.scss */
+/* line 223, ../scss/_custom.scss */
 .skills g.arcs path.arc2 {
   fill: green;
 }
-/* line 226, ../scss/_custom.scss */
+/* line 227, ../scss/_custom.scss */
 .skills svg.radial-svg {
   display: block;
   margin: auto;
 }
 
-/* line 235, ../scss/_custom.scss */
+/* line 236, ../scss/_custom.scss */
 .map {
   margin-bottom: 10rem;
 }
-/* line 237, ../scss/_custom.scss */
+/* line 238, ../scss/_custom.scss */
 .map #mapDiv {
   height: 400px;
   width: 100%;
 }
-/* line 241, ../scss/_custom.scss */
+/* line 242, ../scss/_custom.scss */
 .map #map {
   display: block;
   height: 100%;
 }
 
-/* line 250, ../scss/_custom.scss */
+/* line 251, ../scss/_custom.scss */
 footer {
   background: #444;
   color: #66757f;
@@ -6320,7 +6321,7 @@ footer {
   width: 100%;
   text-align: center;
 }
-/* line 257, ../scss/_custom.scss */
+/* line 258, ../scss/_custom.scss */
 footer .fa {
   color: #999;
   font-size: 1.28rem;
@@ -6330,11 +6331,11 @@ footer .fa {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-/* line 262, ../scss/_custom.scss */
+/* line 263, ../scss/_custom.scss */
 footer .fa:hover {
   color: #fff;
 }
-/* line 266, ../scss/_custom.scss */
+/* line 267, ../scss/_custom.scss */
 footer .info {
   display: none;
 }
