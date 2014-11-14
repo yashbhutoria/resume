@@ -279,7 +279,6 @@ education.display = function() {
 
 		var formattedOnlineDates = HTMLonlineDates.replace("%data%", education.onlineCourses[course].dates);
 		$(".online-entry:last").append(formattedOnlineDates);
-
 	}
 
 }();

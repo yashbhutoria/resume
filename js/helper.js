@@ -37,7 +37,7 @@ var HTMLonlineName = "<a class='link-text' href='%url%' target='_blank'>%data%";
 var HTMLonlineSchool = "<span class='light-text'> - %data%</span></a>";
 var HTMLonlineDates = "<div class='date-text'>%data%</div>";
 
-var HTMLskillsHeader = "<h2>Skills</h2>";
+var HTMLskillsHeader = "<h2>%data%</h2>";
 var HTMLskillsStart = "<h3>Skills at a Glance:</h3><ul id='skills' class='flex-box'></ul>";
 var HTMLskill = "<div id='%id%' class='small-6 medium-3 large-3 columns'></div>";
 
