@@ -307,35 +307,6 @@ worldMap.display = function() {
 
 }();
 
-
-// // Sticky Navigation
-
-// $nav = $("#navigation");
-
-// $(function(){
-//     $nav.data('size','big');
-// });
-
-// $(window).on('scroll touchmove', function(event){
-
-//     if($(document).scrollTop() > 100)
-//     {
-//         if($nav.data('size') == 'big')
-//         {
-//         	$nav.data('size','small');
-//  			$nav.addClass('sticky');
-//         }
-//     }
-//     else
-//     {
-//         if($nav.data('size') == 'small')
-//         {
-//         	$nav.data('size','big');
-//         	$nav.removeClass('sticky');
-//         }  
-//     }
-// });
-
 // Foundation JavaScript
 
 $(document).foundation();
