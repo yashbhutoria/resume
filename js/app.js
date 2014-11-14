@@ -70,7 +70,7 @@ var projects = {
 		{
 			"title": "Date Asia",
 			"url": "http://date-asia.com/?skin=def_mobile",
-			"dates": "2014 - present",
+			"dates": "2014 - Present",
 			"description": "A reponsive reboot of a personal project that I started to improve my development skills. I learn well by doing, and this project gives me a chance to put new skills I've gained to practice. An open source PHP dating script on the backend, Bootstrap 3 and jQuery on the font end. Seems to be very popular with Russian hackers.",
 			"images": [
 			"img/dateAsia01.jpg", "img/dateAsia02.jpg", "img/dateAsia03.jpg"
@@ -307,5 +307,35 @@ worldMap.display = function() {
 
 }();
 
+
+// Sticky Navigation
+
+$nav = $("#navigation");
+
+$(function(){
+    $nav.data('size','big');
+});
+
+$(window).on('scroll touchmove', function(event){
+
+    if($(document).scrollTop() > 100)
+    {
+        if($nav.data('size') == 'big')
+        {
+        	$nav.data('size','small');
+ 			$nav.addClass('sticky');
+        }
+    }
+    else
+    {
+        if($nav.data('size') == 'small')
+        {
+        	$nav.data('size','big');
+        	$nav.removeClass('sticky');
+        }  
+    }
+});
+
 // Foundation JavaScript
+
 $(document).foundation();
