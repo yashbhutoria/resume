@@ -62,7 +62,7 @@ var projects = {
 			"title": "Here Now",
 			"url": "http://weareherenow.com",
 			"dates": "2014",
-			"description": "One of my first freelance gigs with the New York base agency, <a class='link-text' href='http://www.3-tone.com/index.php' target='_blank'>3tone</a>. PSD to HTML. Built with Foundation 5, jQuery and Greensock.",
+			"description": "One of my first freelance gigs with the New York base agency, <a class='link-text' href='http://www.3-tone.com/clients.php' target='_blank'>3tone</a>. PSD to HTML. Built with Foundation 5, jQuery and Greensock.",
 			"images": [
 			"img/hereNow01.jpg", "img/hereNow02.jpg", "img/hereNow03.jpg"
 			]
