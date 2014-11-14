@@ -32,7 +32,7 @@ var HTMLschoolLocation = "<div class='location-text'>%data%</div>";
 
 var HTMLonlineClasses = "<h3>%data%</h3>";
 var HTMLonlineStart = "<div class='online-entry content'></div>";
-var HTMLonlineCourse = "<a class='link-text' href='%url'>%data%</a>";
+var HTMLonlineCourse = "<a class='link-text' href='%url%' target='_blank'>%data%</a>";
 var HTMLonlineSchool = "<div class='light-text'>%data%</div>";
 var HTMLonlineDates = "<div class='date-text'>%data%</div>";
 
