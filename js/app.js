@@ -62,7 +62,7 @@ var projects = {
 			"title": "Here Now",
 			"url": "http://weareherenow.com",
 			"dates": "2014",
-			"description": "One of my first freelance gigs with the agency <a class='link-text' href='http://www.3-tone.com/index.php' target='_blank'>3tone</a>, which is based in New York. Had to complete this site in only a few days as the deadline was very tight.",
+			"description": "One of my first freelance gigs with the New York base agency, <a class='link-text' href='http://www.3-tone.com/index.php' target='_blank'>3tone</a>. PSD to HTML. Built with Foundation 5, jQuery and Greensock.",
 			"images": [
 			"img/hereNow01.jpg", "img/hereNow02.jpg", "img/hereNow03.jpg"
 			]
@@ -71,7 +71,7 @@ var projects = {
 			"title": "Date Asia",
 			"url": "http://date-asia.com/?skin=def_mobile",
 			"dates": "2014 - present",
-			"description": "A reponsive reboot of a personal project that I started to improve my development skills. I learn well by doing, and this project gives me a chance to put new skills I've gained to practice. Seems to be very popular with Russian hackers.",
+			"description": "A reponsive reboot of a personal project that I started to improve my development skills. I learn well by doing, and this project gives me a chance to put new skills I've gained to practice. An open source PHP dating script on the backend, Bootstrap 3 and jQuery on the font end. Seems to be very popular with Russian hackers.",
 			"images": [
 			"img/dateAsia01.jpg", "img/dateAsia02.jpg", "img/dateAsia03.jpg"
 			]			
