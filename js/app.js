@@ -48,17 +48,9 @@ var work = {
 			"employer": "Mikejoyce.me",
 			"url": "http://mikejoyce.me",
 			"title": "Freelance Front-End Developer",
-			"location": "New York, USA",
-			"dates": "January 2000 - Present",
-			"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed modi ratione ducimus impedit dolorum ipsa et aspernatur, dolor deleniti quisquam quam nobis aliquid ab mollitia numquam iste similique eveniet. Eos."
-		},
-		{
-			"employer": "employer02",
-			"url": "http://google.com",
-			"title": "title",
-			"location": "Nottingham, UK",
-			"dates": "Febuary 2005 - June 2011",
-			"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores sint, sed eveniet incidunt, ex, laudantium dolore perspiciatis velit eos nobis quasi pariatur inventore itaque! Autem error accusamus velit minima nulla."		
+			"location": "Nelson, Newzealand",
+			"dates": "January 2014 - Present",
+			"description": "Working from home. Currently working on two US based projects."
 		}
 	]	
 }
@@ -67,21 +59,21 @@ var projects = {
 	"header": "Projects",
 	"projects": [
 		{
-			"title": "title",
-			"url": "http://google.com",
-			"dates": "dates",
-			"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum atque omnis quasi expedita eum voluptate tenetur ipsa adipisci illum corporis aspernatur, corrupti dolore at, architecto voluptatem? Atque, consequuntur similique doloremque!",
+			"title": "Here Now",
+			"url": "http://weareherenow.com",
+			"dates": "2014",
+			"description": "One of my first freelance gigs with the New York base agency, <a class='link-text' href='http://www.3-tone.com/index.php' target='_blank'>3tone</a>. PSD to HTML. Built with Foundation 5, jQuery and Greensock.",
 			"images": [
-			"img/img01.jpg", "img/img02.jpg", "img/img03.jpg"
+			"img/hereNow01.jpg", "img/hereNow02.jpg", "img/hereNow03.jpg"
 			]
 		},
 		{
-			"title": "title",
-			"url": "http://google.com",
-			"dates": "dates",
-			"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo vel saepe autem officia quidem, velit eligendi eius perspiciatis nulla ipsum libero natus voluptate quisquam veniam, laboriosam, labore vero delectus maiores.",
+			"title": "Date Asia",
+			"url": "http://date-asia.com/?skin=def_mobile",
+			"dates": "2014 - Present",
+			"description": "A reponsive reboot of a personal project that I started to improve my development skills. I learn well by doing, and this project gives me a chance to put new skills I've gained to practice. An open source PHP dating script on the backend, Bootstrap 3 and jQuery on the font end. Seems to be very popular with Russian hackers.",
 			"images": [
-			"img/img01.jpg", "img/img02.jpg", "img/img03.jpg"
+			"img/dateAsia01.jpg", "img/dateAsia02.jpg", "img/dateAsia03.jpg"
 			]			
 		}
 	]
@@ -92,35 +84,39 @@ var education =  {
 	"onlineHeader": "Online Courses",
 	"schools": [
 		{
-			"name": "School Name",
+			"name": "Chulalongkorn University",
 			"url": "http://google.com",
 			"location": "Bangkok, Thailand",
-			"qualification": "BA",
-			"dates": "2012 - 2014",
-			"major": ["major01", "major02"]
+			"qualification": "Thai Language Certificate",
+			"dates": "2009 - 2010"
 		},
 		{
-			"name": "School Name",
-			"url": "http://google.com",
+			"name": "Nelson College for Boys",
+			"url": "http://www.nelsoncollege.school.nz/",
 			"location": "Nelson, New Zealand",
-			"qualification": "BA",
-			"dates": "2024 - 2015",
-			"major": ["major01", "major02"]
+			"qualification": "High School Certificate",
+			"dates": "1999 - 2002"
 		}
 	],
 
 	"onlineCourses": [
 		{
-			"title": "Title",
-			"url": "http://www.google.com",
 			"school": "Udacity",
-			"dates": 2014
+			"course": "Front-End Development Nanodegree",
+			"url": "https://www.udacity.com/course/nd001",
+			"dates": "2014 - Present"
 		},
 		{
-			"title": "Title",
-			"url": "http://www.google.com",
-			"school": "Udacity",
-			"dates": 2014
+			"school": "Treehouse",
+			"course": "Front-End Development Track",
+			"url": "http://teamtreehouse.com/mikejoyce",
+			"dates": "2014"
+		},
+		{
+			"school": "Udemy",
+			"course": "User Experience Design Fundamentals",
+			"url": "https://www.udemy.com/certificate/UC-4DQF7AK2/",
+			"dates": "2014"
 		}
 	]
 }
@@ -248,9 +244,9 @@ education.display = function() {
 		$("#education").append(HTMLschoolStart);
 
 		var formattedName = HTMLschoolName.replace("%data%", education.schools[school].name).replace("%url%", education.schools[school].url);
+		$(".education-entry:last").append(formattedName);
 		var formattedQualification = HTMLschoolQualification.replace("%data%", education.schools[school].qualification);
-		var formattedTitle = formattedName + formattedQualification;
-		$(".education-entry:last").append(formattedTitle);
+		$(".education-entry:last").append(formattedQualification);
 
 		var formattedDates = HTMLschoolDates.replace("%data%", education.schools[school].dates);
 		$(".education-entry:last").append(formattedDates);
@@ -258,12 +254,6 @@ education.display = function() {
 		var formattedLocation = HTMLschoolLocation.replace("%data%", education.schools[school].location);
 		$(".education-entry:last").append(formattedLocation);
 
-		if(education.schools[school].major.length > 0) {
-			for(subject in education.schools[school].major) {
-				var formattedMajor = HTMLschoolMajor.replace("%data%", education.schools[school].major[subject]);
-				$(".education-entry:last").append(formattedMajor);
-			}
-		}
 	}
 
 	var formattedOnlineClasses = HTMLonlineClasses.replace("%data%", education.onlineHeader);
@@ -272,10 +262,11 @@ education.display = function() {
 	for(course in education.onlineCourses) {
 		$("#education").append(HTMLonlineStart);
 		
-		var formattedOnlineName = HTMLonlineName.replace("%data%", education.onlineCourses[course].title).replace("%url%", education.onlineCourses[course].url);
+		var formattedOnlineCourse = HTMLonlineCourse.replace("%data%", education.onlineCourses[course].course).replace("%url%", education.onlineCourses[course].url);
+		$(".online-entry:last").append(formattedOnlineCourse);
+
 		var formattedOnlineSchool = HTMLonlineSchool.replace("%data%", education.onlineCourses[course].school);
-		var formattedOnlineTitle =  formattedOnlineName + formattedOnlineSchool;
-		$(".online-entry:last").append(formattedOnlineTitle);
+		$(".online-entry:last").append(formattedOnlineSchool);
 
 		var formattedOnlineDates = HTMLonlineDates.replace("%data%", education.onlineCourses[course].dates);
 		$(".online-entry:last").append(formattedOnlineDates);
@@ -316,5 +307,35 @@ worldMap.display = function() {
 
 }();
 
+
+// // Sticky Navigation
+
+// $nav = $("#navigation");
+
+// $(function(){
+//     $nav.data('size','big');
+// });
+
+// $(window).on('scroll touchmove', function(event){
+
+//     if($(document).scrollTop() > 100)
+//     {
+//         if($nav.data('size') == 'big')
+//         {
+//         	$nav.data('size','small');
+//  			$nav.addClass('sticky');
+//         }
+//     }
+//     else
+//     {
+//         if($nav.data('size') == 'small')
+//         {
+//         	$nav.data('size','big');
+//         	$nav.removeClass('sticky');
+//         }  
+//     }
+// });
+
 // Foundation JavaScript
+
 $(document).foundation();

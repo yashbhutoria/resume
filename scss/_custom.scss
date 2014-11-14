@@ -31,7 +31,13 @@ h2 {
 	text-align: center;
 }
 
+h3 {
+	margin-left: 1rem;
+	font-size: 1.2rem;
+}
+
 p {
+	color: #555;
 	font-family: $font-condensed;
 	font-weight: 300;
 }
@@ -41,12 +47,14 @@ a {
 }
 
 a.link-text {
-	color: #3cf;
+	//color: #3cf;
+	color: #1eaede;
 	font-family: $font-normal;
 	font-weight: 500;
 	font-size: 1.1rem;
 	&:hover {
-		color: #3cf;
+		//color: #3cf;
+		color: #1eaede;
 		background: #eee;
 	}
 }
@@ -119,12 +127,22 @@ header {
 .navigation {
 	background: #fff;
 	margin-bottom: 50px;
+	z-index: 99999;
+	&.sticky {
+	 	position: fixed;
+	 	top: 0;
+	 	left: 0;
+	 	width: 100%;
+	}
 	nav {
 		text-align: center;
 		ul {
 			padding: 10px 0;
 			li {
-				font-size: 0.8rem;
+				font-size: 0.75rem;
+				@media #{$medium-up} {
+					font-size: 0.8rem;
+				}
 				@media #{$large-up} {
 					font-size: 1rem;
 				}
@@ -156,8 +174,10 @@ header {
 
 .projects {
 	img {
+		background: #fff;
 		display: block;
-		margin: auto auto 1rem;
+		margin: 2rem auto 2.5rem;
+		padding: 0.4rem;
 	}
 }
 

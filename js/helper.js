@@ -25,16 +25,15 @@ var HTMLprojectImage = "<div class='small-12 medium-4 large-4 columns'><img src=
 
 var HTMLeducationHeader ="<h2>%data%</h2>";
 var HTMLschoolStart = "<div class='education-entry content'></div>";
-var HTMLschoolName = "<a class='link-text' href='%url%' target='_blank'>%data%";
-var HTMLschoolQualification = " <span class='light-text'> - %data%</span></a>";
+var HTMLschoolName = "<a class='link-text' href='%url%' target='_blank'>%data%</a>";
+var HTMLschoolQualification = "<div class='light-text'>%data%</div>";
 var HTMLschoolDates = "<div class='date-text'>%data%</div>";
 var HTMLschoolLocation = "<div class='location-text'>%data%</div>";
-var HTMLschoolMajor = "<em><br>Major: %data%</em>"
 
 var HTMLonlineClasses = "<h3>%data%</h3>";
-var HTMLonlineStart = "<div class='online-entry content'></div>"
-var HTMLonlineName = "<a class='link-text' href='%url%' target='_blank'>%data%";
-var HTMLonlineSchool = "<span class='light-text'> - %data%</span></a>";
+var HTMLonlineStart = "<div class='online-entry content'></div>";
+var HTMLonlineCourse = "<a class='link-text' href='%url'>%data%</a>";
+var HTMLonlineSchool = "<div class='light-text'>%data%</div>";
 var HTMLonlineDates = "<div class='date-text'>%data%</div>";
 
 var HTMLskillsHeader = "<h2>%data%</h2>";
