@@ -17,7 +17,7 @@ var skills = {
 		},
 		{
 			"skill": "css",
-			"percent": "90"
+			"percent": "80"
 		},	
 		{
 			"skill": "sass",
@@ -85,7 +85,7 @@ var education =  {
 	"schools": [
 		{
 			"name": "Chulalongkorn University",
-			"url": "http://google.com",
+			"url": "http://www.arts.chula.ac.th/~asc/",
 			"location": "Bangkok, Thailand",
 			"qualification": "Thai Language Certificate",
 			"dates": "2009 - 2010"
