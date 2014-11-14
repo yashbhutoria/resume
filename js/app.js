@@ -50,7 +50,7 @@ var work = {
 			"title": "Freelance Front-End Developer",
 			"location": "Nelson, New Zealand",
 			"dates": "January 2014 - Present",
-			"description": "Working from home. Currently working on two US based projects."
+			"description": "I work from home and should probably get out more. Currently working on two projects based in the US."
 		}
 	]	
 }
