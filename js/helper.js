@@ -29,7 +29,6 @@ var HTMLschoolName = "<a class='link-text' href='%url%' target='_blank'>%data%";
 var HTMLschoolQualification = " <span class='light-text'> - %data%</span></a>";
 var HTMLschoolDates = "<div class='date-text'>%data%</div>";
 var HTMLschoolLocation = "<div class='location-text'>%data%</div>";
-var HTMLschoolMajor = "<em><br>Major: %data%</em>"
 
 var HTMLonlineClasses = "<h3>%data%</h3>";
 var HTMLonlineStart = "<div class='online-entry content'></div>"

@@ -96,16 +96,14 @@ var education =  {
 			"url": "http://google.com",
 			"location": "Bangkok, Thailand",
 			"qualification": "BA",
-			"dates": "2012 - 2014",
-			"major": ["major01", "major02"]
+			"dates": "2012 - 2014"
 		},
 		{
 			"name": "School Name",
 			"url": "http://google.com",
 			"location": "Nelson, New Zealand",
 			"qualification": "BA",
-			"dates": "2024 - 2015",
-			"major": ["major01", "major02"]
+			"dates": "2024 - 2015"
 		}
 	],
 
@@ -264,12 +262,6 @@ education.display = function() {
 		var formattedLocation = HTMLschoolLocation.replace("%data%", education.schools[school].location);
 		$(".education-entry:last").append(formattedLocation);
 
-		if(education.schools[school].major.length > 0) {
-			for(subject in education.schools[school].major) {
-				var formattedMajor = HTMLschoolMajor.replace("%data%", education.schools[school].major[subject]);
-				$(".education-entry:last").append(formattedMajor);
-			}
-		}
 	}
 
 	var formattedOnlineClasses = HTMLonlineClasses.replace("%data%", education.onlineHeader);
