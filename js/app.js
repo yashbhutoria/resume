@@ -138,9 +138,6 @@ bio.display = function() {
 	var formattedRole = HTMLheaderRole.replace("%data%", bio.role);
 	$("#header").append(formattedRole);
 
-	var formattedLocation = HTMLlocation.replace("%data%", bio.location);
-	$("#topContacts").append(formattedLocation);
-
 }();
 
 contacts.display = function() {
