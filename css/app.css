@@ -6322,11 +6322,19 @@ footer {
 }
 /* line 257, ../scss/_custom.scss */
 footer .fa {
-  color: #888;
+  color: #999;
   font-size: 1.28rem;
   margin: .3rem;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 /* line 262, ../scss/_custom.scss */
+footer .fa:hover {
+  color: #fff;
+}
+/* line 266, ../scss/_custom.scss */
 footer .info {
   display: none;
 }

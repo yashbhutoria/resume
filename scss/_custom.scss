@@ -255,9 +255,13 @@ footer {
 	width: 100%;
 	text-align: center;
 	.fa {
-		color: #888;
+		color: #999;
 		font-size: 1.28rem;
 		margin: .3rem;
+		@include single-transition(all, .3s, ease-in-out);
+		&:hover {
+			color: #fff;
+		}
 	}
 	.info {
 		display: none;
