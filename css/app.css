@@ -6162,8 +6162,9 @@ header .role {
   color: #ccc;
   text-transform: uppercase;
   text-align: center;
+  margin-bottom: 2.5rem;
 }
-/* line 116, ../scss/_custom.scss */
+/* line 117, ../scss/_custom.scss */
 header img {
   -moz-border-radius: 150px;
   -webkit-border-radius: 150px;
@@ -6172,60 +6173,60 @@ header img {
   margin: auto;
 }
 
-/* line 128, ../scss/_custom.scss */
+/* line 129, ../scss/_custom.scss */
 .navigation {
   background: #fff;
   margin-bottom: 50px;
   z-index: 99999;
 }
-/* line 132, ../scss/_custom.scss */
+/* line 133, ../scss/_custom.scss */
 .navigation.sticky {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
 }
-/* line 138, ../scss/_custom.scss */
+/* line 139, ../scss/_custom.scss */
 .navigation nav {
   text-align: center;
 }
-/* line 140, ../scss/_custom.scss */
+/* line 141, ../scss/_custom.scss */
 .navigation nav ul {
   padding: 10px 0;
 }
-/* line 142, ../scss/_custom.scss */
+/* line 143, ../scss/_custom.scss */
 .navigation nav ul li {
   font-size: 0.75rem;
   margin: 0;
   padding: 0;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 142, ../scss/_custom.scss */
+  /* line 143, ../scss/_custom.scss */
   .navigation nav ul li {
     font-size: 0.8rem;
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 142, ../scss/_custom.scss */
+  /* line 143, ../scss/_custom.scss */
   .navigation nav ul li {
     font-size: 1rem;
   }
 }
-/* line 152, ../scss/_custom.scss */
+/* line 153, ../scss/_custom.scss */
 .navigation nav ul li a {
   color: #666;
   text-transform: uppercase;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
 }
-/* line 157, ../scss/_custom.scss */
+/* line 158, ../scss/_custom.scss */
 .navigation nav ul li a:hover,
 .navigation nav ul li a :active,
 .navigation nav ul li a :focus {
   border-bottom: 2px solid #666;
 }
 
-/* line 177, ../scss/_custom.scss */
+/* line 178, ../scss/_custom.scss */
 .projects img {
   background: #fff;
   display: block;
@@ -6233,65 +6234,65 @@ header img {
   padding: 0.4rem;
 }
 
-/* line 187, ../scss/_custom.scss */
+/* line 188, ../scss/_custom.scss */
 .education {
   padding: 5px;
 }
 
-/* line 194, ../scss/_custom.scss */
+/* line 195, ../scss/_custom.scss */
 .skills h2 {
   margin-bottom: 5.5rem;
 }
-/* line 200, ../scss/_custom.scss */
+/* line 201, ../scss/_custom.scss */
 .skills rect.background {
   fill: transparent;
 }
-/* line 203, ../scss/_custom.scss */
+/* line 204, ../scss/_custom.scss */
 .skills g.component {
   margin: auto;
   fill: #e1e1e1;
 }
-/* line 206, ../scss/_custom.scss */
+/* line 207, ../scss/_custom.scss */
 .skills g.component text.label {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   fill: #555;
   text-transform: uppercase;
 }
-/* line 215, ../scss/_custom.scss */
+/* line 216, ../scss/_custom.scss */
 .skills g.labels text.label {
   fill: #ccc;
 }
-/* line 220, ../scss/_custom.scss */
+/* line 221, ../scss/_custom.scss */
 .skills g.arcs path.arc {
   fill: #1EAEDE;
 }
-/* line 223, ../scss/_custom.scss */
+/* line 224, ../scss/_custom.scss */
 .skills g.arcs path.arc2 {
   fill: green;
 }
-/* line 227, ../scss/_custom.scss */
+/* line 228, ../scss/_custom.scss */
 .skills svg.radial-svg {
   display: block;
   margin: auto;
 }
 
-/* line 236, ../scss/_custom.scss */
+/* line 237, ../scss/_custom.scss */
 .map {
   margin-bottom: 10rem;
 }
-/* line 238, ../scss/_custom.scss */
+/* line 239, ../scss/_custom.scss */
 .map #mapDiv {
   height: 400px;
   width: 100%;
 }
-/* line 242, ../scss/_custom.scss */
+/* line 243, ../scss/_custom.scss */
 .map #map {
   display: block;
   height: 100%;
 }
 
-/* line 251, ../scss/_custom.scss */
+/* line 252, ../scss/_custom.scss */
 footer {
   background: #444;
   color: #66757f;
@@ -6300,7 +6301,7 @@ footer {
   width: 100%;
   text-align: center;
 }
-/* line 258, ../scss/_custom.scss */
+/* line 259, ../scss/_custom.scss */
 footer .fa {
   color: #999;
   font-size: 1.28rem;
@@ -6310,11 +6311,11 @@ footer .fa {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-/* line 263, ../scss/_custom.scss */
+/* line 264, ../scss/_custom.scss */
 footer .fa:hover {
   color: #fff;
 }
-/* line 267, ../scss/_custom.scss */
+/* line 268, ../scss/_custom.scss */
 footer .info {
   display: none;
 }
