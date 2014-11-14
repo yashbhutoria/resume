@@ -46,12 +46,14 @@ a {
 }
 
 a.link-text {
-	color: #3cf;
+	//color: #3cf;
+	color: #1eaede;
 	font-family: $font-normal;
 	font-weight: 500;
 	font-size: 1.1rem;
 	&:hover {
-		color: #3cf;
+		//color: #3cf;
+		color: #1eaede;
 		background: #eee;
 	}
 }
