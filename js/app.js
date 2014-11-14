@@ -48,17 +48,9 @@ var work = {
 			"employer": "Mikejoyce.me",
 			"url": "http://mikejoyce.me",
 			"title": "Freelance Front-End Developer",
-			"location": "New York, USA",
-			"dates": "January 2000 - Present",
-			"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed modi ratione ducimus impedit dolorum ipsa et aspernatur, dolor deleniti quisquam quam nobis aliquid ab mollitia numquam iste similique eveniet. Eos."
-		},
-		{
-			"employer": "employer02",
-			"url": "http://google.com",
-			"title": "title",
-			"location": "Nottingham, UK",
-			"dates": "Febuary 2005 - June 2011",
-			"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores sint, sed eveniet incidunt, ex, laudantium dolore perspiciatis velit eos nobis quasi pariatur inventore itaque! Autem error accusamus velit minima nulla."		
+			"location": "Nelson, Newzealand",
+			"dates": "January 2014 - Present",
+			"description": "Working from home. Currently working on two US based projects."
 		}
 	]	
 }
