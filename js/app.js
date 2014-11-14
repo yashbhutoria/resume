@@ -67,21 +67,21 @@ var projects = {
 	"header": "Projects",
 	"projects": [
 		{
-			"title": "title",
-			"url": "http://google.com",
-			"dates": "dates",
-			"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum atque omnis quasi expedita eum voluptate tenetur ipsa adipisci illum corporis aspernatur, corrupti dolore at, architecto voluptatem? Atque, consequuntur similique doloremque!",
+			"title": "Here Now",
+			"url": "http://weareherenow.com",
+			"dates": "2014",
+			"description": "One of my first freelance gigs with the agency <a class='link-text' href='http://www.3-tone.com/index.php' target='_blank'>3tone</a>, which is based in New York. Had to complete this site in only a few days as the deadline was very tight.",
 			"images": [
-			"img/img01.jpg", "img/img02.jpg", "img/img03.jpg"
+			"img/hereNow01.jpg", "img/hereNow02.jpg", "img/hereNow03.jpg"
 			]
 		},
 		{
-			"title": "title",
-			"url": "http://google.com",
-			"dates": "dates",
-			"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo vel saepe autem officia quidem, velit eligendi eius perspiciatis nulla ipsum libero natus voluptate quisquam veniam, laboriosam, labore vero delectus maiores.",
+			"title": "Date Asia",
+			"url": "http://date-asia.com/?skin=def_mobile",
+			"dates": "2014 - present",
+			"description": "A reponsive reboot of a personal project that I started to improve my development skills. I learn well by doing, and this project gives me a chance to put new skills I've gained to practice. Seems to be very popular with Russian hackers.",
 			"images": [
-			"img/img01.jpg", "img/img02.jpg", "img/img03.jpg"
+			"img/dateAsia01.jpg", "img/dateAsia02.jpg", "img/dateAsia03.jpg"
 			]			
 		}
 	]
