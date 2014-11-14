@@ -6157,26 +6157,11 @@ header h1 {
   text-align: center;
   margin-bottom: 1rem;
 }
-@media only screen and (min-width: 64.063em) {
-  /* line 98, ../scss/_custom.scss */
-  header h1 {
-    display: inline-block;
-    margin: 1rem;
-  }
-}
 /* line 106, ../scss/_custom.scss */
 header .role {
   color: #ccc;
   text-transform: uppercase;
   text-align: center;
-}
-@media only screen and (min-width: 64.063em) {
-  /* line 106, ../scss/_custom.scss */
-  header .role {
-    position: absolute;
-    top: 7.5rem;
-    left: 14.7rem;
-  }
 }
 /* line 116, ../scss/_custom.scss */
 header img {
@@ -6185,12 +6170,6 @@ header img {
   border-radius: 150px;
   display: block;
   margin: auto;
-}
-@media only screen and (min-width: 64.063em) {
-  /* line 116, ../scss/_custom.scss */
-  header img {
-    display: inline-block;
-  }
 }
 
 /* line 128, ../scss/_custom.scss */
