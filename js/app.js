@@ -50,7 +50,7 @@ var work = {
 			"title": "Freelance Front-End Developer",
 			"location": "Nelson, New Zealand",
 			"dates": "January 2014 - Present",
-			"description": "Working from home. Currently working on two US based projects."
+			"description": "I work from home and should probably get out more. Currently working on two projects based in the US."
 		}
 	]	
 }
@@ -71,7 +71,7 @@ var projects = {
 			"title": "Date Asia",
 			"url": "http://date-asia.com/?skin=def_mobile",
 			"dates": "2014 - Present",
-			"description": "A reponsive reboot of a personal project that I started to improve my development skills. I learn well by doing, and this project gives me a chance to put new skills I've gained to practice. An open source PHP dating script on the backend, Bootstrap 3 and jQuery on the font end. Seems to be very popular with Russian hackers.",
+			"description": "A reponsive reboot of a personal project that I started in an attempt to improve my Front-End Development skills. I learn well by doing, and this project gives me a chance to put new skills I've gained into practice. An open source PHP dating script on the backend, Bootstrap 3 and jQuery on the font end. Seems to be very popular with Russian hackers.",
 			"images": [
 			"img/dateAsia01.jpg", "img/dateAsia02.jpg", "img/dateAsia03.jpg"
 			]			
