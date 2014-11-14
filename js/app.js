@@ -48,7 +48,7 @@ var work = {
 			"employer": "Mikejoyce.me",
 			"url": "http://mikejoyce.me",
 			"title": "Freelance Front-End Developer",
-			"location": "Nelson, Newzealand",
+			"location": "Nelson, New Zealand",
 			"dates": "January 2014 - Present",
 			"description": "Working from home. Currently working on two US based projects."
 		}
