@@ -111,16 +111,22 @@ var education =  {
 
 	"onlineCourses": [
 		{
-			"title": "Title",
-			"url": "http://www.google.com",
 			"school": "Udacity",
-			"dates": 2014
+			"course": "Front-End Development Nanodegree",
+			"url": "https://www.udacity.com/course/nd001",
+			"dates": "2014 - Present"
 		},
 		{
-			"title": "Title",
-			"url": "http://www.google.com",
-			"school": "Udacity",
-			"dates": 2014
+			"school": "Treehouse",
+			"course": "Front-End Development Track",
+			"url": "http://teamtreehouse.com/mikejoyce",
+			"dates": "2014"
+		},
+		{
+			"school": "Udemy",
+			"course": "User Experience Design Fundamentals",
+			"url": "https://www.udemy.com/certificate/UC-4DQF7AK2/",
+			"dates": "2014"
 		}
 	]
 }
@@ -272,9 +278,9 @@ education.display = function() {
 	for(course in education.onlineCourses) {
 		$("#education").append(HTMLonlineStart);
 		
-		var formattedOnlineName = HTMLonlineName.replace("%data%", education.onlineCourses[course].title).replace("%url%", education.onlineCourses[course].url);
-		var formattedOnlineSchool = HTMLonlineSchool.replace("%data%", education.onlineCourses[course].school);
-		var formattedOnlineTitle =  formattedOnlineName + formattedOnlineSchool;
+		var formattedOnlineSchool = HTMLonlineSchool.replace("%data%", education.onlineCourses[course].school).replace("%url%", education.onlineCourses[course].url);
+		var formattedOnlineCourse = HTMLonlineCourse.replace("%data%", education.onlineCourses[course].course);
+		var formattedOnlineTitle =  formattedOnlineSchool + formattedOnlineCourse;
 		$(".online-entry:last").append(formattedOnlineTitle);
 
 		var formattedOnlineDates = HTMLonlineDates.replace("%data%", education.onlineCourses[course].dates);

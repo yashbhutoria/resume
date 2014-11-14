@@ -33,8 +33,8 @@ var HTMLschoolMajor = "<em><br>Major: %data%</em>"
 
 var HTMLonlineClasses = "<h3>%data%</h3>";
 var HTMLonlineStart = "<div class='online-entry content'></div>"
-var HTMLonlineName = "<a class='link-text' href='%url%' target='_blank'>%data%";
-var HTMLonlineSchool = "<span class='light-text'> - %data%</span></a>";
+var HTMLonlineSchool = "<a class='link-text' href='%url%' target='_blank'>%data%";
+var HTMLonlineCourse = "<span class='light-text'> - %data%</span></a>";
 var HTMLonlineDates = "<div class='date-text'>%data%</div>";
 
 var HTMLskillsHeader = "<h2>%data%</h2>";
