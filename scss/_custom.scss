@@ -139,7 +139,10 @@ header {
 		ul {
 			padding: 10px 0;
 			li {
-				font-size: 0.8rem;
+				font-size: 0.75rem;
+				@media #{$medium-up} {
+					font-size: 0.8rem;
+				}
 				@media #{$large-up} {
 					font-size: 1rem;
 				}
