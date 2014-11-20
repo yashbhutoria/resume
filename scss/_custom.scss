@@ -15,7 +15,8 @@ $base-line-height: $rem-base * 1.5;
 
 body {
 	//background: #f5f8fa;
-	background: #fafafa;
+	//background: #fafafa;
+	background: #fff;
 	font-family: $font-normal;
 	//@include debug-vertical-alignment;
 }
@@ -85,14 +86,29 @@ a.link-text {
 	 padding: 5px;	
 }
 
+.left-content {
+    border: medium none;
+    height: 100%;
+    background: #424242;
+    width: 20rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.main-content {
+    border: medium none;
+    padding-left: 20rem;
+}
+
 .content {
 	margin: 10px;
 	padding: 10px;
 }
 
-// Header 
+// Bio
 
-header {
+.bio {
 	padding: 1.5rem 0 2.5rem;
 	position: relative;
 	h1 {
@@ -123,11 +139,26 @@ header {
 	}
 }
 
+// Contacts
+
+.contacts {
+	text-align: center;
+	.fa {
+		color: #999;
+		font-size: 1.28rem;
+		margin: .3rem;
+		@include single-transition(all, .3s, ease-in-out);
+		&:hover {
+			color: #fff;
+		}
+	}
+}
+
 // Navigation
 
 .navigation {
 	background: #fff;
-	margin-bottom: 50px;
+	margiLn-bottom: 50px;
 	z-index: 99999;
 	&.sticky {
 	 	position: fixed;
@@ -255,18 +286,6 @@ footer {
 	position: fixed;
 	width: 100%;
 	text-align: center;
-	.fa {
-		color: #999;
-		font-size: 1.28rem;
-		margin: .3rem;
-		@include single-transition(all, .3s, ease-in-out);
-		&:hover {
-			color: #fff;
-		}
-	}
-	.info {
-		display: none;
-	}
 }
 
 

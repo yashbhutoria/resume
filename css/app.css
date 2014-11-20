@@ -689,7 +689,7 @@ select {
   margin-right: auto;
   margin-top: 0;
   margin-bottom: 0;
-  max-width: 62.5rem;
+  max-width: 100%;
 }
 /* line 172, ../bower_components/foundation/scss/foundation/components/_global.scss */
 .row:before, .row:after {
@@ -6059,11 +6059,11 @@ html {
 
 /* line 16, ../scss/_custom.scss */
 body {
-  background: #fafafa;
+  background: #fff;
   font-family: "Roboto", sans-serif;
 }
 
-/* line 23, ../scss/_custom.scss */
+/* line 24, ../scss/_custom.scss */
 h1, h2, h3, h4, h5, h6 {
   color: #555;
   font-family: "Roboto", sans-serif;
@@ -6071,18 +6071,18 @@ h1, h2, h3, h4, h5, h6 {
   margin: 2.355rem 0;
 }
 
-/* line 30, ../scss/_custom.scss */
+/* line 31, ../scss/_custom.scss */
 h2 {
   text-align: center;
 }
 
-/* line 34, ../scss/_custom.scss */
+/* line 35, ../scss/_custom.scss */
 h3 {
   margin-left: 1rem;
   font-size: 1.2rem;
 }
 
-/* line 39, ../scss/_custom.scss */
+/* line 40, ../scss/_custom.scss */
 p {
   color: #555;
   font-family: "Roboto Condensed", sans-serif;
@@ -6090,7 +6090,7 @@ p {
   font-size: 1.1rem;
 }
 
-/* line 46, ../scss/_custom.scss */
+/* line 47, ../scss/_custom.scss */
 a {
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
@@ -6098,73 +6098,90 @@ a {
   transition: all 0.3s ease-in-out;
 }
 
-/* line 50, ../scss/_custom.scss */
+/* line 51, ../scss/_custom.scss */
 a.link-text {
   color: #1eaede;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 1.1rem;
 }
-/* line 56, ../scss/_custom.scss */
+/* line 57, ../scss/_custom.scss */
 a.link-text:hover {
   color: #1eaede;
   background: #eee;
 }
 
-/* line 63, ../scss/_custom.scss */
+/* line 64, ../scss/_custom.scss */
 .date-text {
   color: #555;
   font-family: "Roboto", sans-serif;
 }
 
-/* line 68, ../scss/_custom.scss */
+/* line 69, ../scss/_custom.scss */
 .location-text {
   color: #555;
   font-family: "Roboto", sans-serif;
 }
 
-/* line 73, ../scss/_custom.scss */
+/* line 74, ../scss/_custom.scss */
 .light-text {
   color: #ccc;
   font-family: "Roboto", sans-serif;
 }
 
-/* line 78, ../scss/_custom.scss */
+/* line 79, ../scss/_custom.scss */
 .screen-reader {
   position: absolute;
   top: -9999px;
   left: -9999px;
 }
 
-/* line 84, ../scss/_custom.scss */
+/* line 85, ../scss/_custom.scss */
 .wrapper {
   padding: 5px;
 }
 
-/* line 88, ../scss/_custom.scss */
+/* line 89, ../scss/_custom.scss */
+.left-content {
+  border: medium none;
+  height: 100%;
+  background: #424242;
+  width: 20rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+/* line 99, ../scss/_custom.scss */
+.main-content {
+  border: medium none;
+  padding-left: 20rem;
+}
+
+/* line 104, ../scss/_custom.scss */
 .content {
   margin: 10px;
   padding: 10px;
 }
 
-/* line 95, ../scss/_custom.scss */
-header {
+/* line 111, ../scss/_custom.scss */
+.bio {
   padding: 1.5rem 0 2.5rem;
   position: relative;
 }
-/* line 98, ../scss/_custom.scss */
-header h1 {
+/* line 114, ../scss/_custom.scss */
+.bio h1 {
   text-align: center;
   margin-bottom: 1rem;
 }
-/* line 106, ../scss/_custom.scss */
-header .role {
+/* line 122, ../scss/_custom.scss */
+.bio .role {
   color: #ccc;
   text-transform: uppercase;
   text-align: center;
 }
-/* line 116, ../scss/_custom.scss */
-header img {
+/* line 132, ../scss/_custom.scss */
+.bio img {
   -moz-border-radius: 150px;
   -webkit-border-radius: 150px;
   border-radius: 150px;
@@ -6172,136 +6189,12 @@ header img {
   margin: auto;
 }
 
-/* line 128, ../scss/_custom.scss */
-.navigation {
-  background: #fff;
-  margin-bottom: 50px;
-  z-index: 99999;
-}
-/* line 132, ../scss/_custom.scss */
-.navigation.sticky {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-}
-/* line 138, ../scss/_custom.scss */
-.navigation nav {
+/* line 144, ../scss/_custom.scss */
+.contacts {
   text-align: center;
 }
-/* line 140, ../scss/_custom.scss */
-.navigation nav ul {
-  padding: 10px 0;
-}
-/* line 142, ../scss/_custom.scss */
-.navigation nav ul li {
-  font-size: 0.75rem;
-  margin: 0;
-  padding: 0;
-}
-@media only screen and (min-width: 40.063em) {
-  /* line 142, ../scss/_custom.scss */
-  .navigation nav ul li {
-    font-size: 0.8rem;
-  }
-}
-@media only screen and (min-width: 64.063em) {
-  /* line 142, ../scss/_custom.scss */
-  .navigation nav ul li {
-    font-size: 1rem;
-  }
-}
-/* line 152, ../scss/_custom.scss */
-.navigation nav ul li a {
-  color: #666;
-  text-transform: uppercase;
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-}
-/* line 157, ../scss/_custom.scss */
-.navigation nav ul li a:hover,
-.navigation nav ul li a :active,
-.navigation nav ul li a :focus {
-  border-bottom: 2px solid #666;
-}
-
-/* line 177, ../scss/_custom.scss */
-.projects img {
-  background: #fff;
-  display: block;
-  margin: 2rem auto 2.5rem;
-  padding: 0.4rem;
-}
-
-/* line 187, ../scss/_custom.scss */
-.education {
-  padding: 5px;
-}
-
-/* line 194, ../scss/_custom.scss */
-.skills h2 {
-  margin-bottom: 5.5rem;
-}
-/* line 200, ../scss/_custom.scss */
-.skills rect.background {
-  fill: transparent;
-}
-/* line 203, ../scss/_custom.scss */
-.skills g.component {
-  margin: auto;
-  fill: #e1e1e1;
-}
-/* line 206, ../scss/_custom.scss */
-.skills g.component text.label {
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  fill: #555;
-  text-transform: uppercase;
-}
-/* line 215, ../scss/_custom.scss */
-.skills g.labels text.label {
-  fill: #ccc;
-}
-/* line 220, ../scss/_custom.scss */
-.skills g.arcs path.arc {
-  fill: #1EAEDE;
-}
-/* line 223, ../scss/_custom.scss */
-.skills g.arcs path.arc2 {
-  fill: green;
-}
-/* line 227, ../scss/_custom.scss */
-.skills svg.radial-svg {
-  display: block;
-  margin: auto;
-}
-
-/* line 236, ../scss/_custom.scss */
-.map {
-  margin-bottom: 10rem;
-}
-/* line 238, ../scss/_custom.scss */
-.map #mapDiv {
-  height: 400px;
-  width: 100%;
-}
-/* line 242, ../scss/_custom.scss */
-.map #map {
-  display: block;
-  height: 100%;
-}
-
-/* line 251, ../scss/_custom.scss */
-footer {
-  background: #444;
-  color: #66757f;
-  bottom: 0;
-  position: fixed;
-  width: 100%;
-  text-align: center;
-}
-/* line 258, ../scss/_custom.scss */
-footer .fa {
+/* line 146, ../scss/_custom.scss */
+.contacts .fa {
   color: #999;
   font-size: 1.28rem;
   margin: .3rem;
@@ -6310,11 +6203,136 @@ footer .fa {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-/* line 263, ../scss/_custom.scss */
-footer .fa:hover {
+/* line 151, ../scss/_custom.scss */
+.contacts .fa:hover {
   color: #fff;
 }
+
+/* line 159, ../scss/_custom.scss */
+.navigation {
+  background: #fff;
+  margiLn-bottom: 50px;
+  z-index: 99999;
+}
+/* line 163, ../scss/_custom.scss */
+.navigation.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+/* line 169, ../scss/_custom.scss */
+.navigation nav {
+  text-align: center;
+}
+/* line 171, ../scss/_custom.scss */
+.navigation nav ul {
+  padding: 10px 0;
+}
+/* line 173, ../scss/_custom.scss */
+.navigation nav ul li {
+  font-size: 0.75rem;
+  margin: 0;
+  padding: 0;
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 173, ../scss/_custom.scss */
+  .navigation nav ul li {
+    font-size: 0.8rem;
+  }
+}
+@media only screen and (min-width: 64.063em) {
+  /* line 173, ../scss/_custom.scss */
+  .navigation nav ul li {
+    font-size: 1rem;
+  }
+}
+/* line 183, ../scss/_custom.scss */
+.navigation nav ul li a {
+  color: #666;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+/* line 188, ../scss/_custom.scss */
+.navigation nav ul li a:hover,
+.navigation nav ul li a :active,
+.navigation nav ul li a :focus {
+  border-bottom: 2px solid #666;
+}
+
+/* line 208, ../scss/_custom.scss */
+.projects img {
+  background: #fff;
+  display: block;
+  margin: 2rem auto 2.5rem;
+  padding: 0.4rem;
+}
+
+/* line 218, ../scss/_custom.scss */
+.education {
+  padding: 5px;
+}
+
+/* line 225, ../scss/_custom.scss */
+.skills h2 {
+  margin-bottom: 5.5rem;
+}
+/* line 231, ../scss/_custom.scss */
+.skills rect.background {
+  fill: transparent;
+}
+/* line 234, ../scss/_custom.scss */
+.skills g.component {
+  margin: auto;
+  fill: #e1e1e1;
+}
+/* line 237, ../scss/_custom.scss */
+.skills g.component text.label {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  fill: #555;
+  text-transform: uppercase;
+}
+/* line 246, ../scss/_custom.scss */
+.skills g.labels text.label {
+  fill: #ccc;
+}
+/* line 251, ../scss/_custom.scss */
+.skills g.arcs path.arc {
+  fill: #1EAEDE;
+}
+/* line 254, ../scss/_custom.scss */
+.skills g.arcs path.arc2 {
+  fill: green;
+}
+/* line 258, ../scss/_custom.scss */
+.skills svg.radial-svg {
+  display: block;
+  margin: auto;
+}
+
 /* line 267, ../scss/_custom.scss */
-footer .info {
-  display: none;
+.map {
+  margin-bottom: 10rem;
+}
+/* line 269, ../scss/_custom.scss */
+.map #mapDiv {
+  height: 400px;
+  width: 100%;
+}
+/* line 273, ../scss/_custom.scss */
+.map #map {
+  display: block;
+  height: 100%;
+}
+
+/* line 282, ../scss/_custom.scss */
+footer {
+  background: #444;
+  color: #66757f;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  text-align: center;
 }

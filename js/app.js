@@ -130,29 +130,29 @@ var worldMap = {
 bio.display = function() {
 
 	var formattedBioPic = HTMLbioPic.replace("%data%", bio.bioPic);
-	$("#header").append(formattedBioPic);
+	$("#bio").append(formattedBioPic);
 
 	var formattedName = HTMLheaderName.replace("%data%", bio.name);
-	$("#header").append(formattedName);
+	$("#bio").append(formattedName);
 
 	var formattedRole = HTMLheaderRole.replace("%data%", bio.role);
-	$("#header").append(formattedRole);
+	$("#bio").append(formattedRole);
 
 }();
 
 contacts.display = function() {
 
 	var formattedMobile = HTMLskype.replace("%data%", contacts.skype);
-	$("#footer").append(formattedMobile);
+	$("#contacts").append(formattedMobile);
 
 	var formattedEmail = HTMLemail.replace("%data%", contacts.email);
-	$("#footer").append(formattedEmail);
+	$("#contacts").append(formattedEmail);
 
 	var formattedGithub = HTMLgithub.replace("%data%", contacts.github);
-	$("#footer").append(formattedGithub);
+	$("#contacts").append(formattedGithub);
 
 	var formattedTwitter = HTMLtwitter.replace("%data%", contacts.twitter);
-	$("#footer").append(formattedTwitter);
+	$("#contacts").append(formattedTwitter);
 
 }();
 
