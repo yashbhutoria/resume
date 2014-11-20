@@ -100,7 +100,9 @@ a.link-text {
 
 .main-content {
     border: medium none;
-    padding-left: 20rem;
+    @media #{$medium-up} {
+    	padding-left: 20rem;
+	}
 }
 
 .content {
