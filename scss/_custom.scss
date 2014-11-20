@@ -22,14 +22,14 @@ body {
 }
 
 #{headings(all)} {
-	color: #555;
+	color: #424242;
 	font-family: $font-normal;
 	font-weight: 700;
 	margin: 2.355rem 0;
 }
 
 h2 {
-	text-align: center;
+	text-align: left;
 }
 
 h3 {
@@ -88,12 +88,14 @@ a.link-text {
 
 .left-content {
     border: medium none;
-    height: 100%;
     background: #424242;
-    width: 20rem;
-    position: fixed;
-    top: 0;
-    left: 0;
+    @media #{$medium-up} {
+    	height: 100%;
+	    width: 20rem;
+	    position: fixed;
+	    top: 0;
+	    left: 0;
+    }
 }
 
 .main-content {
@@ -112,6 +114,7 @@ a.link-text {
 	padding: 1.5rem 0 2.5rem;
 	position: relative;
 	h1 {
+		color: #f2f2f2;
 		text-align: center;
 		margin-bottom: 1rem;
 		// @media #{$large-up} {
