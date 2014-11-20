@@ -143,16 +143,16 @@ bio.display = function() {
 contacts.display = function() {
 
 	var formattedMobile = HTMLskype.replace("%data%", contacts.skype);
-	$("#footer").append(formattedMobile);
+	$("#contacts").append(formattedMobile);
 
 	var formattedEmail = HTMLemail.replace("%data%", contacts.email);
-	$("#footer").append(formattedEmail);
+	$("#contacts").append(formattedEmail);
 
 	var formattedGithub = HTMLgithub.replace("%data%", contacts.github);
-	$("#footer").append(formattedGithub);
+	$("#contacts").append(formattedGithub);
 
 	var formattedTwitter = HTMLtwitter.replace("%data%", contacts.twitter);
-	$("#footer").append(formattedTwitter);
+	$("#contacts").append(formattedTwitter);
 
 }();
 
