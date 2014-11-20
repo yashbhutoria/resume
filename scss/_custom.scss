@@ -88,12 +88,14 @@ a.link-text {
 
 .left-content {
     border: medium none;
-    height: 100%;
     background: #424242;
-    width: 20rem;
-    position: fixed;
-    top: 0;
-    left: 0;
+    @media #{$medium-up} {
+    	height: 100%;
+	    width: 20rem;
+	    position: fixed;
+	    top: 0;
+	    left: 0;
+    }
 }
 
 .main-content {
