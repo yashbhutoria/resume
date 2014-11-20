@@ -130,13 +130,13 @@ var worldMap = {
 bio.display = function() {
 
 	var formattedBioPic = HTMLbioPic.replace("%data%", bio.bioPic);
-	$("#header").append(formattedBioPic);
+	$("#bio").append(formattedBioPic);
 
 	var formattedName = HTMLheaderName.replace("%data%", bio.name);
-	$("#header").append(formattedName);
+	$("#bio").append(formattedName);
 
 	var formattedRole = HTMLheaderRole.replace("%data%", bio.role);
-	$("#header").append(formattedRole);
+	$("#bio").append(formattedRole);
 
 }();
 
