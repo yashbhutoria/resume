@@ -105,7 +105,7 @@ a.link-text {
 	padding: 10px;
 }
 
-// Header 
+// Bio
 
 .bio {
 	padding: 1.5rem 0 2.5rem;
@@ -138,11 +138,25 @@ a.link-text {
 	}
 }
 
+// Contacts
+
+.contacts {
+	.fa {
+		color: #999;
+		font-size: 1.28rem;
+		margin: .3rem;
+		@include single-transition(all, .3s, ease-in-out);
+		&:hover {
+			color: #fff;
+		}
+	}
+}
+
 // Navigation
 
 .navigation {
 	background: #fff;
-	margin-bottom: 50px;
+	margiLn-bottom: 50px;
 	z-index: 99999;
 	&.sticky {
 	 	position: fixed;
@@ -270,18 +284,6 @@ footer {
 	position: fixed;
 	width: 100%;
 	text-align: center;
-	.fa {
-		color: #999;
-		font-size: 1.28rem;
-		margin: .3rem;
-		@include single-transition(all, .3s, ease-in-out);
-		&:hover {
-			color: #fff;
-		}
-	}
-	.info {
-		display: none;
-	}
 }
 
 
