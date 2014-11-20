@@ -6165,23 +6165,23 @@ a.link-text:hover {
 }
 
 /* line 110, ../scss/_custom.scss */
-header {
+.bio {
   padding: 1.5rem 0 2.5rem;
   position: relative;
 }
 /* line 113, ../scss/_custom.scss */
-header h1 {
+.bio h1 {
   text-align: center;
   margin-bottom: 1rem;
 }
 /* line 121, ../scss/_custom.scss */
-header .role {
+.bio .role {
   color: #ccc;
   text-transform: uppercase;
   text-align: center;
 }
 /* line 131, ../scss/_custom.scss */
-header img {
+.bio img {
   -moz-border-radius: 150px;
   -webkit-border-radius: 150px;
   border-radius: 150px;
