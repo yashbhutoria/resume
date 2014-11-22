@@ -100,7 +100,10 @@ a.link-text {
 
 .main-content {
     border: medium none;
-    padding-left: 20rem;
+    max-width: 1400px;
+    @media #{$medium-up} {
+    	padding-left: 20rem;
+	}
 }
 
 .content {
