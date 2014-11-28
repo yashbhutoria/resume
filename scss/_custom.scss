@@ -41,7 +41,7 @@ p {
 	color: #555;
 	font-family: $font-condensed;
 	font-weight: 300;
-	font-size: 1.1rem;
+	font-size: 1.3rem;
 }
 
 a {
@@ -53,7 +53,7 @@ a.link-text {
 	color: #1eaede;
 	font-family: $font-normal;
 	font-weight: 500;
-	font-size: 1.1rem;
+	font-size: 1.3rem;
 	&:hover {
 		//color: #3cf;
 		color: #1eaede;
@@ -62,12 +62,14 @@ a.link-text {
 }
 
 .date-text {
-	color: #555;
+	color: #666;
+	font-size: 1.2rem;
 	font-family: $font-normal;
 }
 
 .location-text {
-	color: #555;
+	color: #666;
+	font-size: 1.2rem;
 	font-family: $font-normal;
 }
 
@@ -83,7 +85,7 @@ a.link-text {
 }
 
 .wrapper {
-	 padding: 5px;	
+	 padding: 0;	
 }
 
 .left-content {
