@@ -41,8 +41,8 @@ var HTMLskillsStart = "<h3>Skills at a Glance:</h3><ul id='skills' class='flex-b
 var HTMLskill = "<div id='%id%' class='small-6 medium-3 large-3 columns'></div>";
 
 var HTMLemail = "<div class='email'>%data%</div>";
-var HTMLtwitter = "<div class='small-3 medium-3 large-3 column'><a href='https://github.com/%data%/' target='_blank'><span class='fa fa-github-alt'></span></a></div>";
-var HTMLgithub = "<div class='small-3 medium-3 large-3 column'><a href='https://twitter.com/%data%' target='_blank'><span class='fa fa-twitter'></span></a></div>";
+var HTMLtwitter = "<div class='small-6 medium-6 large-6 text-left column'><a href='https://github.com/%data%/' target='_blank'><span class='fa fa-github-alt'></span></a></div>";
+var HTMLgithub = "<div class='small-6 medium-6 large-6 text-right column'><a href='https://twitter.com/%data%' target='_blank'><span class='fa fa-twitter'></span></a></div>";
 
 var HTMLmapHeader ="<h2>%data%</h2>";
 var googleMap = "<div id='map' class='content'></div>";
