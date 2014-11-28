@@ -6160,7 +6160,7 @@ a.link-text:hover {
 }
 /* line 101, ../scss/_custom.scss */
 .left-content .email {
-  color: #fff;
+  color: #f1f1f1;
   position: absolute;
   bottom: 5rem;
   width: 100%;

@@ -38,7 +38,7 @@ var HTMLonlineDates = "<div class='date-text'>%data%</div>";
 
 var HTMLskillsHeader = "<h2>%data%</h2>";
 var HTMLskillsStart = "<h3>Skills at a Glance:</h3><ul id='skills' class='flex-box'></ul>";
-var HTMLskill = "<div id='%id%' class='small-6 medium-3 large-3 columns'></div>";
+var HTMLskill = "<div id='%id%' class='small-6 medium-6 large-6 columns'></div>";
 
 var HTMLemail = "<div class='email'>%data%</div>";
 var HTMLtwitter = "<div class='small-6 medium-6 large-6 text-left column'><a href='https://github.com/%data%/' target='_blank'><span class='fa fa-github-alt'></span></a></div>";

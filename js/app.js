@@ -81,23 +81,6 @@ var projects = {
 var education =  {
 	"educationHeader": "Education",
 	"onlineHeader": "Online Courses",
-	"schools": [
-		{
-			"name": "Chulalongkorn University",
-			"url": "http://www.arts.chula.ac.th/~asc/",
-			"location": "Bangkok, Thailand",
-			"qualification": "Thai Language Certificate",
-			"dates": "2009 - 2010"
-		},
-		{
-			"name": "Nelson College for Boys",
-			"url": "http://www.nelsoncollege.school.nz/",
-			"location": "Nelson, New Zealand",
-			"qualification": "High School Certificate",
-			"dates": "1999 - 2002"
-		}
-	],
-
 	"onlineCourses": [
 		{
 			"school": "Udacity",
@@ -232,22 +215,6 @@ education.display = function() {
 
 	var formattedEducationHeader = HTMLeducationHeader.replace("%data%", education.educationHeader);
 	$("#education").append(formattedEducationHeader);
-
-	for(school in education.schools) {
-		$("#education").append(HTMLschoolStart);
-
-		var formattedName = HTMLschoolName.replace("%data%", education.schools[school].name).replace("%url%", education.schools[school].url);
-		$(".education-entry:last").append(formattedName);
-		var formattedQualification = HTMLschoolQualification.replace("%data%", education.schools[school].qualification);
-		$(".education-entry:last").append(formattedQualification);
-
-		var formattedDates = HTMLschoolDates.replace("%data%", education.schools[school].dates);
-		$(".education-entry:last").append(formattedDates);
-
-		var formattedLocation = HTMLschoolLocation.replace("%data%", education.schools[school].location);
-		$(".education-entry:last").append(formattedLocation);
-
-	}
 
 	var formattedOnlineClasses = HTMLonlineClasses.replace("%data%", education.onlineHeader);
 	$("#education").append(formattedOnlineClasses);
