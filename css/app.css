@@ -6148,7 +6148,7 @@ a.link-text:hover {
   border: medium none;
   background: #424242;
 }
-@media only screen and (min-width: 40.063em) {
+@media only screen and (min-width: 64.063em) {
   /* line 91, ../scss/_custom.scss */
   .left-content {
     height: 100%;

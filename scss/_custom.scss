@@ -91,7 +91,7 @@ a.link-text {
 .left-content {
     border: medium none;
     background: #424242;
-    @media #{$medium-up} {
+    @media #{$large-up} {
     	height: 100%;
 	    width: 20rem;
 	    position: fixed;
