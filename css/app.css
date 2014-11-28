@@ -6173,7 +6173,7 @@ a.link-text:hover {
   border: medium none;
   max-width: 1200px;
 }
-@media only screen and (min-width: 40.063em) {
+@media only screen and (min-width: 64.063em) {
   /* line 111, ../scss/_custom.scss */
   .main-content {
     padding-left: 20rem;

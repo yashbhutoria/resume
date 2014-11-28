@@ -111,7 +111,7 @@ a.link-text {
 .main-content {
     border: medium none;
     max-width: 1200px;
-    @media #{$medium-up} {
+    @media #{$large-up} {
     	padding-left: 20rem;
 	}
 }
