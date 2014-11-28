@@ -142,7 +142,7 @@ bio.display = function() {
 contacts.display = function() {
 
 	var formattedEmail = HTMLemail.replace("%data%", contacts.email);
-	$("#contacts").append(formattedEmail);
+	$("#leftContent").append(formattedEmail);
 
 	var formattedGithub = HTMLgithub.replace("%data%", contacts.github);
 	$("#contacts").append(formattedGithub);
