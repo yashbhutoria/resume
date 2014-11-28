@@ -173,15 +173,6 @@ a.link-text {
 // Navigation
 
 .navigation {
-	background: #fff;
-	margiLn-bottom: 50px;
-	z-index: 99999;
-	&.sticky {
-	 	position: fixed;
-	 	top: 0;
-	 	left: 0;
-	 	width: 100%;
-	}
 	nav {
     text-align: center;
     position: fixed;
@@ -192,10 +183,6 @@ a.link-text {
 	    padding: 1rem 0;
 	    text-align: right;
 			li {
-				font-size: 0.75rem;
-				@media #{$medium-up} {
-					font-size: 0.8rem;
-				}
 				@media #{$large-up} {
 					font-size: 1.5rem;
 				}
