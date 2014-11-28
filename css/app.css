@@ -6113,41 +6113,43 @@ a.link-text:hover {
 
 /* line 64, ../scss/_custom.scss */
 .date-text {
-  color: #555;
+  color: #666;
+  font-size: 1.2rem;
   font-family: "Roboto", sans-serif;
 }
 
-/* line 69, ../scss/_custom.scss */
+/* line 70, ../scss/_custom.scss */
 .location-text {
-  color: #555;
+  color: #666;
+  font-size: 1.2rem;
   font-family: "Roboto", sans-serif;
 }
 
-/* line 74, ../scss/_custom.scss */
+/* line 76, ../scss/_custom.scss */
 .light-text {
   color: #ccc;
   font-family: "Roboto", sans-serif;
 }
 
-/* line 79, ../scss/_custom.scss */
+/* line 81, ../scss/_custom.scss */
 .screen-reader {
   position: absolute;
   top: -9999px;
   left: -9999px;
 }
 
-/* line 85, ../scss/_custom.scss */
+/* line 87, ../scss/_custom.scss */
 .wrapper {
   padding: 5px;
 }
 
-/* line 89, ../scss/_custom.scss */
+/* line 91, ../scss/_custom.scss */
 .left-content {
   border: medium none;
   background: #424242;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 89, ../scss/_custom.scss */
+  /* line 91, ../scss/_custom.scss */
   .left-content {
     height: 100%;
     width: 20rem;
@@ -6156,7 +6158,7 @@ a.link-text:hover {
     left: 0;
   }
 }
-/* line 99, ../scss/_custom.scss */
+/* line 101, ../scss/_custom.scss */
 .left-content .email {
   color: #fff;
   position: absolute;
@@ -6166,42 +6168,42 @@ a.link-text:hover {
   text-align: center;
 }
 
-/* line 109, ../scss/_custom.scss */
+/* line 111, ../scss/_custom.scss */
 .main-content {
   border: medium none;
   max-width: 1200px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 109, ../scss/_custom.scss */
+  /* line 111, ../scss/_custom.scss */
   .main-content {
     padding-left: 20rem;
   }
 }
 
-/* line 117, ../scss/_custom.scss */
+/* line 119, ../scss/_custom.scss */
 .content {
   margin: 10px;
   padding: 10px;
 }
 
-/* line 124, ../scss/_custom.scss */
+/* line 126, ../scss/_custom.scss */
 .bio {
   padding: 1.5rem 0 2.5rem;
   position: relative;
 }
-/* line 127, ../scss/_custom.scss */
+/* line 129, ../scss/_custom.scss */
 .bio h1 {
   color: #f2f2f2;
   text-align: center;
   margin-bottom: 1rem;
 }
-/* line 136, ../scss/_custom.scss */
+/* line 138, ../scss/_custom.scss */
 .bio .role {
   color: #ccc;
   text-transform: uppercase;
   text-align: center;
 }
-/* line 146, ../scss/_custom.scss */
+/* line 148, ../scss/_custom.scss */
 .bio img {
   -moz-border-radius: 150px;
   -webkit-border-radius: 150px;
@@ -6210,11 +6212,11 @@ a.link-text:hover {
   margin: auto;
 }
 
-/* line 158, ../scss/_custom.scss */
+/* line 160, ../scss/_custom.scss */
 .contacts {
   text-align: center;
 }
-/* line 160, ../scss/_custom.scss */
+/* line 162, ../scss/_custom.scss */
 .contacts .fa {
   color: #999;
   font-size: 1.48rem;
@@ -6224,70 +6226,70 @@ a.link-text:hover {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-/* line 165, ../scss/_custom.scss */
+/* line 167, ../scss/_custom.scss */
 .contacts .fa:hover {
   color: #fff;
 }
 
-/* line 173, ../scss/_custom.scss */
+/* line 175, ../scss/_custom.scss */
 .navigation {
   background: #fff;
   margiLn-bottom: 50px;
   z-index: 99999;
 }
-/* line 177, ../scss/_custom.scss */
+/* line 179, ../scss/_custom.scss */
 .navigation.sticky {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
 }
-/* line 183, ../scss/_custom.scss */
+/* line 185, ../scss/_custom.scss */
 .navigation nav {
   text-align: center;
   position: fixed;
   right: 5rem;
   top: 1.5rem;
 }
-/* line 188, ../scss/_custom.scss */
+/* line 190, ../scss/_custom.scss */
 .navigation nav ul {
   list-style: none;
   padding: 1rem 0;
   text-align: right;
 }
-/* line 192, ../scss/_custom.scss */
+/* line 194, ../scss/_custom.scss */
 .navigation nav ul li {
   font-size: 0.75rem;
   margin: 0;
   padding: 0;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 192, ../scss/_custom.scss */
+  /* line 194, ../scss/_custom.scss */
   .navigation nav ul li {
     font-size: 0.8rem;
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 192, ../scss/_custom.scss */
+  /* line 194, ../scss/_custom.scss */
   .navigation nav ul li {
     font-size: 1.5rem;
   }
 }
-/* line 202, ../scss/_custom.scss */
+/* line 204, ../scss/_custom.scss */
 .navigation nav ul li a {
   color: #666;
   text-transform: uppercase;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
 }
-/* line 207, ../scss/_custom.scss */
+/* line 209, ../scss/_custom.scss */
 .navigation nav ul li a:hover,
 .navigation nav ul li a :active,
 .navigation nav ul li a :focus {
   border-bottom: 2px solid #666;
 }
 
-/* line 227, ../scss/_custom.scss */
+/* line 229, ../scss/_custom.scss */
 .projects img {
   background: #fff;
   display: block;
@@ -6295,65 +6297,65 @@ a.link-text:hover {
   padding: 0.4rem;
 }
 
-/* line 237, ../scss/_custom.scss */
+/* line 239, ../scss/_custom.scss */
 .education {
   padding: 5px;
 }
 
-/* line 244, ../scss/_custom.scss */
+/* line 246, ../scss/_custom.scss */
 .skills h2 {
   margin-bottom: 5.5rem;
 }
-/* line 250, ../scss/_custom.scss */
+/* line 252, ../scss/_custom.scss */
 .skills rect.background {
   fill: transparent;
 }
-/* line 253, ../scss/_custom.scss */
+/* line 255, ../scss/_custom.scss */
 .skills g.component {
   margin: auto;
   fill: #e1e1e1;
 }
-/* line 256, ../scss/_custom.scss */
+/* line 258, ../scss/_custom.scss */
 .skills g.component text.label {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   fill: #555;
   text-transform: uppercase;
 }
-/* line 265, ../scss/_custom.scss */
+/* line 267, ../scss/_custom.scss */
 .skills g.labels text.label {
   fill: #ccc;
 }
-/* line 270, ../scss/_custom.scss */
+/* line 272, ../scss/_custom.scss */
 .skills g.arcs path.arc {
   fill: #1EAEDE;
 }
-/* line 273, ../scss/_custom.scss */
+/* line 275, ../scss/_custom.scss */
 .skills g.arcs path.arc2 {
   fill: green;
 }
-/* line 277, ../scss/_custom.scss */
+/* line 279, ../scss/_custom.scss */
 .skills svg.radial-svg {
   display: block;
   margin: auto;
 }
 
-/* line 286, ../scss/_custom.scss */
+/* line 288, ../scss/_custom.scss */
 .map {
   margin-bottom: 10rem;
 }
-/* line 288, ../scss/_custom.scss */
+/* line 290, ../scss/_custom.scss */
 .map #mapDiv {
   height: 400px;
   width: 100%;
 }
-/* line 292, ../scss/_custom.scss */
+/* line 294, ../scss/_custom.scss */
 .map #map {
   display: block;
   height: 100%;
 }
 
-/* line 301, ../scss/_custom.scss */
+/* line 303, ../scss/_custom.scss */
 footer {
   background: #444;
   color: #66757f;
