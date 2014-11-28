@@ -35,7 +35,6 @@ var navigation = {
 }
 
 var contacts = {
-	"skype" : "michael.james.joyce",
 	"email" : "contact@mikejoyce.me",
 	"github" : "mikejoycegit",
 	"twitter" : "@iammikejoyce"
@@ -142,11 +141,8 @@ bio.display = function() {
 
 contacts.display = function() {
 
-	var formattedMobile = HTMLskype.replace("%data%", contacts.skype);
-	$("#contacts").append(formattedMobile);
-
 	var formattedEmail = HTMLemail.replace("%data%", contacts.email);
-	$("#contacts").append(formattedEmail);
+	$("#leftContent").append(formattedEmail);
 
 	var formattedGithub = HTMLgithub.replace("%data%", contacts.github);
 	$("#contacts").append(formattedGithub);
