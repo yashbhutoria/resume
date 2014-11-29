@@ -89,6 +89,18 @@ var education =  {
 			"dates": "2014 - Present"
 		},
 		{
+			"school": "Udacity",
+			"course": "JavaScript Basics",
+			"url": "https://www.udacity.com/course/ud804",
+			"dates": "2014"
+		},
+		{
+			"school": "Udacity",
+			"course": "Intro to HTML & CSS",
+			"url": "https://www.udacity.com/course/ud304",
+			"dates": "2014"
+		},
+		{
 			"school": "Treehouse",
 			"course": "Front-End Development Track",
 			"url": "http://teamtreehouse.com/mikejoyce",
