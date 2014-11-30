@@ -6108,7 +6108,7 @@ a.link-text {
 /* line 57, ../scss/_custom.scss */
 a.link-text:hover {
   color: #1eaede;
-  background: #eee;
+  background: #f9f9f9;
 }
 
 /* line 64, ../scss/_custom.scss */
