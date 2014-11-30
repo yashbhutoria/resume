@@ -5,7 +5,7 @@ var bio = {
 	"name": "Mike Joyce",
 	"role": "Front-End Developer",
 	"location": "Nelson, New Zealand",
-	"bioPic": "img/profile.jpg"
+	"bioPic": "http://placehold.it/200x200"
 }
 
 var skills = {
@@ -160,7 +160,7 @@ navigation.display = function() {
 		$("#link"+target).on("mouseover", function() {	
 	    	$('html,body').animate({
 	        	scrollTop: $("#"+target).offset().top
-	    	}, 2000);
+	    	}, 500);
 	    });
 	}
 

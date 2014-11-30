@@ -6268,7 +6268,7 @@ a.link-text:hover {
 .navigation nav ul li a:hover,
 .navigation nav ul li a :active,
 .navigation nav ul li a :focus {
-  border-bottom: 2px solid #666;
+  padding-right: 0.33rem;
 }
 
 /* line 218, ../scss/_custom.scss */
