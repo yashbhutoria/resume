@@ -157,7 +157,7 @@ navigation.display = function() {
 	}
 
 	function anchorScroll(target) {
-		$(document).on("click", "#link"+target, function() {	
+		$("#link"+target).on("mouseover", function() {	
 	    	$('html,body').animate({
 	        	scrollTop: $("#"+target).offset().top
 	    	}, 2000);
