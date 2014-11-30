@@ -12,7 +12,7 @@ var skills = {
 	"header": "Skills",
 	"skills" : [
 		{
-			"skill": "html",
+			"skill": "html5",
 			"percent": "80"
 		},
 		{
