@@ -91,6 +91,7 @@ a.link-text {
 .left-content {
     border: medium none;
     background: #424242;
+    padding-bottom: 2rem;
     @media #{$large-up} {
     	height: 100%;
 	    width: 20rem;
@@ -100,6 +101,7 @@ a.link-text {
     }
     .email {
     	color: #f1f1f1;
+    	display: none;
     	position: absolute;
     	bottom: 5rem;
     	width: 100%;
