@@ -22,7 +22,7 @@ body {
 }
 
 #{headings(all)} {
-	color: #666;
+	color: #657380;
 	font-family: $font-normal;
 	font-weight: 700;
 	margin: 2.355rem 0;
@@ -38,7 +38,7 @@ h3 {
 }
 
 p {
-	color: #555;
+	color: #8d9aa5;
 	font-family: $font-condensed;
 	font-weight: 300;
 	font-size: 1.3rem;
@@ -57,25 +57,26 @@ a.link-text {
 	&:hover {
 		//color: #3cf;
 		color: #1eaede;
-		background: #eee;
+		background: #f9f9f9;
 	}
 }
 
 .date-text {
-	color: #666;
+	color: #657380;
 	font-size: 1.2rem;
 	font-family: $font-normal;
 }
 
 .location-text {
-	color: #666;
+	color: #657380;
 	font-size: 1.2rem;
 	font-family: $font-normal;
 }
 
 .light-text {
-	color: #ccc;
+	color: #657380;
 	font-family: $font-normal;
+	opacity: 0.5;
 }
 
 .screen-reader {
@@ -191,7 +192,7 @@ a.link-text {
 				margin: 0;
 				padding: 0;
 				a {
-					color: #666;
+					color: #657380;
 					text-transform: uppercase;
 					font-family: $font-normal;
 					font-weight: 700; 
@@ -247,7 +248,7 @@ a.link-text {
 		text.label {
 			font-family: $font-normal;
 			font-weight: 700;
-			fill: #555;
+			fill: #657380;
 			text-transform: uppercase;
 		}
 	}

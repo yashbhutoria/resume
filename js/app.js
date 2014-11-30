@@ -12,11 +12,11 @@ var skills = {
 	"header": "Skills",
 	"skills" : [
 		{
-			"skill": "html",
+			"skill": "html5",
 			"percent": "80"
 		},
 		{
-			"skill": "css",
+			"skill": "css3",
 			"percent": "80"
 		},	
 		{
@@ -26,7 +26,15 @@ var skills = {
 		{
 			"skill": "js",
 			"percent": "50"
-		}	
+		},
+		{
+			"skill": "jquery",
+			"percent": "70"
+		},
+		{
+			"skill": "mysql",
+			"percent": "40"
+		}			
 	]
 }
 
