@@ -6264,6 +6264,12 @@ a.link-text:hover {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
 }
+/* line 198, ../scss/_custom.scss */
+.navigation nav ul li a:hover,
+.navigation nav ul li a :active,
+.navigation nav ul li a :focus {
+  padding-right: 0.33rem;
+}
 
 /* line 218, ../scss/_custom.scss */
 .projects img {
