@@ -16,7 +16,7 @@ var skills = {
 			"percent": "80"
 		},
 		{
-			"skill": "css",
+			"skill": "css3",
 			"percent": "80"
 		},	
 		{
