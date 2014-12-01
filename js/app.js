@@ -165,10 +165,10 @@ navigation.display = function() {
 	}
 
 	function anchorScroll(target) {
-		$("#link"+target).on("mouseover", function() {	
+		$("#link"+target).on("click", function() {
 	    	$('html,body').animate({
 	        	scrollTop: $("#"+target).offset().top
-	    	}, 500);
+	    	}, 1000);
 	    });
 	}
 
