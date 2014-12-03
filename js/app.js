@@ -166,10 +166,11 @@ navigation.display = function() {
 
 	function anchorScroll(target) {
 		$("#link"+target).on("click", function() {
+				$("#"+target).children("h2").removeClass("pop");
 	    	$('html,body').animate({
 	        	scrollTop: $("#"+target).offset().top
 	    	}, 1000, function() {
-	    		alert('ok');
+	    		$("#"+target).children("h2").addClass("pop");
 	    	});
 	    });
 	}
