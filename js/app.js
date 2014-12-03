@@ -284,9 +284,9 @@ skills.display = function() {
 worldMap.display = function() {
 
 	var formattedMapHeader = HTMLmapHeader.replace("%data%", worldMap.header);
-	$("#mapDiv").append(formattedMapHeader);
+	$("#map").append(formattedMapHeader);
 
-	$("#mapDiv").append(googleMap);
+	$("#map").append(googleMap);
 
 }();
 
