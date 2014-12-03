@@ -6073,17 +6073,18 @@ h1, h2, h3, h4, h5, h6 {
 
 /* line 31, ../scss/_custom.scss */
 h2 {
+  display: inline-block;
   margin-bottom: 2rem;
   text-align: left;
 }
 
-/* line 36, ../scss/_custom.scss */
+/* line 37, ../scss/_custom.scss */
 h3 {
   margin-left: 1rem;
   font-size: 1.2rem;
 }
 
-/* line 41, ../scss/_custom.scss */
+/* line 42, ../scss/_custom.scss */
 p {
   color: #657380;
   font-family: "Roboto Condensed", sans-serif;
@@ -6091,7 +6092,7 @@ p {
   font-size: 1.3rem;
 }
 
-/* line 48, ../scss/_custom.scss */
+/* line 49, ../scss/_custom.scss */
 a {
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
@@ -6099,60 +6100,60 @@ a {
   transition: all 0.3s ease-in-out;
 }
 
-/* line 52, ../scss/_custom.scss */
+/* line 53, ../scss/_custom.scss */
 a.link-text {
   color: #1eaede;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 1.3rem;
 }
-/* line 58, ../scss/_custom.scss */
+/* line 59, ../scss/_custom.scss */
 a.link-text:hover {
   color: #1eaede;
   background: #f9f9f9;
 }
 
-/* line 65, ../scss/_custom.scss */
+/* line 66, ../scss/_custom.scss */
 .date-text {
   color: #657380;
   font-size: 1.2rem;
   font-family: "Roboto", sans-serif;
 }
 
-/* line 71, ../scss/_custom.scss */
+/* line 72, ../scss/_custom.scss */
 .location-text {
   color: #657380;
   font-size: 1.2rem;
   font-family: "Roboto", sans-serif;
 }
 
-/* line 77, ../scss/_custom.scss */
+/* line 78, ../scss/_custom.scss */
 .light-text {
   color: #657380;
   font-family: "Roboto", sans-serif;
   opacity: 0.5;
 }
 
-/* line 83, ../scss/_custom.scss */
+/* line 84, ../scss/_custom.scss */
 .screen-reader {
   position: absolute;
   top: -9999px;
   left: -9999px;
 }
 
-/* line 89, ../scss/_custom.scss */
+/* line 90, ../scss/_custom.scss */
 .wrapper {
   padding: 0;
 }
 
-/* line 93, ../scss/_custom.scss */
+/* line 94, ../scss/_custom.scss */
 .left-content {
   border: medium none;
   background: #424242;
   padding-bottom: 2rem;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 93, ../scss/_custom.scss */
+  /* line 94, ../scss/_custom.scss */
   .left-content {
     height: 100%;
     width: 20rem;
@@ -6161,7 +6162,7 @@ a.link-text:hover {
     left: 0;
   }
 }
-/* line 104, ../scss/_custom.scss */
+/* line 105, ../scss/_custom.scss */
 .left-content .email {
   color: #f1f1f1;
   display: none;
@@ -6172,42 +6173,42 @@ a.link-text:hover {
   text-align: center;
 }
 
-/* line 115, ../scss/_custom.scss */
+/* line 116, ../scss/_custom.scss */
 .main-content {
   border: medium none;
   max-width: 1200px;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 115, ../scss/_custom.scss */
+  /* line 116, ../scss/_custom.scss */
   .main-content {
     padding-left: 20rem;
   }
 }
 
-/* line 123, ../scss/_custom.scss */
+/* line 124, ../scss/_custom.scss */
 .content {
   margin: 0.65rem;
   padding: 0.65rem;
 }
 
-/* line 130, ../scss/_custom.scss */
+/* line 131, ../scss/_custom.scss */
 .bio {
   padding: 1.5rem 0 2.5rem;
   position: relative;
 }
-/* line 133, ../scss/_custom.scss */
+/* line 134, ../scss/_custom.scss */
 .bio h1 {
   color: #f2f2f2;
   text-align: center;
   margin-bottom: 1rem;
 }
-/* line 142, ../scss/_custom.scss */
+/* line 143, ../scss/_custom.scss */
 .bio .role {
   color: #ccc;
   text-transform: uppercase;
   text-align: center;
 }
-/* line 152, ../scss/_custom.scss */
+/* line 153, ../scss/_custom.scss */
 .bio img {
   -moz-border-radius: 150px;
   -webkit-border-radius: 150px;
@@ -6216,11 +6217,11 @@ a.link-text:hover {
   margin: auto;
 }
 
-/* line 164, ../scss/_custom.scss */
+/* line 165, ../scss/_custom.scss */
 .contacts {
   text-align: center;
 }
-/* line 166, ../scss/_custom.scss */
+/* line 167, ../scss/_custom.scss */
 .contacts .fa {
   color: #999;
   font-size: 1.48rem;
@@ -6230,50 +6231,50 @@ a.link-text:hover {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-/* line 171, ../scss/_custom.scss */
+/* line 172, ../scss/_custom.scss */
 .contacts .fa:hover {
   color: #fff;
 }
 
-/* line 180, ../scss/_custom.scss */
+/* line 181, ../scss/_custom.scss */
 .navigation nav {
   text-align: center;
   position: fixed;
   right: 5rem;
   top: 1.5rem;
 }
-/* line 185, ../scss/_custom.scss */
+/* line 186, ../scss/_custom.scss */
 .navigation nav ul {
   list-style: none;
   padding: 1rem 0;
   text-align: right;
 }
-/* line 189, ../scss/_custom.scss */
+/* line 190, ../scss/_custom.scss */
 .navigation nav ul li {
   margin: 0;
   padding: 0;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 189, ../scss/_custom.scss */
+  /* line 190, ../scss/_custom.scss */
   .navigation nav ul li {
     font-size: 1.5rem;
   }
 }
-/* line 195, ../scss/_custom.scss */
+/* line 196, ../scss/_custom.scss */
 .navigation nav ul li a {
   color: #657380;
   text-transform: uppercase;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
 }
-/* line 200, ../scss/_custom.scss */
+/* line 201, ../scss/_custom.scss */
 .navigation nav ul li a:hover,
 .navigation nav ul li a :active,
 .navigation nav ul li a :focus {
   padding-right: 0.33rem;
 }
 
-/* line 220, ../scss/_custom.scss */
+/* line 221, ../scss/_custom.scss */
 .projects img {
   background: #fff;
   display: block;
@@ -6281,65 +6282,65 @@ a.link-text:hover {
   padding: 0.4rem;
 }
 
-/* line 230, ../scss/_custom.scss */
+/* line 231, ../scss/_custom.scss */
 .education {
   padding: 5px;
 }
 
-/* line 237, ../scss/_custom.scss */
+/* line 238, ../scss/_custom.scss */
 .skills h2 {
   margin-bottom: 5.5rem;
 }
-/* line 243, ../scss/_custom.scss */
+/* line 244, ../scss/_custom.scss */
 .skills rect.background {
   fill: transparent;
 }
-/* line 246, ../scss/_custom.scss */
+/* line 247, ../scss/_custom.scss */
 .skills g.component {
   margin: auto;
   fill: #e1e1e1;
 }
-/* line 249, ../scss/_custom.scss */
+/* line 250, ../scss/_custom.scss */
 .skills g.component text.label {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   fill: #657380;
   text-transform: uppercase;
 }
-/* line 258, ../scss/_custom.scss */
+/* line 259, ../scss/_custom.scss */
 .skills g.labels text.label {
   fill: #ccc;
 }
-/* line 263, ../scss/_custom.scss */
+/* line 264, ../scss/_custom.scss */
 .skills g.arcs path.arc {
   fill: #1EAEDE;
 }
-/* line 266, ../scss/_custom.scss */
+/* line 267, ../scss/_custom.scss */
 .skills g.arcs path.arc2 {
   fill: green;
 }
-/* line 270, ../scss/_custom.scss */
+/* line 271, ../scss/_custom.scss */
 .skills svg.radial-svg {
   display: block;
   margin: auto;
 }
 
-/* line 279, ../scss/_custom.scss */
+/* line 280, ../scss/_custom.scss */
 .map {
   margin-bottom: 10rem;
 }
-/* line 281, ../scss/_custom.scss */
+/* line 282, ../scss/_custom.scss */
 .map #mapDiv {
   height: 400px;
   width: 100%;
 }
-/* line 285, ../scss/_custom.scss */
+/* line 286, ../scss/_custom.scss */
 .map #map {
   display: block;
   height: 100%;
 }
 
-/* line 294, ../scss/_custom.scss */
+/* line 295, ../scss/_custom.scss */
 footer {
   background: #444;
   color: #66757f;
@@ -6349,7 +6350,7 @@ footer {
   text-align: center;
 }
 
-/* line 305, ../scss/_custom.scss */
+/* line 306, ../scss/_custom.scss */
 .pop {
   -moz-animation: pop 0.5s linear 1;
   -webkit-animation: pop 0.5s linear 1;
@@ -6357,33 +6358,33 @@ footer {
 }
 
 @-moz-keyframes pop {
-  /* line 310, ../scss/_custom.scss */
+  /* line 311, ../scss/_custom.scss */
   50% {
     -moz-transform: scale(1.2);
     transform: scale(1.2);
   }
 
-  /* line 313, ../scss/_custom.scss */
+  /* line 314, ../scss/_custom.scss */
   100% {
     -moz-transform: scale(1);
     transform: scale(1);
   }
 }
 @-webkit-keyframes pop {
-  /* line 310, ../scss/_custom.scss */
+  /* line 311, ../scss/_custom.scss */
   50% {
     -webkit-transform: scale(1.2);
     transform: scale(1.2);
   }
 
-  /* line 313, ../scss/_custom.scss */
+  /* line 314, ../scss/_custom.scss */
   100% {
     -webkit-transform: scale(1);
     transform: scale(1);
   }
 }
 @keyframes pop {
-  /* line 310, ../scss/_custom.scss */
+  /* line 311, ../scss/_custom.scss */
   50% {
     -moz-transform: scale(1.2);
     -ms-transform: scale(1.2);
@@ -6391,7 +6392,7 @@ footer {
     transform: scale(1.2);
   }
 
-  /* line 313, ../scss/_custom.scss */
+  /* line 314, ../scss/_custom.scss */
   100% {
     -moz-transform: scale(1);
     -ms-transform: scale(1);
