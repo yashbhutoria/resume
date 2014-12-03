@@ -6330,7 +6330,7 @@ a.link-text:hover {
   margin-bottom: 10rem;
 }
 /* line 282, ../scss/_custom.scss */
-.map #mapDiv {
+.map #googleMap {
   height: 400px;
   width: 100%;
 }
