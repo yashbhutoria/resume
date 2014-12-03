@@ -36,7 +36,7 @@ var HTMLonlineCourse = "<a class='link-text' href='%url%' target='_blank'>%data%
 var HTMLonlineSchool = "<div class='light-text'>%data%</div>";
 var HTMLonlineDates = "<div class='date-text'>%data%</div>";
 
-var HTMLskillsHeader = "<h2>%data%</h2>";
+var HTMLskillsHeader = "<h2>%data%</h2><div style='width:100%'></div>";
 var HTMLskillsStart = "<h3>Skills at a Glance:</h3><ul id='skills' class='flex-box'></ul>";
 var HTMLskill = "<div id='%id%' class='small-6 medium-6 large-6 columns'></div>";
 
@@ -45,7 +45,7 @@ var HTMLtwitter = "<div class='small-6 medium-6 large-6 text-left column'><a hre
 var HTMLgithub = "<div class='small-6 medium-6 large-6 text-right column'><a href='https://twitter.com/%data%' target='_blank'><span class='fa fa-twitter'></span></a></div>";
 
 var HTMLmapHeader ="<h2>%data%</h2>";
-var googleMap = "<div id='map' class='content'></div>";
+var googleMap = "<div id='googleMap' class='content'></div>";
 
 // Internationalize Name
 
@@ -90,7 +90,7 @@ function initializeMap() {
     styles:[{"featureType":"water","stylers":[{"visibility":"on"},{"color":"#acbcc9"}]},{"featureType":"landscape","stylers":[{"color":"#f2e5d4"}]},{"featureType":"road.highway","elementType":"geometry","stylers":[{"color":"#c5c6c6"}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#e4d7c6"}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#fbfaf7"}]},{"featureType":"poi.park","elementType":"geometry","stylers":[{"color":"#c5dac6"}]},{"featureType":"administrative","stylers":[{"visibility":"on"},{"lightness":33}]},{"featureType":"road"},{"featureType":"poi.park","elementType":"labels","stylers":[{"visibility":"on"},{"lightness":20}]},{},{"featureType":"road","stylers":[{"lightness":20}]}]
   };
 
-  map = new google.maps.Map(document.querySelector('#map'), mapOptions);
+  map = new google.maps.Map(document.querySelector('#googleMap'), mapOptions);
 
 
   function locationFinder() {

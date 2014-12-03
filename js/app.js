@@ -166,9 +166,12 @@ navigation.display = function() {
 
 	function anchorScroll(target) {
 		$("#link"+target).on("click", function() {
+				$("#"+target).children("h2").removeClass("pop");
 	    	$('html,body').animate({
 	        	scrollTop: $("#"+target).offset().top
-	    	}, 1000);
+	    	}, 1000, function() {
+	    		$("#"+target).children("h2").addClass("pop");
+	    	});
 	    });
 	}
 
@@ -281,9 +284,9 @@ skills.display = function() {
 worldMap.display = function() {
 
 	var formattedMapHeader = HTMLmapHeader.replace("%data%", worldMap.header);
-	$("#mapDiv").append(formattedMapHeader);
+	$("#map").append(formattedMapHeader);
 
-	$("#mapDiv").append(googleMap);
+	$("#map").append(googleMap);
 
 }();
 

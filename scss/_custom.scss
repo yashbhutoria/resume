@@ -29,6 +29,8 @@ body {
 }
 
 h2 {
+	display: inline-block;
+	margin-bottom: 2rem;
 	text-align: left;
 }
 
@@ -277,7 +279,7 @@ a.link-text {
 
 .map {
 	margin-bottom: 10rem;
-	#mapDiv {
+	#googleMap {
 		height: 400px;
 		width: 100%;
 	}
@@ -297,4 +299,19 @@ footer {
 	position: fixed;
 	width: 100%;
 	text-align: center;
+}
+
+// Keyframes 
+
+.pop {
+	@include animation(pop .5s linear 1);
+}
+
+@include keyframes(pop) {
+	50% {
+		@include transform(scale(1.2));
+	}
+	100% {
+		@include transform(scale(1));
+	}
 }
