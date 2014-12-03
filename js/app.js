@@ -168,7 +168,9 @@ navigation.display = function() {
 		$("#link"+target).on("click", function() {
 	    	$('html,body').animate({
 	        	scrollTop: $("#"+target).offset().top
-	    	}, 1000);
+	    	}, 1000, function() {
+	    		alert('ok');
+	    	});
 	    });
 	}
 

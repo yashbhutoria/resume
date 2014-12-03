@@ -298,3 +298,14 @@ footer {
 	width: 100%;
 	text-align: center;
 }
+
+// Keyframes 
+
+@include keyframes(pop) {
+	50% {
+		@include transform(scale(1.2));
+	}
+	100% {
+		@include transform(scale(1));
+	}
+}
