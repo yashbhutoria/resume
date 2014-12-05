@@ -47,15 +47,6 @@ var HTMLgithub = "<div class='small-6 medium-6 large-6 text-right column'><a hre
 var HTMLmapHeader ="<h2>%data%</h2>";
 var googleMap = "<div id='googleMap' class='content'></div>";
 
-// Internationalize Name
-
-$(document).ready(function() {
-  $('button').click(function() {
-    var iName = inName(bio.name) || function(){};
-    $('#name').html(iName);  
-  });
-});
-
 // Log Click Location
 
 clickLocations = [];
