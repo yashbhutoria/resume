@@ -6360,8 +6360,8 @@ footer {
 @-moz-keyframes pop {
   /* line 311, ../scss/_custom.scss */
   50% {
-    -moz-transform: scale(1.2);
-    transform: scale(1.2);
+    -moz-transform: scale(1.1);
+    transform: scale(1.1);
   }
 
   /* line 314, ../scss/_custom.scss */
@@ -6373,8 +6373,8 @@ footer {
 @-webkit-keyframes pop {
   /* line 311, ../scss/_custom.scss */
   50% {
-    -webkit-transform: scale(1.2);
-    transform: scale(1.2);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
   }
 
   /* line 314, ../scss/_custom.scss */
@@ -6386,10 +6386,10 @@ footer {
 @keyframes pop {
   /* line 311, ../scss/_custom.scss */
   50% {
-    -moz-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    -webkit-transform: scale(1.2);
-    transform: scale(1.2);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
   }
 
   /* line 314, ../scss/_custom.scss */
