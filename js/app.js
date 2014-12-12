@@ -172,7 +172,7 @@ navigation.display = function() {
 	    	$('html,body').animate({
 	        	scrollTop: $("#"+target).offset().top
 	    	}, 1000, function() {
-	    		$("#"+target).children("h2").addClass("pop");
+	    		//$("#"+target).children("h2").addClass("pop");
 	    	});
 	    });
 	}
