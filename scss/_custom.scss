@@ -199,9 +199,10 @@ a.link-text {
 					text-transform: uppercase;
 					font-family: $font-normal;
 					font-weight: 700; 
-					&:hover,
-					:active,
-					:focus {
+					&.active {
+						color: #1eaede;
+					}
+					&:hover {
 						padding-right: 0.33rem;	
 					}
 				}
