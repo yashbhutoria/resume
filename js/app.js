@@ -166,8 +166,8 @@ navigation.display = function() {
 
 	function anchorScroll(target) {
 		$("#link"+target).on("click", function() {
-				$(".navigation a").removeClass("active");
-				$("#link"+target).addClass("active");
+				//$(".navigation a").removeClass("active");
+				//$("#link"+target).addClass("active");
 				$("#"+target).children("h2").removeClass("pop");
 	    	$('html,body').animate({
 	        	scrollTop: $("#"+target).offset().top
