@@ -34,7 +34,15 @@ var skills = {
 		{
 			"skill": "mysql",
 			"percent": "40"
-		}			
+		},
+		{
+			"skill": "git",
+			"percent": "50"
+		},
+		{
+			"skill": "mercurial",
+			"percent": "30"
+		}
 	]
 }
 
