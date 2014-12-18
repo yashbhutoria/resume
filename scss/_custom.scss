@@ -302,18 +302,3 @@ footer {
 	width: 100%;
 	text-align: center;
 }
-
-// Keyframes 
-
-.pop {
-	@include animation(pop .5s linear 1);
-}
-
-@include keyframes(pop) {
-	50% {
-		@include transform(scale(1.1));
-	}
-	100% {
-		@include transform(scale(1));
-	}
-}
