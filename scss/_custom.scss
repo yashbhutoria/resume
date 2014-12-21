@@ -136,28 +136,16 @@ a.link-text {
 		color: #f2f2f2;
 		text-align: center;
 		margin-bottom: 1rem;
-		// @media #{$large-up} {
-		// 	display: inline-block;
-		// 	margin: 1rem;
-		// }
 	}
 	.role {
 		color: #ccc;
 		text-transform: uppercase;
 		text-align: center;
-		// @media #{$large-up} {
-		//     position: absolute;
-		//     top: 7.5rem;
-		//     left: 14.7rem;
-		// }
 	}
 	img {
 		@include border-radius(150px);
 		display: block;
 		margin: auto;
-		// @media #{$large-up} {
-		// 	display: inline-block;
-		// }
 	}
 }
 
@@ -240,12 +228,9 @@ a.link-text {
 	h2 {
 		margin-bottom: 5.5rem;
 	}
-    #css, #html, #sass, #js {
-
-    }
-    rect.background {
-    	fill: transparent;
-    }
+  rect.background {
+  	fill: transparent;
+  }
 	g.component {
 		margin: auto;	
 		fill: #e1e1e1;
@@ -256,7 +241,6 @@ a.link-text {
 			text-transform: uppercase;
 		}
 	}
-
 	g.labels {
 		text.label {
 			fill: #ccc;
