@@ -292,6 +292,7 @@ skills.display = function() {
 }();
 
 // Display Google Map
+
 worldMap.display = function() {
 
 	var formattedMapHeader = HTMLmapHeader.replace("%data%", worldMap.header);
@@ -301,5 +302,6 @@ worldMap.display = function() {
 
 }();
 
-// Foundation JavaScript
+// Foundation
+
 $(document).foundation();
