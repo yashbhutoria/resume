@@ -1,5 +1,7 @@
 #P02 - Interactive Resume
 
+##Resources
+
 **Responsive Framework:** Foundation
 
 **CSS Preprocessor:** SASS with Compass
