@@ -2,6 +2,8 @@
 
 ##Resources
 
+####CSS
+
 **Responsive Framework:** Foundation
 
 **CSS Preprocessor:** SASS with Compass
