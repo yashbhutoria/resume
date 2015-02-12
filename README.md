@@ -8,7 +8,7 @@
 
 - [ZURB Foundation 5](http://foundation.zurb.com/docs/)
 
-#####Package Manager 
+#####Package Management 
 
 - [Bower](http://bower.io/docs/api/)
 
