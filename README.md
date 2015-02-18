@@ -4,9 +4,9 @@
 
 ####CSS
 
-**Responsive Framework:** Foundation
+[ZURB Foundation 5]()
 
-**CSS Preprocessor:** SASS with Compass
+[Compass]()
 
 ###Resources
 
