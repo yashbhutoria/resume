@@ -1,4 +1,4 @@
-#P02 - Interactive Resume
+#Interactive Resume
 
 ###http://resume.mikejoyce.io
 
