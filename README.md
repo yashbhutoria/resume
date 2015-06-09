@@ -1,6 +1,6 @@
 #Interactive Resume
 
-###http://resume.mikejoyce.io
+Applied knowledge of variables, objects, JSON, functions and control flow to build an interactive resume.
 
 ##Resources
 
