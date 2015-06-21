@@ -1,18 +1,20 @@
 #Interactive Resume
 
-Applied knowledge of variables, objects, JSON, functions and control flow to build an interactive resume.
+Project #2 of the [Front-End Web Developer Nanodegree](https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001).
+
+The task was to develop an interactive resume application that reads your resume content from a JSON file and dynamically displays that content within a provided template. Requirments were to use objects, functions, conditionals, and control structures to compose the content that will display on the resume.
 
 ##Resources
 
-#####Framework
+######Zurb Foundation
 
-- [ZURB Foundation 5](http://foundation.zurb.com/docs/)
+- [Foundation: Docs](http://foundation.zurb.com/docs/)
 
-#####Package Management 
+######Package Management 
 
 - [Bower](http://bower.io/docs/api/)
 
-#####Sublime Text
+######Sublime Text
 
 - [Extension: Vintageous](https://github.com/guillermooo/Vintageous)
 - [Extension: Git](https://github.com/kemayo/sublime-text-git)
@@ -21,21 +23,21 @@ Applied knowledge of variables, objects, JSON, functions and control flow to bui
 - [Packages](http://wbond.net/sublime_packages/terminal)
 - [Opean a File in Sublime Text via OSx Terminal](http://alittlecode.com/open-a-file-in-sublime-text-via-os-x-terminal/)
 
-#####SASS
+######Sass
 
 - [Compass](http://compass-style.org/)
 - [SASS Documentation](http://www.sass-lang.com/documentation/file.SASS_REFERENCE.html)
 
-#####CSS
+######CSS
 
 - [Mozilla Developer Network: CSS Properties Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Properties_Reference)
 
-#####HTML
+######HTML
 
 - [HTML5 Doctor: Aside Element](http://html5doctor.com/aside-revisited/)
 - [Stackoverflow: How to correctly use the section tag in HTML5](http://stackoverflow.com/questions/7183132/how-to-correctly-use-section-tag-in-html5)
 
-#####JavaScript
+######JavaScript
 
 - [D3.js](http://d3js.org/)
 - [D3 Plugin: Radial Progress](http://www.brightpointinc.com/clients/brightpointinc.com/library/radialProgress/index.html?source=d3js)
@@ -59,12 +61,12 @@ Applied knowledge of variables, objects, JSON, functions and control flow to bui
 - [Mozilla Developer Network: Array.prototype.pop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop)
 - [Mozilla Developer Network: String.prototype.slice](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/slice)
 
-#####Google Maps
+######Google Maps
 
 - [Google Maps Docs](https://developers.google.com/maps/documentation/javascript/reference#InfoWindow)
 - [Snazzy Maps: Free Styles for Google Maps](https://snazzymaps.com/)
 - [Snazzy Maps: Pale Dawn](http://snazzymaps.com/style/1/pale-dawn)
 
-#####Font Icons
+######Icon Fonts
 
 - [Font Awesome](http://fortawesome.github.io/Font-Awesome/)
