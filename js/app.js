@@ -6,7 +6,7 @@ var bio = {
 	"name": "Mike Joyce",
 	"role": "Front-End Developer",
 	"location": "Nelson, New Zealand",
-	"bioPic": "http://placehold.it/200x200"
+	"bioPic": "img/profile.jpg"
 }
 
 var skills = {
@@ -52,9 +52,9 @@ var navigation = {
 }
 
 var contacts = {
-	"email" : "contact@mikejoyce.me",
-	"github" : "mikejoycegit",
-	"twitter" : "@iammikejoyce"
+	"email" : "hello@mikejoyce.io",
+	"github" : "mikejoyceio",
+	"twitter" : "@mikejoyceio"
 }
 
 var work = {
