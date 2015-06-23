@@ -6,7 +6,7 @@ var bio = {
 	"name": "Mike Joyce",
 	"role": "Front-End Developer",
 	"location": "Nelson, New Zealand",
-	"bioPic": "http://placehold.it/200x200"
+	"bioPic": "img/profile.jpg"
 }
 
 var skills = {
