@@ -52,9 +52,9 @@ var navigation = {
 }
 
 var contacts = {
-	"email" : "contact@mikejoyce.me",
-	"github" : "mikejoycegit",
-	"twitter" : "@iammikejoyce"
+	"email" : "hello@mikejoyce.io",
+	"github" : "mikejoyceio",
+	"twitter" : "@mikejoyceio"
 }
 
 var work = {
