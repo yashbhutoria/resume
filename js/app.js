@@ -52,9 +52,11 @@ var navigation = {
 }
 
 var contacts = {
-	"email" : "hello@mikejoyce.io",
-	"github" : "mikejoyceio",
-	"twitter" : "@mikejoyceio"
+	"email": "hello@mikejoyce.io",
+	"github": "mikejoyceio",
+	"codepen": "mikejoyceio",
+	"instagram": "mikejoyce",
+	"twitter": "@mikejoyceio"
 }
 
 var work = {
@@ -158,6 +160,12 @@ contacts.display = function() {
 
 	var formattedGithub = HTMLgithub.replace("%data%", contacts.github);
 	$("#contacts").append(formattedGithub);
+
+	var formattedCodepen = HTMLcodepen.replace("%data%", contacts.codepen);
+	$("#contacts").append(formattedCodepen);
+
+	var formattedInstagram = HTMLinstagram.replace("%data%", contacts.instagram);
+	$("#contacts").append(formattedInstagram);
 
 	var formattedTwitter = HTMLtwitter.replace("%data%", contacts.twitter);
 	$("#contacts").append(formattedTwitter);

@@ -2,7 +2,6 @@
 // Custom
 
 // Vertical Rhythm
-
 $rhythm-unit: 'rem';
 $font-unit: 1rem;
 $base-font-size: $rem-base;
@@ -29,7 +28,7 @@ h2 {
 }
 
 h3 {
-	margin: 1.355rem 0 1.355rem 1rem;
+	margin: 1.355rem 0 1.355rem 0;
 	font-size: 1.2rem;
 }
 
@@ -50,6 +49,7 @@ a.link-text {
 	font-family: $font-normal;
 	font-weight: 500;
 	font-size: 1.3rem;
+	
 	&:hover {
 		color: #1eaede;
 		background: #f9f9f9;
@@ -87,7 +87,7 @@ a.link-text {
 .left-content {
     border: medium none;
     background: #424242;
-    padding-bottom: 2rem;
+    
     @media #{$large-up} {
     	height: 100%;
 	    width: 20rem;
@@ -95,6 +95,7 @@ a.link-text {
 	    top: 0;
 	    left: 0;
     }
+
     .email {
     	color: #f1f1f1;
     	display: none;
@@ -109,31 +110,34 @@ a.link-text {
 .main-content {
     border: medium none;
     max-width: 1200px;
+    
     @media #{$large-up} {
     	padding-left: 20rem;
 	}
 }
 
 .content {
-	margin: 0.65rem;
-	padding: 0.65rem;
+	margin: 0.65rem 0;
+	padding: 0.65rem 0;
 }
 
 // Bio
-
 .bio {
-	padding: 1.5rem 0 2.5rem;
+	padding: 2rem 0 2.5rem;
 	position: relative;
+	
 	h1 {
 		color: #f2f2f2;
 		text-align: center;
 		margin-bottom: 1rem;
 	}
+
 	.role {
 		color: #ccc;
 		text-transform: uppercase;
 		text-align: center;
 	}
+
 	img {
 		@include border-radius(150px);
 		display: block;
@@ -142,9 +146,26 @@ a.link-text {
 }
 
 // Contacts
-
 .contacts {
 	text-align: center;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background: #424242;
+	z-index: 2;
+	padding: 4px 0 3px 0;
+	
+	@media #{$large-up} {
+		position: relative;
+		bottom: auto;
+		left: auto;
+		width: auto;
+		background: none;
+		max-width: 230px;
+		padding: 0;
+	}
+
 	.fa {
 		color: #999;
 		font-size: 1.48rem;
@@ -157,33 +178,65 @@ a.link-text {
 }
 
 // Navigation
-
 .navigation {
+	background: #fff;
+	border-bottom: 4px solid #424242;
+		
 	nav {
-    text-align: center;
-    position: fixed;
-    right: 5rem;
-    top: 1.5rem;
+		height: 55px;
+    	text-align: center;
+    	
+	    @media #{$large-up} {
+		    position: fixed;
+		    right: 2rem;
+		    top: 1.5rem;
+	    }
+
 		ul {
-	    list-style: none;
-	    padding: 1rem 0;
-	    text-align: right;
+	    	list-style: none;
+	    	margin: 0;
+	    	padding: 1rem 0;
+	    	text-align: center;
+			white-space: nowrap;
+			overflow-y: hidden;
+			overflow-x: scroll;
+			-webkit-overflow-scrolling: touch;
+			
+	    	@media #{$large-up} {
+	    		text-align: right;
+	    	}
+
 			li {
-				@media #{$large-up} {
-					font-size: 1.5rem;
-				}
-				margin: 0;
+				display: inline-block;
+				margin: 0 20px;
 				padding: 0;
+				
+				@media #{$medium-only} {
+					width: 20%;
+					margin: auto;
+				}
+
+				@media #{$large-up} {
+					display: block;
+					font-size: 1.5rem;
+					margin: auto;
+					width: auto;
+				}
+
 				a {
 					color: #657380;
 					text-transform: uppercase;
 					font-family: $font-normal;
 					font-weight: 700; 
+					
 					&.active {
 						color: #1eaede;
 					}
-					&:hover {
-						padding-right: 0.33rem;	
+
+					@media #{$large-up} {
+						&:hover {
+							padding-right: 0.33rem;	
+						}
 					}
 				}
 			}
@@ -191,14 +244,12 @@ a.link-text {
 	}
 }
 
-// Work Experience 
- 
+// Work Experience  
 .work {
 
 }
 
 // Projects 
-
 .projects {
 	img {
 		background: #fff;
@@ -209,23 +260,24 @@ a.link-text {
 }
 
 // Education 
-
 .education {
 	padding: 5px;
 }
 
 // Skills
-
 .skills {
 	h2 {
-		margin-bottom: 5.5rem;
+		margin: 0 0 5.5rem 1rem;
 	}
-  rect.background {
-  	fill: transparent;
-  }
+
+	rect.background {
+		fill: transparent;
+	}
+
 	g.component {
 		margin: auto;	
 		fill: #e1e1e1;
+		
 		text.label {
 			font-family: $font-normal;
 			font-weight: 700;
@@ -233,11 +285,13 @@ a.link-text {
 			text-transform: uppercase;
 		}
 	}
+
 	g.labels {
 		text.label {
 			fill: #ccc;
 		}
 	}
+
 	g.arcs {
 		path.arc {
 			fill: #1EAEDE;
@@ -246,6 +300,7 @@ a.link-text {
 			fill: green;
 		}
 	}
+
 	svg.radial-svg {
 	    display: block;
 	    margin: auto;
@@ -254,13 +309,14 @@ a.link-text {
 }
 
 // Map 
-
 .map {
 	margin-bottom: 10rem;
+	
 	#googleMap {
 		height: 400px;
 		width: 100%;
 	}
+
 	#map {
 		display: block;
 		height: 100%;
@@ -269,7 +325,6 @@ a.link-text {
 }
 
 // Footer 
-
 footer {
 	background: #444;
 	color: #66757f;
