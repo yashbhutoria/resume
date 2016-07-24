@@ -63,12 +63,28 @@ var work = {
 	"header": "Work",
 	"jobs": [
 		{
-			"employer": "Mikejoyce.me",
-			"url": "http://mikejoyce.me",
+			"employer": "CityGate GIS",
+			"url": "http://citygategis.com/",
+			"title": "Remote Front-End Developer",
+			"location": "Annapolis MD, United States",
+			"dates": "January 2015 - Present",
+			"description": "Development, modification and maintenance of websites and web application user interfaces. Involves working closely with server-side developers to implement their server-side code in order to develop complex, interactive and database driven websites which adhere to industry standards particularly in regard to accessibility, usability, and emerging technologies."
+		},
+		{
+			"employer": "John's Mustang",
+			"url": "http://johnsmustang.com",
+			"title": "Remote Front-End Developer",
+			"location": "Houston TX, United States",
+			"dates": "January 2015 - Present",
+			"description": "General front-end web development for a company which maintains an eCommerce platform."
+		},
+		{
+			"employer": "Mikejoyce.io",
+			"url": "http://mikejoyce.io",
 			"title": "Freelance Front-End Developer",
 			"location": "Nelson, New Zealand",
 			"dates": "January 2014 - Present",
-			"description": "I work from home and should probably get out more. Currently working on two projects based in the US."
+			"description": "General front-end web development for a variety of clients. A large majority of the work involves the translation of .psd designs and wireframes into cross-browser HTML5, CSS3 and JavaScript with a fast turnaround time."
 		}
 	]	
 }
