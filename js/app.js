@@ -48,7 +48,7 @@ var skills = {
 }
 
 var navigation = {
-	"nav": ["work", "projects", "education", "skills", "map"]
+	"nav": ["work", "projects", "education", "skills"]
 }
 
 var contacts = {
@@ -132,10 +132,6 @@ var education =  {
 			"dates": "2014"
 		}
 	]
-}
-
-var worldMap = {
-	"header": "Map"
 }
 
 // Display Objects
@@ -297,17 +293,5 @@ skills.display = function() {
 
 }();
 
-// Display Google Map
-
-worldMap.display = function() {
-
-	var formattedMapHeader = HTMLmapHeader.replace("%data%", worldMap.header);
-	$("#map").append(formattedMapHeader);
-
-	$("#map").append(googleMap);
-
-}();
-
 // Foundation
-
 $(document).foundation();
