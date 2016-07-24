@@ -104,19 +104,31 @@ var education =  {
 		{
 			"school": "Udacity",
 			"course": "Front-End Development Nanodegree",
-			"url": "https://www.udacity.com/course/nd001",
-			"dates": "2014 - Present"
+			"url": "https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001",
+			"dates": "2015"
+		},
+		{
+			"school": "Udacity",
+			"course": "Website Performance Optimization",
+			"url": "https://www.udacity.com/course/website-performance-optimization--ud884",
+			"dates": "2015"
+		},
+		{
+			"school": "Udacity",
+			"course": "Object Orientated JavaScript",
+			"url": "https://www.udacity.com/course/object-oriented-javascript--ud015",
+			"dates": "2015"
 		},
 		{
 			"school": "Udacity",
 			"course": "JavaScript Basics",
-			"url": "https://www.udacity.com/course/ud804",
+			"url": "https://www.udacity.com/course/javascript-basics--ud804",
 			"dates": "2014"
 		},
 		{
 			"school": "Udacity",
 			"course": "Intro to HTML & CSS",
-			"url": "https://www.udacity.com/course/ud304",
+			"url": "https://www.udacity.com/course/intro-to-html-and-css--ud304",
 			"dates": "2014"
 		},
 		{
