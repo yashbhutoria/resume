@@ -131,7 +131,7 @@ var projects = {
 			"title": "Date Asia",
 			"url": "https://date-asia.com/?skin=def_mobile",
 			"dates": "2014 - Present",
-			"description": "An in-progress reponsive reboot of a personal project that I started in an attempt to improve my front-end development skills. I learn well by doing, and this project gives me a chance to put new skills I've gained into practice. An open source PHP dating script on the backend, Bootstrap 3 on the front end.",
+			"description": "An in-progress responsive reboot of a personal project that I started in an attempt to improve my front-end development skills. I learn well by doing, and this project gives me a chance to put new skills I've gained into practice. An open source PHP dating script on the backend, Bootstrap 3 on the front end.",
 			"images": [
 			"img/dateAsia01.jpg", "img/dateAsia02.jpg", "img/dateAsia03.jpg"
 			]			
