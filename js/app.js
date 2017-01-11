@@ -72,7 +72,7 @@ var work = {
 	"jobs": [
 		{
 			"employer": "CityGate GIS",
-			"url": "//citygategis.com/",
+			"url": "http://citygategis.com/",
 			"title": "Remote Front-End Developer",
 			"location": "Annapolis MD, United States",
 			"dates": "January 2015 - Present",
@@ -80,7 +80,7 @@ var work = {
 		},
 		{
 			"employer": "John's Mustang",
-			"url": "//johnsmustang.com",
+			"url": "http://johnsmustang.com",
 			"title": "Remote Front-End Developer",
 			"location": "Houston TX, United States",
 			"dates": "January 2015 - Present",
@@ -88,7 +88,7 @@ var work = {
 		},
 		{
 			"employer": "Mikejoyce.io",
-			"url": "//mikejoyce.io",
+			"url": "http://mikejoyce.io",
 			"title": "Freelance Front-End Developer",
 			"location": "The World",
 			"dates": "January 2014 - Present",
@@ -102,7 +102,7 @@ var projects = {
 	"projects": [
 		{
 			"title": "Map Panda",
-			"url": "//mappanda.co",
+			"url": "http://mappanda.co",
 			"dates": "2015",
 			"description": "Map Panda is a single-page JavaScript application that grabs the user's location with the Geolocation API, and through the Google Places API a selection of popular location types are available to explore. The Foursquare and Uber APIs are leveraged to provide further functionality to the application.",
 			"images": [
@@ -111,7 +111,7 @@ var projects = {
 		},
 		{
 			"title": "iOpenDecision",
-			"url": "//citygategis.com/products/iopengov",
+			"url": "http://citygategis.com/products/iopengov",
 			"dates": "2014 - Present",
 			"description": "iOpenDecision is a web based application which enables the development of cost-benefit models which include a geographic component.  A collaborative approach is used to allow subject matter experts in different areas to come together and create a financial model.  This approach allows for a more comprehensive understanding of the nature of the costs and the valued benefits of a project. <br><br> The software is currently being used by The Maryland Department of Transportation (MDOT), a government agency in the U.S. state of Maryland",
 			"images": [
@@ -120,7 +120,7 @@ var projects = {
 		},
 		{
 			"title": "Here Now",
-			"url": "//weareherenow.com",
+			"url": "http://weareherenow.com",
 			"dates": "2014",
 			"description": "Here Now landing page for <a class='link-text' href='//purpose.com' target='_blank'>Purpose</a>. Commissioned by New York based agency, <a class='link-text' href='//3-tone.com' target='_blank'>3tone</a>. PSD to HTML. Built with Foundation 5, jQuery and Greensock.",
 			"images": [
@@ -129,7 +129,7 @@ var projects = {
 		},
 		{
 			"title": "Date Asia",
-			"url": "//date-asia.com/?skin=def_mobile",
+			"url": "https://date-asia.com/?skin=def_mobile",
 			"dates": "2014 - Present",
 			"description": "An in-progress reponsive reboot of a personal project that I started in an attempt to improve my front-end development skills. I learn well by doing, and this project gives me a chance to put new skills I've gained into practice. An open source PHP dating script on the backend, Bootstrap 3 on the front end.",
 			"images": [
@@ -150,43 +150,43 @@ var education =  {
 		{
 			"school": "Udacity",
 			"course": "Front-End Web Developer Nanodegree",
-			"url": "//mikejoyce.io/certificates/udacity/front-end-web-developer-nanodegree.pdf",
+			"url": "https://mikejoyce.io/certificates/udacity/front-end-web-developer-nanodegree.pdf",
 			"dates": "2015"
 		},
 		{
 			"school": "Udacity",
 			"course": "Website Performance Optimization",
-			"url": "//mikejoyce.io/certificates/udacity/website-performance-optimization.pdf",
+			"url": "https://mikejoyce.io/certificates/udacity/website-performance-optimization.pdf",
 			"dates": "2015"
 		},
 		{
 			"school": "Udacity",
 			"course": "Object Orientated JavaScript",
-			"url": "//mikejoyce.io/certificates/udacity/object-orientated-javascript.pdf",
+			"url": "https://mikejoyce.io/certificates/udacity/object-orientated-javascript.pdf",
 			"dates": "2015"
 		},
 		{
 			"school": "Udacity",
 			"course": "JavaScript Basics",
-			"url": "//mikejoyce.io/certificates/udacity/javascript-basics.pdf",
+			"url": "https://mikejoyce.io/certificates/udacity/javascript-basics.pdf",
 			"dates": "2014"
 		},
 		{
 			"school": "Udacity",
 			"course": "Intro to HTML & CSS",
-			"url": "//mikejoyce.io/certificates/udacity/intro-to-html.pdf",
+			"url": "https://mikejoyce.io/certificates/udacity/intro-to-html.pdf",
 			"dates": "2014"
 		},
 		{
 			"school": "Treehouse",
 			"course": "Front-End Development Track",
-			"url": "//teamtreehouse.com/mikejoyce",
+			"url": "https://teamtreehouse.com/mikejoyce",
 			"dates": "2014"
 		},
 		{
 			"school": "Udemy",
 			"course": "User Experience Design Fundamentals",
-			"url": "//www.udemy.com/certificate/UC-4DQF7AK2/",
+			"url": "https://www.udemy.com/certificate/UC-4DQF7AK2/",
 			"dates": "2014"
 		}
 	]
