@@ -266,46 +266,16 @@ a.link-text {
 
 // Skills
 .skills {
-	h2 {
-		margin: 0 0 5.5rem 1rem;
-	}
-
-	rect.background {
-		fill: transparent;
-	}
-
-	g.component {
-		margin: auto;	
-		fill: #e1e1e1;
+	padding-bottom: 100px;
+	
+	ul {
+		list-style: none;
+		margin: 0;
 		
-		text.label {
-			font-family: $font-normal;
-			font-weight: 700;
-			fill: #657380;
-			text-transform: uppercase;
+		li {
+			color: #657380;
 		}
 	}
-
-	g.labels {
-		text.label {
-			fill: #ccc;
-		}
-	}
-
-	g.arcs {
-		path.arc {
-			fill: #1EAEDE;
-		}
-		path.arc2 {
-			fill: green;
-		}
-	}
-
-	svg.radial-svg {
-	    display: block;
-	    margin: auto;
-	}
-
 }
 
 // Footer 

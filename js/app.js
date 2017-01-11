@@ -11,38 +11,46 @@ var bio = {
 
 var skills = {
 	"header": "Skills",
-	"skills" : [
+	"fields": [
 		{
-			"skill": "html5",
-			"percent": "80"
+			"field": "Languages",
+			"skills": ["CSS", "SASS", "JavaScript", "HTML", "XML", "PHP", "Python"]
 		},
 		{
-			"skill": "css3",
-			"percent": "80"
-		},	
-		{
-			"skill": "sass",
-			"percent": "60"
-		},	
-		{
-			"skill": "js",
-			"percent": "50"
+			"field": "Libraries",
+			"skills": ["jQuery", "Knockout", "D3"]
 		},
 		{
-			"skill": "jquery",
-			"percent": "70"
+			"field": "Frameworks",
+			"skills": ["Foundation", "Bootstrap", "Compass"]
 		},
 		{
-			"skill": "mysql",
-			"percent": "40"
+			"field": "Build Tools",
+			"skills": ["Gulp", "Grunt"]
 		},
 		{
-			"skill": "git",
-			"percent": "50"
+			"field": "Applications",
+			"skills": ["VIM", "Sublime Text"]
 		},
 		{
-			"skill": "mercurial",
-			"percent": "30"
+			"field": "Methodologies",
+			"skills": ["AJAX", "JSON", "JSONP", "OOP", "Google Maps API", "Uber API", "Foursquare API"]
+		},
+		{
+			"field": "Project Domains",
+			"skills": ["UX/UI Design", "Application Design", "Testing"]
+		},
+		{
+			"field": "Operating Systems",
+			"skills": ["macOS", "Windows", "Linux"]
+		},
+		{
+			"field": "Version Control",
+			"skills": ["Git", "Mercurial"]
+		},
+		{
+			"field": "Databases",
+			"skills": ["MySQL"]
 		}
 	]
 }
@@ -64,7 +72,7 @@ var work = {
 	"jobs": [
 		{
 			"employer": "CityGate GIS",
-			"url": "http://citygategis.com/",
+			"url": "//citygategis.com/",
 			"title": "Remote Front-End Developer",
 			"location": "Annapolis MD, United States",
 			"dates": "January 2015 - Present",
@@ -72,17 +80,17 @@ var work = {
 		},
 		{
 			"employer": "John's Mustang",
-			"url": "http://johnsmustang.com",
+			"url": "//johnsmustang.com",
 			"title": "Remote Front-End Developer",
 			"location": "Houston TX, United States",
 			"dates": "January 2015 - Present",
-			"description": "General front-end web development for a company which maintains an eCommerce platform."
+			"description": "General web development tasks and maintenance of an eCommerce platform built with Netsuite and Magento."
 		},
 		{
 			"employer": "Mikejoyce.io",
-			"url": "http://mikejoyce.io",
+			"url": "//mikejoyce.io",
 			"title": "Freelance Front-End Developer",
-			"location": "Nelson, New Zealand",
+			"location": "The World",
 			"dates": "January 2014 - Present",
 			"description": "General front-end web development for a variety of clients. A large majority of the work involves the translation of .psd designs and wireframes into cross-browser HTML5, CSS3 and JavaScript with a fast turnaround time."
 		}
@@ -93,19 +101,37 @@ var projects = {
 	"header": "Projects",
 	"projects": [
 		{
+			"title": "Map Panda",
+			"url": "//mappanda.co",
+			"dates": "2015",
+			"description": "Map Panda is a single-page JavaScript application that grabs the user's location with the Geolocation API, and through the Google Places API a selection of popular location types are available to explore. The Foursquare and Uber APIs are leveraged to provide further functionality to the application. <br><br>The developer of ",
+			"images": [
+			"img/mapPanda01.jpg", "img/mapPanda02.jpg", "img/mapPanda03.jpg"
+			]
+		},
+		{
+			"title": "iOpenDecision",
+			"url": "//citygategis.com/products/iopengov",
+			"dates": "2014 - Present",
+			"description": "iOpenDecision is a web based application which enables the development of cost-benefit models which include a geographic component.  A collaborative approach is used to allow subject matter experts in different areas to come together and create a financial model.  This approach allows for a more comprehensive understanding of the nature of the costs and the valued benefits of a project. <br><br> The software is currently being used by The Maryland Department of Transportation (MDOT), a government agency in the U.S. state of Maryland",
+			"images": [
+			"img/iOpenDecision01.jpg", "img/iOpenDecision02.jpg", "img/iOpenDecision03.jpg"
+			]
+		},
+		{
 			"title": "Here Now",
-			"url": "http://weareherenow.com",
+			"url": "//weareherenow.com",
 			"dates": "2014",
-			"description": "One of my first freelance gigs with a New York based agency, <a class='link-text' href='http://www.3-tone.com/clients.php' target='_blank'>3tone</a>. PSD to HTML. Built with Foundation 5, jQuery and Greensock.",
+			"description": "Here Now landing page for <a class='link-text' href='//purpose.com' target='_blank'>Purpose</a>. Commissioned by New York based agency, <a class='link-text' href='//3-tone.com' target='_blank'>3tone</a>. PSD to HTML. Built with Foundation 5, jQuery and Greensock.",
 			"images": [
 			"img/hereNow01.jpg", "img/hereNow02.jpg", "img/hereNow03.jpg"
 			]
 		},
 		{
 			"title": "Date Asia",
-			"url": "http://date-asia.com/?skin=def_mobile",
+			"url": "//date-asia.com/?skin=def_mobile",
 			"dates": "2014 - Present",
-			"description": "A reponsive reboot of a personal project that I started in an attempt to improve my front-end development skills. I learn well by doing, and this project gives me a chance to put new skills I've gained into practice. An open source PHP dating script on the backend, Bootstrap 3 and jQuery on the front end. Seems to be very popular with Russian hackers.",
+			"description": "An in-progress reponsive reboot of a personal project that I started in an attempt to improve my front-end development skills. I learn well by doing, and this project gives me a chance to put new skills I've gained into practice. An open source PHP dating script on the backend, Bootstrap 3 on the front end.",
 			"images": [
 			"img/dateAsia01.jpg", "img/dateAsia02.jpg", "img/dateAsia03.jpg"
 			]			
@@ -115,48 +141,52 @@ var projects = {
 
 var education =  {
 	"educationHeader": "Education",
-	"onlineHeader": "Online Courses",
-	"onlineCourses": [
+	"formalHeader": "Formal",
+	"formalSchools": [
+	
+	],
+	"onlineHeader": "Online",
+	"onlineSchools": [
 		{
 			"school": "Udacity",
-			"course": "Front-End Development Nanodegree",
-			"url": "https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001",
+			"course": "Front-End Web Developer Nanodegree",
+			"url": "//mikejoyce.io/certificates/udacity/front-end-web-developer-nanodegree.pdf",
 			"dates": "2015"
 		},
 		{
 			"school": "Udacity",
 			"course": "Website Performance Optimization",
-			"url": "https://www.udacity.com/course/website-performance-optimization--ud884",
+			"url": "//mikejoyce.io/certificates/udacity/website-performance-optimization.pdf",
 			"dates": "2015"
 		},
 		{
 			"school": "Udacity",
 			"course": "Object Orientated JavaScript",
-			"url": "https://www.udacity.com/course/object-oriented-javascript--ud015",
+			"url": "//mikejoyce.io/certificates/udacity/object-orientated-javascript.pdf",
 			"dates": "2015"
 		},
 		{
 			"school": "Udacity",
 			"course": "JavaScript Basics",
-			"url": "https://www.udacity.com/course/javascript-basics--ud804",
+			"url": "//mikejoyce.io/certificates/udacity/javascript-basics.pdf",
 			"dates": "2014"
 		},
 		{
 			"school": "Udacity",
 			"course": "Intro to HTML & CSS",
-			"url": "https://www.udacity.com/course/intro-to-html-and-css--ud304",
+			"url": "//mikejoyce.io/certificates/udacity/intro-to-html.pdf",
 			"dates": "2014"
 		},
 		{
 			"school": "Treehouse",
 			"course": "Front-End Development Track",
-			"url": "http://teamtreehouse.com/mikejoyce",
+			"url": "//teamtreehouse.com/mikejoyce",
 			"dates": "2014"
 		},
 		{
 			"school": "Udemy",
 			"course": "User Experience Design Fundamentals",
-			"url": "https://www.udemy.com/certificate/UC-4DQF7AK2/",
+			"url": "//www.udemy.com/certificate/UC-4DQF7AK2/",
 			"dates": "2014"
 		}
 	]
@@ -279,19 +309,35 @@ education.display = function() {
 	var formattedEducationHeader = HTMLeducationHeader.replace("%data%", education.educationHeader);
 	$("#education").append(formattedEducationHeader);
 
-	var formattedOnlineClasses = HTMLonlineClasses.replace("%data%", education.onlineHeader);
-	$("#education").append(formattedOnlineClasses);
+	// var formattedFormalHeader = HTMLformalHeader.replace("%data%", education.formalHeader);
+	// $("#education").append(formattedFormalHeader);
 
-	for(course in education.onlineCourses) {
+	// for(school in education.formalSchools) {
+	// 	$("#education").append(HTMLformalStart);
+		
+	// 	var formattedFormalSchool = HTMLformalSchool.replace("%data%", education.formalSchools[school].school).replace("%url%", education.formalSchools[school].url);
+	// 	$(".formal-entry:last").append(formattedFormalSchool);
+
+	// 	var formattedFormalQualification = HTMLformalQualification.replace("%data%", education.formalSchools[school].qualification);
+	// 	$(".formal-entry:last").append(formattedFormalQualification);
+
+	// 	var formattedFormalDates = HTMLformalDates.replace("%data%", education.formalSchools[school].dates);
+	// 	$(".formal-entry:last").append(formattedFormalDates);
+	// }
+
+	var formattedOnlineHeader = HTMLonlineHeader.replace("%data%", education.onlineHeader);
+	$("#education").append(formattedOnlineHeader);
+
+	for(school in education.onlineSchools) {
 		$("#education").append(HTMLonlineStart);
 		
-		var formattedOnlineCourse = HTMLonlineCourse.replace("%data%", education.onlineCourses[course].course).replace("%url%", education.onlineCourses[course].url);
+		var formattedOnlineCourse = HTMLonlineCourse.replace("%data%", education.onlineSchools[school].course).replace("%url%", education.onlineSchools[school].url);
 		$(".online-entry:last").append(formattedOnlineCourse);
 
-		var formattedOnlineSchool = HTMLonlineSchool.replace("%data%", education.onlineCourses[course].school);
+		var formattedOnlineSchool = HTMLonlineSchool.replace("%data%", education.onlineSchools[school].school);
 		$(".online-entry:last").append(formattedOnlineSchool);
 
-		var formattedOnlineDates = HTMLonlineDates.replace("%data%", education.onlineCourses[course].dates);
+		var formattedOnlineDates = HTMLonlineDates.replace("%data%", education.onlineSchools[school].dates);
 		$(".online-entry:last").append(formattedOnlineDates);
 	}
 
@@ -302,21 +348,19 @@ skills.display = function() {
 	var formattedSkillsHeader = HTMLskillsHeader.replace("%data%", skills.header);
 	$("#skills").append(formattedSkillsHeader);
 
-	for(skill in skills.skills) {
-		var formattedSkill = HTMLskill.replace("%id%", skills.skills[skill].skill);
-		$("#skills").append(formattedSkill);
+	for(field in skills.fields) {
 
-		var id = skills.skills[skill].skill;
-		var label = skills.skills[skill].skill;
-		var percent = skills.skills[skill].percent;
+		var formattedSubHeader = HTMLskillsSubHeader.replace("%data%", skills.fields[field].field)
+		$("#skills").append(formattedSubHeader);
 
-		var id =d3.select(document.getElementById(id));
+		var formattedSkillsList = HTMLskillsList.replace("%data%", field);
+		$("#skills").append(formattedSkillsList);
 
-	    var rp = radialProgress(document.getElementById(skills.skills[skill].skill))
-        .label(label)
-        .diameter(110)
-        .value(percent)
-        .render();
+		for (skill in skills.fields[field].skills) {
+			var formattedSkillsItem = HTMLskillsItem.replace("%data%", skills.fields[field].skills[skill]);
+			$('#skillsList' + field).append(formattedSkillsItem);
+		}
+
 	}
 
 }();
