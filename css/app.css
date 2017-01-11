@@ -6343,45 +6343,21 @@ a.link-text:hover {
   padding: 5px;
 }
 
-/* line 269, ../scss/_custom.scss */
-.skills h2 {
-  margin: 0 0 5.5rem 1rem;
+/* line 268, ../scss/_custom.scss */
+.skills {
+  padding-bottom: 100px;
 }
-/* line 273, ../scss/_custom.scss */
-.skills rect.background {
-  fill: transparent;
+/* line 271, ../scss/_custom.scss */
+.skills ul {
+  list-style: none;
+  margin: 0;
 }
-/* line 277, ../scss/_custom.scss */
-.skills g.component {
-  margin: auto;
-  fill: #e1e1e1;
-}
-/* line 281, ../scss/_custom.scss */
-.skills g.component text.label {
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  fill: #657380;
-  text-transform: uppercase;
-}
-/* line 290, ../scss/_custom.scss */
-.skills g.labels text.label {
-  fill: #ccc;
-}
-/* line 296, ../scss/_custom.scss */
-.skills g.arcs path.arc {
-  fill: #1EAEDE;
-}
-/* line 299, ../scss/_custom.scss */
-.skills g.arcs path.arc2 {
-  fill: green;
-}
-/* line 304, ../scss/_custom.scss */
-.skills svg.radial-svg {
-  display: block;
-  margin: auto;
+/* line 275, ../scss/_custom.scss */
+.skills ul li {
+  color: #657380;
 }
 
-/* line 312, ../scss/_custom.scss */
+/* line 282, ../scss/_custom.scss */
 footer {
   background: #444;
   color: #66757f;
