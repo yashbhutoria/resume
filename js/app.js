@@ -14,7 +14,7 @@ var skills = {
 	"fields": [
 		{
 			"field": "Languages",
-			"skills": ["CSS", "SASS", "JavaScript", "HTML", "XML", "PHP", "Python"]
+			"skills": ["CSS", "Sass", "SCSS", "JavaScript", "HTML", "XML", "PHP", "Python"]
 		},
 		{
 			"field": "Libraries",
