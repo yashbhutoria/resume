@@ -18,11 +18,11 @@ var skills = {
 		},
 		{
 			"field": "Libraries",
-			"skills": ["jQuery", "Knockout", "D3"]
+			"skills": ["jQuery", "D3"]
 		},
 		{
 			"field": "Frameworks",
-			"skills": ["Foundation", "Bootstrap", "Compass"]
+			"skills": ["Foundation", "Bootstrap", "Compass", "Knockout"]
 		},
 		{
 			"field": "Build Tools",
