@@ -22,7 +22,7 @@ var skills = {
 		},
 		{
 			"field": "Frameworks",
-			"skills": ["Foundation", "Bootstrap", "Compass", "Knockout"]
+			"skills": ["Foundation", "Bootstrap", "Compass", "Knockout", "Kendo UI"]
 		},
 		{
 			"field": "Build Tools",
