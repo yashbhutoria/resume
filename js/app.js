@@ -26,7 +26,7 @@ var skills = {
 		},
 		{
 			"field": "Build Tools",
-			"skills": ["Gulp", "Grunt"]
+			"skills": ["Gulp", "Grunt", "Bower", "Brunch"]
 		},
 		{
 			"field": "Applications",
