@@ -104,7 +104,7 @@ var projects = {
 			"title": "Map Panda",
 			"url": "//mappanda.co",
 			"dates": "2015",
-			"description": "Map Panda is a single-page JavaScript application that grabs the user's location with the Geolocation API, and through the Google Places API a selection of popular location types are available to explore. The Foursquare and Uber APIs are leveraged to provide further functionality to the application. <br><br>The developer of ",
+			"description": "Map Panda is a single-page JavaScript application that grabs the user's location with the Geolocation API, and through the Google Places API a selection of popular location types are available to explore. The Foursquare and Uber APIs are leveraged to provide further functionality to the application.",
 			"images": [
 			"img/mapPanda01.jpg", "img/mapPanda02.jpg", "img/mapPanda03.jpg"
 			]
