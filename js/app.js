@@ -122,7 +122,7 @@ var projects = {
 			"title": "Here Now",
 			"url": "http://weareherenow.com",
 			"dates": "2014",
-			"description": "Here Now landing page for <a class='link-text' href='//purpose.com' target='_blank'>Purpose</a>. Commissioned by New York based agency, <a class='link-text' href='//3-tone.com' target='_blank'>3tone</a>. PSD to HTML. Built with Foundation 5, jQuery and Greensock.",
+			"description": "Here Now landing page for <a class='link-text' href='http://purpose.com' target='_blank'>Purpose</a>. Commissioned by New York based agency, <a class='link-text' href='http://3-tone.com' target='_blank'>3tone</a>. PSD to HTML. Built with Foundation 5, jQuery and Greensock.",
 			"images": [
 			"img/hereNow01.jpg", "img/hereNow02.jpg", "img/hereNow03.jpg"
 			]
