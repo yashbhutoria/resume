@@ -34,9 +34,9 @@ $ open "http://localhost:8000"
 
 ## Resources
 
-######Zurb Foundation
+###### Zurb Foundation
 
-- [Foundation: Docs](http://foundation.zurb.com/docs/)
+- [Foundation Docs](http://foundation.zurb.com/docs/)
 
 ###### Package Management
 
