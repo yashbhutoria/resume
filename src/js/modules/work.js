@@ -15,61 +15,79 @@ const $work = $('#work');
  */
 const work = {
   'header': 'Work',
-  'jobs': [
+  'employers': [
     {
-      'employer': 'CityGate GIS',
+      'name': 'CityGate GIS',
+      'logo': '../dist/images/logo-citygate.jpg',
       'url': 'http://citygategis.com/',
-      'title': 'Remote Front-End Developer',
-      'location': 'Annapolis MD, United States',
+      'position': 'Senior Front-End Developer (Remote)',
+      'location': 'Annapolis MD, USA',
       'dates': '2015 - Present',
       'description': 'Development, modification and maintenance of websites and web application user interfaces. Involves working closely with server-side developers to implement their server-side code in order to develop complex, interactive and database driven websites which adhere to industry standards particularly in regard to accessibility, usability, and emerging technologies.'
     },
     {
-      'employer': 'John\'s Mustang',
+      'name': 'John\'s Mustang',
+      'logo': '../dist/images/logo-johns-mustang.jpg',
       'url': 'http://johnsmustang.com',
-      'title': 'Remote Front-End Developer',
-      'location': 'Houston TX, United States',
+      'position': 'Web Developer (Remote)',
+      'location': 'Houston TX, USA',
       'dates': '2015 - Present',
       'description': 'General web development tasks and maintenance of an eCommerce platform built with Netsuite and Magento.'
     },
     {
-      'employer': 'Mikejoyce.io',
+      'name': '3tone',
+      'logo': '../dist/images/logo-3tone.jpg',
       'url': 'http://mikejoyce.io',
-      'title': 'Freelance Front-End Developer',
+      'position': 'Front-End Developer (Remote)',
+      'location': 'New York, USA',
+      'dates': '2013 - Present',
+      'description': 'Front-end web development for a number of for and non-profit companies and digital agencies. (Oath, Purpose, Area17, MBooth…).'
+    },
+    {
+      'name': 'Mikejoyce.io',
+      'logo': '../dist/images/logo-mike.jpg',
+      'url': 'http://mikejoyce.io',
+      'position': 'Front-End Developer (Remote)',
       'location': 'The World',
-      'dates': '2014 - Present',
-      'description': 'General front-end web development for a variety of clients. A large majority of the work involves the translation of .psd designs and wireframes into cross-browser HTML5, CSS3 and JavaScript with a fast turnaround time.'
+      'dates': '2013 - Present',
+      'description': 'General front-end web development for a variety of clients. A large majority of the work involves rapid translation of .sketch/.psd designs and wireframes into cross-browser HTML5, CSS3 and JavaScript.'
     }
   ]
 };
 
-var HTMLworkHeader ='<h2>%data%</h2>';
-var HTMLworkStart = '<div class="work-entry content"></div>';
-var HTMLworkEmployer = '<a class="link-text" href="%url%" target="_blank">%data%';
-var HTMLworkTitle = ' <span class="light-text"> - %data%</span></a>';
-var HTMLworkDates = '<div class="date-text">%data%</div>';
-var HTMLworkLocation = '<div class="location-text">%data%</div>';
-var HTMLworkDescription = '<p><br>%data%</p>';
+/**
+ * HTML Helpers
+ * @type {string}
+ */
+var HTMLworkHeader = `<h2>%data%</h2>`;
+var HTMLemployerStart = '<div class="employer content"></div>';
+var HTMLemployerLogo = '<img class="employer-logo" src="%data%">'
+var HTMLemployerName = '<a class="link-text" href="%url%" target="_blank">%data%';
+var HTMLemployerPosition = ' <span class="light-text"> - %data%</span></a>';
+var HTMLemployerDates = '<div class="date-text">%data%</div>';
+var HTMLemployerLocation = '<div class="location-text">%data%</div>';
+var HTMLemployerDescription = '<p><br>%data%</p>';
 
 const formattedWorkHeader = HTMLworkHeader.replace('%data%', work.header);
 $work.append(formattedWorkHeader);
 
-for(var job in work.jobs) {
+for (var employer in work.employers) {
 
-  $work.append(HTMLworkStart);
+  $work.append(HTMLemployerStart);
 
-  let formattedEmployer = HTMLworkEmployer.replace('%data%', work.jobs[job].employer).replace('%url%', work.jobs[job].url);
-  let formattedTitle = HTMLworkTitle.replace('%data%', work.jobs[job].title);
-  let formattedEmployerTitle = formattedEmployer + formattedTitle;
-  $('.work-entry:last').append(formattedEmployerTitle);
+  let formattedEmployerImage = HTMLemployerLogo.replace('%data%', work.employers[employer].logo);
+  let formattedEmployerName = HTMLemployerName.replace('%data%', work.employers[employer].name).replace('%url%', work.employers[employer].url);
+  let formattedEmployerPosition = HTMLemployerPosition.replace('%data%', work.employers[employer].position);
+  let formattedEmployerTitle = `${formattedEmployerImage}  ${formattedEmployerName}  ${formattedEmployerPosition}`;
+  $('.employer:last').append(formattedEmployerTitle);
 
-  let formattedDates = HTMLworkDates.replace('%data%', work.jobs[job].dates);
-  $('.work-entry:last').append(formattedDates);
+  let formattedDates = HTMLemployerDates.replace('%data%', work.employers[employer].dates);
+  $('.employer:last').append(formattedDates);
 
-  let formattedLocation = HTMLworkLocation.replace('%data%', work.jobs[job].location);
-  $('.work-entry:last').append(formattedLocation);
+  let formattedLocation = HTMLemployerLocation.replace('%data%', work.employers[employer].location);
+  $('.employer:last').append(formattedLocation);
 
-  let formattedDescription = HTMLworkDescription.replace('%data%', work.jobs[job].description);
-  $('.work-entry:last').append(formattedDescription);
+  let formattedDescription = HTMLemployerDescription.replace('%data%', work.employers[employer].description);
+  $('.employer:last').append(formattedDescription);
 
 }

@@ -43,7 +43,7 @@ h3 {
 p {
   @include font-family(secondary);
   color: color(blue-bayoux);
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   font-weight: 300;
   margin-bottom: 0;
 }
@@ -61,13 +61,13 @@ p {
 .date-text {
   @include font-family(primary);
   color: color(blue-bayoux);
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 .location-text {
   @include font-family(primary);
   color: color(blue-bayoux);
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 .light-text {
