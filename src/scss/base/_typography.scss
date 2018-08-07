@@ -9,7 +9,7 @@ h1, h2, h3, h4, h5, h6 {
   @include text-transform(uppercase);
   @include font-weight(extra-bold);
   @include font-family(primary);
-  color: #657380;
+  color: color(blue-bayoux);
   font-weight: 700;
   margin: 2.355rem 0;
 }
@@ -21,8 +21,8 @@ h2 {
 }
 
 h3 {
-  margin: 1.355rem 0 1.355rem 0;
   font-size: 1.2rem;
+  margin: 1.355rem 0 1.355rem 0;
 }
 
 @mixin text($type) {
@@ -38,9 +38,9 @@ h3 {
 
 p {
   @include font-family(secondary);
-  color: #657380;
-  font-weight: 300;
+  color: color(blue-bayoux);
   font-size: 1.3rem;
+  font-weight: 300;
   margin-bottom: 0;
 }
 
@@ -55,19 +55,19 @@ p {
 }
 
 .date-text {
-  color: #657380;
-  font-size: 1.2rem;
   @include font-family(primary);
+  color: color(blue-bayoux);
+  font-size: 1.2rem;
 }
 
 .location-text {
-  color: #657380;
-  font-size: 1.2rem;
   @include font-family(primary);
+  color: color(blue-bayoux);
+  font-size: 1.2rem;
 }
 
 .light-text {
-  color: #657380;
   @include font-family(primary);
+  color: color(blue-bayoux);
   opacity: 0.5;
 }

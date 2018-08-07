@@ -10,14 +10,14 @@ a {
   }
 
   &.link-text {
-    color: #1eaede;
     @include font-family(primary);
-    font-weight: 500;
+    color: color(cerulean);
     font-size: 1.3rem;
+    font-weight: 500;
 
     &:hover {
-      color: #1eaede;
-      background: #f9f9f9;
+      background: color(snow-drift);
+      color: color(cerulean);
     }
   }
 }

@@ -2,32 +2,32 @@
 // Navigation
 
 .navigation {
-  background: #fff;
-  border-bottom: 4px solid #424242;
+  background: color(neutral-light);
+  border-bottom: 4px solid color(charcoal);
 
   nav {
     height: 55px;
     text-align: center;
 
-      @include breakpoint(large) {
-        position: fixed;
-        right: 2rem;
-        top: 1.5rem;
-      }
+    @include breakpoint(large) {
+      position: fixed;
+      right: 2rem;
+      top: 1.5rem;
+    }
 
     ul {
+      -webkit-overflow-scrolling: touch;
       list-style: none;
       margin: 0;
+      overflow-x: scroll;
+      overflow-y: hidden;
       padding: 1rem 0;
       text-align: center;
       white-space: nowrap;
-      overflow-y: hidden;
-      overflow-x: scroll;
-      -webkit-overflow-scrolling: touch;
 
-        @include breakpoint(large) {
-          text-align: right;
-        }
+      @include breakpoint(large) {
+        text-align: right;
+      }
 
       li {
         display: inline-block;
@@ -35,8 +35,8 @@
         padding: 0;
 
         @include breakpoint(medium) {
-          width: 20%;
           margin: auto;
+          width: 20%;
         }
 
         @include breakpoint(large) {
@@ -47,16 +47,17 @@
         }
 
         a {
-          color: #657380;
-          text-transform: uppercase;
           @include font-family(primary);
+          color: color(blue-bayoux);
           font-weight: 700;
+          text-transform: uppercase;
 
           &.active {
-            color: #1eaede;
+            color: color(cerulean);
           }
 
           @include breakpoint(large) {
+
             &:hover {
               padding-right: 0.33rem;
             }
