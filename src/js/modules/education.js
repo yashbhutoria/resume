@@ -24,31 +24,31 @@ const education =  {
     {
       'school': 'Udacity',
       'course': 'Front-End Web Developer Nanodegree',
-      'url': 'https://mikejoyce.io/certificates/udacity/front-end-web-developer-nanodegree.pdf',
+      'url': 'http://certificates.mikejoyce.io/udacity/front-end-web-developer-nanodegree.pdf',
       'dates': '2015'
     },
     {
       'school': 'Udacity',
       'course': 'Website Performance Optimization',
-      'url': 'https://mikejoyce.io/certificates/udacity/website-performance-optimization.pdf',
+      'url': 'http://certificates.mikejoyce.io/udacity/website-performance-optimization.pdf',
       'dates': '2015'
     },
     {
       'school': 'Udacity',
       'course': 'Object Orientated JavaScript',
-      'url': 'https://mikejoyce.io/certificates/udacity/object-orientated-javascript.pdf',
+      'url': 'http://certificates.mikejoyce.io/udacity/object-orientated-javascript.pdf',
       'dates': '2015'
     },
     {
       'school': 'Udacity',
       'course': 'JavaScript Basics',
-      'url': 'https://mikejoyce.io/certificates/udacity/javascript-basics.pdf',
+      'url': 'http://certificates.mikejoyce.io/udacity/javascript-basics.pdf',
       'dates': '2014'
     },
     {
       'school': 'Udacity',
       'course': 'Intro to HTML & CSS',
-      'url': 'https://mikejoyce.io/certificates/udacity/intro-to-html.pdf',
+      'url': 'http://certificates.mikejoyce.io/udacity/intro-to-html.pdf',
       'dates': '2014'
     },
     {
@@ -60,7 +60,7 @@ const education =  {
     {
       'school': 'Udemy',
       'course': 'User Experience Design Fundamentals',
-      'url': 'https://www.udemy.com/certificate/UC-4DQF7AK2/',
+      'url': 'http://certificates.mikejoyce.io/udemy/user-experience-design-fundamentals.pdf',
       'dates': '2014'
     }
   ]
