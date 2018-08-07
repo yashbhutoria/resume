@@ -18,6 +18,10 @@ h2 {
   display: inline-block;
   margin-bottom: 2rem;
   text-align: left;
+
+  @include breakpoint(large) {
+    font-size: 2rem;
+  }
 }
 
 h3 {
