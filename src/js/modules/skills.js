@@ -19,11 +19,12 @@ var skills = {
     {
       'field': 'Languages',
       'skills': [
+        'CoffeeScript',
         'CSS',
         'Sass',
         'SCSS',
         'JavaScript',
-        'HTML',
+        'HTML5',
         'XML',
         'PHP',
         'Python'
@@ -33,17 +34,19 @@ var skills = {
       'field': 'Libraries',
       'skills': [
         'jQuery',
-        'D3'
+        'D3',
+        'GreenSock'
       ]
     },
     {
       'field': 'Frameworks',
       'skills': [
-        'Foundation',
+        'ZURB Foundation',
         'Bootstrap',
         'Compass',
         'Knockout',
-        'Kendo UI'
+        'Kendo UI',
+        'Jasmine'
       ]
     },
     {
@@ -52,7 +55,8 @@ var skills = {
         'Gulp',
         'Grunt',
         'Bower',
-        'Brunch'
+        'Brunch',
+        'Webpack'
       ]
     },
     {
@@ -69,9 +73,17 @@ var skills = {
         'JSON',
         'JSONP',
         'OOP',
+        'REST',
         'Google Maps API',
         'Uber API',
-        'Foursquare API'
+        'Foursquare API',
+        'Responsive Web Design'
+      ]
+    },
+    {
+      'field': 'Technologies',
+      'skills': [
+        'Docker'
       ]
     },
     {
