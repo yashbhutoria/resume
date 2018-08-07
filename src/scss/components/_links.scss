@@ -1,0 +1,23 @@
+
+// Links
+
+a {
+  transition: all .3s ease;
+
+  &:hover,
+  &:focus {
+
+  }
+
+  &.link-text {
+    color: #1eaede;
+    @include font-family(primary);
+    font-weight: 500;
+    font-size: 1.3rem;
+
+    &:hover {
+      color: #1eaede;
+      background: #f9f9f9;
+    }
+  }
+}

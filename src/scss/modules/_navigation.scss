@@ -1,0 +1,68 @@
+
+// Navigation
+
+.navigation {
+  background: #fff;
+  border-bottom: 4px solid #424242;
+
+  nav {
+    height: 55px;
+    text-align: center;
+
+      @include breakpoint(large) {
+        position: fixed;
+        right: 2rem;
+        top: 1.5rem;
+      }
+
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 1rem 0;
+      text-align: center;
+      white-space: nowrap;
+      overflow-y: hidden;
+      overflow-x: scroll;
+      -webkit-overflow-scrolling: touch;
+
+        @include breakpoint(large) {
+          text-align: right;
+        }
+
+      li {
+        display: inline-block;
+        margin: 0 20px;
+        padding: 0;
+
+        @include breakpoint(medium) {
+          width: 20%;
+          margin: auto;
+        }
+
+        @include breakpoint(large) {
+          display: block;
+          font-size: 1.5rem;
+          margin: auto;
+          width: auto;
+        }
+
+        a {
+          color: #657380;
+          text-transform: uppercase;
+          @include font-family(primary);
+          font-weight: 700;
+
+          &.active {
+            color: #1eaede;
+          }
+
+          @include breakpoint(large) {
+            &:hover {
+              padding-right: 0.33rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}

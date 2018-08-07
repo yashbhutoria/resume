@@ -1,0 +1,34 @@
+
+// Buttons
+
+.button, button {
+  margin-bottom: 0;
+
+  &.primary {
+
+    &:hover,
+    &:focus {
+
+    }
+  }
+
+  &.secondary {
+
+    &:hover,
+    &:focus {
+
+    }
+  }
+
+  &.small {
+
+  }
+
+  &.medium {
+
+  }
+
+  &.large {
+
+  }
+}

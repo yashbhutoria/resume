@@ -1,0 +1,34 @@
+
+// Fonts
+
+@import url('//fonts.googleapis.com/css?family=Roboto:400,300,500,700,900|Roboto+Condensed:400,700,300');
+
+@mixin font-family($family) {
+  @if $family == primary {
+    font-family: 'Roboto', sans-serif;
+  }
+  @if $family == secondary {
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+}
+
+@mixin font-weight($weight) {
+  @if $weight == extra-light {
+    font-weight: 200;
+  }
+  @if $weight == light {
+    font-weight: 300;
+  }
+  @if $weight == regular {
+    font-weight: 400;
+  }
+  @if $weight == medium {
+    font-weight: 500;
+  }
+  @if $weight == bold {
+    font-weight: 700;
+  }
+  @if $weight == extra-bold {
+    font-weight: 900;
+  }
+}

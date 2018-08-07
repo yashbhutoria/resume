@@ -1,0 +1,73 @@
+
+// Typography
+
+body {
+  @include font-family(primary);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @include text-transform(uppercase);
+  @include font-weight(extra-bold);
+  @include font-family(primary);
+  color: #657380;
+  font-weight: 700;
+  margin: 2.355rem 0;
+}
+
+h2 {
+  display: inline-block;
+  margin-bottom: 2rem;
+  text-align: left;
+}
+
+h3 {
+  margin: 1.355rem 0 1.355rem 0;
+  font-size: 1.2rem;
+}
+
+@mixin text($type) {
+  @if $type == primary {
+    @include font-family(primary);
+    color: color(neutral-dark);
+  }
+  @if $type == secondary {
+    @include font-family(secondary);
+    color: color(neutral-grey);
+  }
+}
+
+p {
+  @include font-family(secondary);
+  color: #657380;
+  font-weight: 300;
+  font-size: 1.3rem;
+  margin-bottom: 0;
+}
+
+.text-primary,
+%text-primary {
+  @include text(primary);
+}
+
+.text-secondary,
+%text-secondary {
+  @include text(secondary);
+}
+
+.date-text {
+  color: #657380;
+  font-size: 1.2rem;
+  @include font-family(primary);
+}
+
+.location-text {
+  color: #657380;
+  font-size: 1.2rem;
+  @include font-family(primary);
+}
+
+.light-text {
+  color: #657380;
+  @include font-family(primary);
+  opacity: 0.5;
+}
