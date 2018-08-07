@@ -6,20 +6,37 @@
   position: relative;
 
   h1 {
-    color: color(seashell);
+    font-size: 1.5625rem;
     margin-bottom: 1rem;
     text-align: center;
+
+    @include breakpoint(medium) {
+      font-size: 2rem;
+    }
   }
 
   .role {
-    color: color(pumice);
+    color: color(blue-bayoux);
     text-align: center;
     text-transform: uppercase;
   }
 
-  img {
+  .bio-image {
+    background-size: contain;
     border-radius: 999px;
+    border: 2px solid color(off-white);
     display: block;
     margin: auto;
+    width: 150px;
+    height: 150px;
+
+    @include breakpoint(medium) {
+
+    }
+
+    @include breakpoint(large) {
+      width: 165px;
+      height: 165px;
+    }
   }
 }

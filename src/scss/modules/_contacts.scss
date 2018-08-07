@@ -2,7 +2,7 @@
 // Contacts
 
 .contacts {
-  background: color(charcoal);
+  background: color(black-haze);
   bottom: 0;
   left: 0;
   padding: 0.25rem 0 0.1875rem 0;
@@ -21,14 +21,21 @@
     width: auto;
   }
 
-  .fa {
-    color: color(aluminum);
-    font-size: 1.48rem;
+  .contacts-icon {
+    background: #fff;
+    border: 2px solid rgba(color(cerulean), 0.8);
+    color: rgba(color(cerulean), 0.8);
+    font-size: 18px;
     margin: .3rem;
     transition: all .3s ease;
+    height: 38px;
+    width: 38px;
+    padding: 8px 0 0;
+    border-radius: 999px;
 
     &:hover {
-      color: color(neutral-light);
+      border-color: #EEEEEE;
+      color: #222931;
     }
   }
 }

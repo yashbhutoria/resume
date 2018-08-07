@@ -22,7 +22,7 @@ const bio = {
 
 var HTMLheaderName = '<h1 id="name">%data%</h1>';
 var HTMLheaderRole = '<div class="role">%data%</div>';
-var HTMLbioPic = '<img src="%data%" class="biopic">';
+var HTMLbioPic = '<div class="bio-image" style="background-image: url(%data%)"></div>';
 
 const formattedBioPic = HTMLbioPic.replace('%data%', bio.bioPic);
 $bio.append(formattedBioPic);

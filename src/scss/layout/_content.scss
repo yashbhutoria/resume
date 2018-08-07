@@ -6,12 +6,12 @@
 }
 
 .left-content {
-    background: color(charcoal);
-    border: medium none;
+    background: color(black-haze);
+    border-right: 1px solid color(off-white);
 
     @include breakpoint(large) {
       height: 100%;
-      width: 20rem;
+      width: 16.875rem;
       position: fixed;
       top: 0;
       left: 0;
@@ -33,7 +33,7 @@
     max-width: 75rem;
 
     @include breakpoint(large) {
-      padding-left: 20rem;
+      padding-left: 16.875rem;
   }
 }
 
