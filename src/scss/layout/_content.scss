@@ -30,7 +30,7 @@
 
 .main-content {
     border: medium none;
-    max-width: 1200px;
+    max-width: 75rem;
 
     @include breakpoint(large) {
       padding-left: 20rem;

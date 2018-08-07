@@ -6,7 +6,7 @@
   border-bottom: 4px solid color(charcoal);
 
   nav {
-    height: 55px;
+    height: 3.4375rem;
     text-align: center;
 
     @include breakpoint(large) {
@@ -31,7 +31,7 @@
 
       li {
         display: inline-block;
-        margin: 0 20px;
+        margin: 0 1.25rem;
         padding: 0;
 
         @include breakpoint(medium) {
