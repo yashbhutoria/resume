@@ -18,7 +18,7 @@ const contacts = {
   'email': 'hello@mikejoyce.io',
   'github': 'mikejoyceio',
   'codepen': 'mikejoyceio',
-  'instagram': 'mikejoyce',
+  'linkedin': 'mikejoyceio',
   'twitter': '@mikejoyceio'
 };
 
@@ -40,9 +40,9 @@ var HTMLcodepen = `<div class="small-3 text-center column">
                       </a>
                    </div>`;
 
-var HTMLinstagram = `<div class="small-3 text-center column">
-                      <a href="https://instagram.com/%data%" target="_blank">
-                        <span class="contacts-icon fa fa-instagram"></span>
+var HTMLlinkedin = `<div class="small-3 text-center column">
+                      <a href="https://linkedin.com/in/%data%" target="_blank">
+                        <span class="contacts-icon fa fa-linkedin"></span>
                       </a>
                      </div>`;
 
@@ -61,8 +61,8 @@ $contacts.append(formattedGithub);
 const formattedCodepen = HTMLcodepen.replace('%data%', contacts.codepen);
 $contacts.append(formattedCodepen);
 
-const formattedInstagram = HTMLinstagram.replace('%data%', contacts.instagram);
-$contacts.append(formattedInstagram);
+const formattedLinkedin = HTMLlinkedin.replace('%data%', contacts.linkedin);
+$contacts.append(formattedLinkedin);
 
 const formattedTwitter = HTMLtwitter.replace('%data%', contacts.twitter);
 $contacts.append(formattedTwitter);
