@@ -198,27 +198,27 @@ module.exports = {
     new plugins.imageMin({
       test: 'images/**'
     }),
-    // new plugins.favicons({
-    //   logo: `${config.src}/favicon/favicon.png`,
-    //   prefix: 'favicons/',
-    //   emitStats: false,
-    //   statsFilename: 'iconstats-[hash].json',
-    //   persistentCache: false,
-    //   inject: false,
-    //   background: '#fff',
-    //   title: 'Resume - Mike Joyce',
-    //   icons: {
-    //     android: true,
-    //     appleIcon: true,
-    //     appleStartup: false,
-    //     coast: false,
-    //     favicons: true,
-    //     firefox: true,
-    //     opengraph: false,
-    //     twitter: false,
-    //     yandex: false,
-    //     windows: true
-    //   }
-    // })
+    new plugins.favicons({
+      logo: `${config.src}/favicon/favicon.png`,
+      prefix: 'favicons/',
+      emitStats: false,
+      statsFilename: 'iconstats-[hash].json',
+      persistentCache: false,
+      inject: false,
+      background: '#fff',
+      title: 'Resume | Mike Joyce',
+      icons: {
+        android: true,
+        appleIcon: true,
+        appleStartup: false,
+        coast: false,
+        favicons: true,
+        firefox: true,
+        opengraph: false,
+        twitter: false,
+        yandex: false,
+        windows: true
+      }
+    })
   ]
 };
