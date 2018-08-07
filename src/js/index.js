@@ -1,3 +1,7 @@
+/**
+ * @file index
+ * @author Mike Joyce [hello@mikejoyce.io]
+ */
 
 /**
  * Import SCSS
