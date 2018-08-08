@@ -19,8 +19,12 @@ h2 {
   margin-bottom: 2rem;
   text-align: left;
 
+  @include breakpoint(medium) {
+    font-size: 1.5rem;
+  }
+
   @include breakpoint(large) {
-    font-size: 2rem;
+    font-size: 1.7rem;
   }
 }
 
