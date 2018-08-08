@@ -68,6 +68,8 @@ var HTMLemployerDates = '<div class="date-text">%data%</div>';
 var HTMLemployerLocation = '<div class="location-text">%data%</div>';
 var HTMLemployerDescription = '<p><br>%data%</p>';
 
+/** Format HTML and add to DOM... */
+
 const formattedWorkHeader = HTMLworkHeader.replace('%data%', work.header);
 $work.append(formattedWorkHeader);
 

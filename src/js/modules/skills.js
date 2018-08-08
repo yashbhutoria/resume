@@ -118,10 +118,16 @@ var skills = {
   ]
 };
 
+/**
+ * HTML Helpers
+ * @type {string}
+ */
 var HTMLskillsHeader = '<h2>%data%</h2>';
 var HTMLskillsSubHeader = '<h3 class="light-text">%data%</h3>';
 var HTMLskillsList = '<ul id="skillsList%data%"></ul>';
 var HTMLskillsItem = '<li id="">- %data%</li>';
+
+/** Format HTML and add to DOM... */
 
 var formattedSkillsHeader = HTMLskillsHeader.replace('%data%', skills.header);
 $skills.append(formattedSkillsHeader);

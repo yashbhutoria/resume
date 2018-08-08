@@ -79,6 +79,10 @@ const projects = {
   ]
 };
 
+/**
+ * HTML Helpers
+ * @type {string}
+ */
 var HTMLprojectsHeader ='<h2>%data%</h2>';
 var HTMLprojectStart = '<div class="project-entry content"></div>';
 var HTMLprojectTitle = '<a class="link-text" href="%url%" target="_blank">%data%</a>';
@@ -86,6 +90,8 @@ var HTMLprojectDates = '<div class="date-text">%data%</div>';
 var HTMLprojectDescription = '<p><br>%data%</p>';
 var HTMLprojectImageStart = '<div class="project-images row"></div>';
 var HTMLprojectImage = '<div class="small-12 medium-4 large-4 columns"><img src="%data%"></div>';
+
+/** Format HTML and add to DOM... */
 
 var formattedProjectsHeader = HTMLprojectsHeader.replace('%data%', projects.header);
 $projects.append(formattedProjectsHeader);

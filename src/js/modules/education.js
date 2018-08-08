@@ -66,6 +66,10 @@ const education =  {
   ]
 };
 
+/**
+ * HTML Helpers
+ * @type {string}
+ */
 var HTMLeducationHeader ='<h2>%data%</h2>';
 
 // var HTMLformalHeader = '<h3>%data%</h3>';
@@ -80,6 +84,8 @@ var HTMLonlineStart = '<div class="online-entry content"></div>';
 var HTMLonlineCourse = '<a class="link-text" href="%url%" target="_blank">%data%</a>';
 var HTMLonlineSchool = '<div class="light-text">%data%</div>';
 var HTMLonlineDates = '<div class="date-text">%data%</div>';
+
+/** Format HTML and add to DOM... */
 
 var formattedEducationHeader = HTMLeducationHeader.replace('%data%', education.educationHeader);
 $education.append(formattedEducationHeader);

@@ -52,6 +52,8 @@ var HTMLtwitter = `<div class="small-3 text-center column">
                     </a>
                    </div>`;
 
+/** Format HTML and add to DOM... */
+
 const formattedEmail = HTMLemail.replace('%data%', contacts.email);
 $leftContent.append(formattedEmail);
 
