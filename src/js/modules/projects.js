@@ -97,15 +97,16 @@ var formattedProjectsHeader = HTMLprojectsHeader.replace('%data%', projects.head
 $projects.append(formattedProjectsHeader);
 
 for (var project in projects.projects) {
+
   $projects.append(HTMLprojectStart);
 
-  const formattedTitle = HTMLprojectTitle.replace('%data%', projects.projects[project].title).replace('%url%', projects.projects[project].url);
+  let formattedTitle = HTMLprojectTitle.replace('%data%', projects.projects[project].title).replace('%url%', projects.projects[project].url);
   $('.project-entry:last').append(formattedTitle);
 
-  const formattedDates = HTMLprojectDates.replace('%data%', projects.projects[project].dates);
+  let formattedDates = HTMLprojectDates.replace('%data%', projects.projects[project].dates);
   $('.project-entry:last').append(formattedDates);
 
-  const formattedDescription = HTMLprojectDescription.replace('%data%', projects.projects[project].description);
+  let formattedDescription = HTMLprojectDescription.replace('%data%', projects.projects[project].description);
   $('.project-entry:last').append(formattedDescription);
 
   $('.project-entry:last').append(HTMLprojectImageStart);
