@@ -1,51 +1,63 @@
-# Interactive Resume
+# Resume
 
 ###### Project Overview
 
-A resume application that reads content from a JSON file and dynamically displays the content.
+A resume application that reads content from JSON and dynamically displays the content.
 
 ## Getting Started
 
-###### Live
-
-Point your browser to http://resume.mikejoyce.io
-
-###### Local
-
-###### 1. Clone this repo
+###### Clone
 
 ```
 $ git clone https://github.com/mikejoyceio/resume
-````
-
-###### 2. Serve the application
-
-```
-$ python -m SimpleHTTPServer
 ```
 
-Detailed Python Simple Server instructions can been found [here](https://docs.python.org/2/library/basehttpserver.html).
+###### Install Yarn
 
-###### 3. Open the application
+Yarn can be installed through the [Homebrew package manager](https://brew.sh/). This will also install [Node.js](https://nodejs.org/) (which is required) if it is not already installed.
+
+Details installation instructions for all operating systems can be found [here](https://yarnpkg.com/en/docs/install)
+
+To make sure you have Yarn installed, run the following command to check the version:
 
 ```
-$ open "http://localhost:8000"
+$ yarn -v
+```
+
+###### Install Dependencies
+
+```
+$ yarn install 
+```
+
+###### Run Webpack
+
+```
+$ yarn run dev
+```
+
+## The Build
+
+[Webpack](https://webpack.js.org/) is a JavaScript module bundler that generates static assets, and takes care of a number of common frontend tasks in this project.
+
+###### Development
+
+```
+$ yarn run dev
+```
+
+###### Production 
+
+```
+$ yarn run prod
 ```
 
 ## Resources
 
-###### Zurb Foundation
+###### Documentation
 
-- [Foundation Docs](http://foundation.zurb.com/docs/)
+- [Foundation 6](https://foundation.zurb.com/sites/docs/)
+- [React](https://reactjs.org/docs/getting-started.html)
+- [Webpack](https://webpack.js.org/concepts/)
+- [Sass](https://sass-lang.com/guide)
 
-###### Package Management
-
-- [Bower](http://bower.io/docs/api/)
-
-###### Sass
-
-- [Compass](http://compass-style.org/)
-
-###### Icon Font
-
-- [Font Awesome](http://fortawesome.github.io/Font-Awesome/)
