@@ -110,6 +110,7 @@ const formattedOnlineHeader = HTMLonlineHeader.replace('%data%', education.onlin
 $education.append(formattedOnlineHeader);
 
 for (var school in education.onlineSchools) {
+
   $education.append(HTMLonlineStart);
 
   const formattedOnlineCourse = HTMLonlineCourse.replace('%data%', education.onlineSchools[school].course).replace('%url%', education.onlineSchools[school].url);
@@ -120,5 +121,6 @@ for (var school in education.onlineSchools) {
 
   const formattedOnlineDates = HTMLonlineDates.replace('%data%', education.onlineSchools[school].dates);
   $('.online-entry:last').append(formattedOnlineDates);
+
 }
 
