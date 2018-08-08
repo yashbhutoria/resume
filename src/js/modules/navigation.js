@@ -8,6 +8,7 @@
  * @type {Object}
  */
 const $nav = $('#nav');
+const $body = $('html, body');
 
 /**
  * navigation
@@ -39,7 +40,7 @@ for (var nav in navigation.nav) {
 function anchorScroll(target) {
   $(`#link${target}`).on('click', function() {
     $(`#${target}`).children('h2').removeClass('pop');
-    $('html, body').animate({
+    $body.animate({
         scrollTop: $(`#${target}`).offset().top
     }, 1000, function() {
 
