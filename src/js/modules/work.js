@@ -37,7 +37,7 @@ const work = {
     {
       'name': '3tone',
       'logo': '../dist/images/logo-3tone.jpg',
-      'url': 'http://mikejoyce.io',
+      'url': 'http://3-tone.com/',
       'position': 'Front-End Developer (Remote)',
       'location': 'New York, USA',
       'dates': '2013 - Present',
