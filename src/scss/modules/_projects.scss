@@ -3,10 +3,18 @@
 
 .projects {
 
-  img {
-    background: color(neutral-light);
-    display: block;
-    margin: 2rem auto 2.5rem;
-    padding: 0.4rem;
+  .project {
+    margin: 0 0 2.5rem;
+
+    .project-images {
+
+      .project-image {
+        background: color(neutral-light);
+        border: 1px solid color(off-white);
+        display: block;
+        margin: 2rem auto 0;
+        padding: 0.4rem;
+      }
+    }
   }
 }
