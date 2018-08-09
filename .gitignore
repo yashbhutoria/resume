@@ -1,7 +1,4 @@
 
-# Build directory
-dist
-
 # Dependencies
 node_modules
 
