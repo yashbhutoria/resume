@@ -77,10 +77,10 @@ for (var employer in work.employers) {
 
   $work.append(HTMLemployerStart);
 
-  let formattedEmployerImage = HTMLemployerLogo.replace('%data%', work.employers[employer].logo);
+  let formattedEmployerLogo = HTMLemployerLogo.replace('%data%', work.employers[employer].logo);
   let formattedEmployerName = HTMLemployerName.replace('%data%', work.employers[employer].name).replace('%url%', work.employers[employer].url);
   let formattedEmployerPosition = HTMLemployerPosition.replace('%data%', work.employers[employer].position);
-  let formattedEmployerTitle = `${formattedEmployerImage}  ${formattedEmployerName}  ${formattedEmployerPosition}`;
+  let formattedEmployerTitle = `${formattedEmployerName}  ${formattedEmployerPosition}`;
   $('.employer:last').append(formattedEmployerTitle);
 
   let formattedDates = HTMLemployerDates.replace('%data%', work.employers[employer].dates);
