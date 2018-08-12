@@ -116,16 +116,16 @@ const projects = {
         '../dist/images/project-website-performance-optimization-02.jpg'
       ]
     },
-    {
-      'title': 'Retro Frogger',
-      'url': 'https://github.com/mikejoyceio/arcade-game',
-      'dates': 'Jan 2015',
-      'description': 'A classic Frogger arcade game clone.',
-      'images': [
-        'https://placehold.it/377x250',
-        'https://placehold.it/377x250'
-      ]
-    },
+    // {
+    //   'title': 'Retro Frogger',
+    //   'url': 'https://github.com/mikejoyceio/arcade-game',
+    //   'dates': 'Jan 2015',
+    //   'description': 'A classic Frogger arcade game clone.',
+    //   'images': [
+    //     'https://placehold.it/377x250',
+    //     'https://placehold.it/377x250'
+    //   ]
+    // },
     {
       'title': 'iOpenDecision',
       'url': 'https://citygategis.com/products/iopengov',
