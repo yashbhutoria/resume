@@ -27,6 +27,26 @@ const projects = {
       ]
     },
     {
+      'title': 'Foundation 6 + Webpack Boilerplate',
+      'url': 'https://github.com/mikejoyceio/foundation-webpack-boilerplate',
+      'dates': 'Aug 2018',
+      'description': 'A minimal Foundation for Sites 6 and Webpack boilerplate.',
+      'images': [
+        '../dist/images/project-foundation-webpack-boilerplate-01.jpg',
+        '../dist/images/project-foundation-webpack-boilerplate-02.jpg'
+      ]
+    },
+    {
+      'title': 'Foundation 6 + Gulp Boilerplate',
+      'url': 'https://github.com/mikejoyceio/foundation-gulp-boilerplate',
+      'dates': 'Aug 2018',
+      'description': 'A minimal Foundation for Sites 6 and Gulp boilerplate.',
+      'images': [
+        '../dist/images/project-foundation-gulp-boilerplate-01.jpg',
+        '../dist/images/project-foundation-gulp-boilerplate-02.jpg'
+      ]
+    },
+    {
       'title': 'ADA Compliance Resource',
       'url': 'https://github.com/mikejoyceio/ada-compliance',
       'dates': 'Aug 2018',
