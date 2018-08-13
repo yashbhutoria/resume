@@ -38,7 +38,7 @@ $ yarn run dev
 
 ## The Build
 
-[Webpack](https://webpack.js.org/) is a JavaScript module bundler that generates static assets, and takes care of a number of common frontend tasks in this project.
+[Webpack](https://webpack.js.org/) is a JavaScript module bundler that generates static assets, which takes care of a number of common frontend tasks in this project.
 
 ###### Development
 
