@@ -59,37 +59,37 @@ const work = {
  * HTML Helpers
  * @type {string}
  */
-var HTMLworkHeader = `<h2>%data%</h2>`;
-var HTMLemployerStart = '<div class="employer content"></div>';
-var HTMLemployerLogo = '<img class="employer-logo" src="%data%">'
-var HTMLemployerName = '<a class="link-text" href="%url%" target="_blank">%data%';
-var HTMLemployerPosition = ' <span class="light-text"> - %data%</span></a>';
-var HTMLemployerDates = '<div class="date-text">%data%</div>';
-var HTMLemployerLocation = '<div class="location-text">%data%</div>';
-var HTMLemployerDescription = '<p><br>%data%</p>';
+const HTMLworkHeader = `<h2>%data%</h2>`;
+const HTMLemployerStart = '<div class="employer content"></div>';
+const HTMLemployerLogo = '<img class="employer-logo" src="%data%">'
+const HTMLemployerName = '<a class="link-text" href="%url%" target="_blank">%data%';
+const HTMLemployerPosition = ' <span class="light-text"> - %data%</span></a>';
+const HTMLemployerDates = '<div class="date-text">%data%</div>';
+const HTMLemployerLocation = '<div class="location-text">%data%</div>';
+const HTMLemployerDescription = '<p><br>%data%</p>';
 
 /** Format HTML and add to DOM... */
 
 const formattedWorkHeader = HTMLworkHeader.replace('%data%', work.header);
 $work.append(formattedWorkHeader);
 
-for (var employer in work.employers) {
+for (const employer in work.employers) {
 
   $work.append(HTMLemployerStart);
 
-  let formattedEmployerLogo = HTMLemployerLogo.replace('%data%', work.employers[employer].logo);
-  let formattedEmployerName = HTMLemployerName.replace('%data%', work.employers[employer].name).replace('%url%', work.employers[employer].url);
-  let formattedEmployerPosition = HTMLemployerPosition.replace('%data%', work.employers[employer].position);
-  let formattedEmployerTitle = `${formattedEmployerName}  ${formattedEmployerPosition}`;
+  const formattedEmployerLogo = HTMLemployerLogo.replace('%data%', work.employers[employer].logo);
+  const formattedEmployerName = HTMLemployerName.replace('%data%', work.employers[employer].name).replace('%url%', work.employers[employer].url);
+  const formattedEmployerPosition = HTMLemployerPosition.replace('%data%', work.employers[employer].position);
+  const formattedEmployerTitle = `${formattedEmployerName}  ${formattedEmployerPosition}`;
   $('.employer:last').append(formattedEmployerTitle);
 
-  let formattedDates = HTMLemployerDates.replace('%data%', work.employers[employer].dates);
+  const formattedDates = HTMLemployerDates.replace('%data%', work.employers[employer].dates);
   $('.employer:last').append(formattedDates);
 
-  let formattedLocation = HTMLemployerLocation.replace('%data%', work.employers[employer].location);
+  const formattedLocation = HTMLemployerLocation.replace('%data%', work.employers[employer].location);
   $('.employer:last').append(formattedLocation);
 
-  let formattedDescription = HTMLemployerDescription.replace('%data%', work.employers[employer].description);
+  const formattedDescription = HTMLemployerDescription.replace('%data%', work.employers[employer].description);
   $('.employer:last').append(formattedDescription);
 
 }

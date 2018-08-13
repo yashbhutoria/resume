@@ -26,27 +26,27 @@ const contacts = {
  * HTML Helpers
  * @type {string}
  */
-var HTMLemail = `<div class="email">%data%</div>`;
+const HTMLemail = `<div class="email">%data%</div>`;
 
-var HTMLgithub = `<div class="small-3 text-center column">
+const HTMLgithub = `<div class="small-3 text-center column">
                     <a href="https://github.com/%data%" target="_blank">
                       <span class="contacts-icon fa fa-github-alt"></span>
                     </a>
                   </div>`;
 
-var HTMLcodepen = `<div class="small-3 text-center column">
+const HTMLcodepen = `<div class="small-3 text-center column">
                       <a href="https://codepen.io/%data%" target="_blank">
                         <span class="contacts-icon fa fa-codepen"></span>
                       </a>
                    </div>`;
 
-var HTMLlinkedin = `<div class="small-3 text-center column">
+const HTMLlinkedin = `<div class="small-3 text-center column">
                       <a href="https://linkedin.com/in/%data%" target="_blank">
                         <span class="contacts-icon fa fa-linkedin"></span>
                       </a>
                      </div>`;
 
-var HTMLtwitter = `<div class="small-3 text-center column">
+const HTMLtwitter = `<div class="small-3 text-center column">
                     <a href="https://twitter.com/%data%" target="_blank">
                       <span class="contacts-icon fa fa-twitter"></span>
                     </a>

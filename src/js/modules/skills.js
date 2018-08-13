@@ -13,7 +13,7 @@ const $skills = $('#skills');
  * skills
  * @type {Object}
  */
-var skills = {
+const skills = {
   'header': 'Skills',
   'fields': [
     {
@@ -122,26 +122,26 @@ var skills = {
  * HTML Helpers
  * @type {string}
  */
-var HTMLskillsHeader = '<h2>%data%</h2>';
-var HTMLskillsSubHeader = '<h3 class="light-text">%data%</h3>';
-var HTMLskillsList = '<ul id="skillsList%data%"></ul>';
-var HTMLskillsItem = '<li id="">- %data%</li>';
+const HTMLskillsHeader = '<h2>%data%</h2>';
+const HTMLskillsSubHeader = '<h3 class="light-text">%data%</h3>';
+const HTMLskillsList = '<ul id="skillsList%data%"></ul>';
+const HTMLskillsItem = '<li id="">- %data%</li>';
 
 /** Format HTML and add to DOM... */
 
-var formattedSkillsHeader = HTMLskillsHeader.replace('%data%', skills.header);
+const formattedSkillsHeader = HTMLskillsHeader.replace('%data%', skills.header);
 $skills.append(formattedSkillsHeader);
 
-for(var field in skills.fields) {
+for (const field in skills.fields) {
 
-  let formattedSubHeader = HTMLskillsSubHeader.replace('%data%', skills.fields[field].field)
+  const formattedSubHeader = HTMLskillsSubHeader.replace('%data%', skills.fields[field].field)
   $skills.append(formattedSubHeader);
 
-  let formattedSkillsList = HTMLskillsList.replace('%data%', field);
+  const formattedSkillsList = HTMLskillsList.replace('%data%', field);
   $skills.append(formattedSkillsList);
 
-  for (var skill in skills.fields[field].skills) {
-    let formattedSkillsItem = HTMLskillsItem.replace('%data%', skills.fields[field].skills[skill]);
+  for (const skill in skills.fields[field].skills) {
+    const formattedSkillsItem = HTMLskillsItem.replace('%data%', skills.fields[field].skills[skill]);
     $(`#skillsList${field}`).append(formattedSkillsItem);
   }
 

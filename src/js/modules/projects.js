@@ -143,43 +143,43 @@ const projects = {
  * HTML Helpers
  * @type {string}
  */
-var HTMLprojectsHeader ='<h2>%data%</h2>';
-var HTMLprojectStart = '<div class="project content"></div>';
-var HTMLprojectTitle = '<a class="link-text" href="%url%" target="_blank">%data%</a>';
-var HTMLprojectDates = '<div class="date-text">%data%</div>';
+const HTMLprojectsHeader ='<h2>%data%</h2>';
+const HTMLprojectStart = '<div class="project content"></div>';
+const HTMLprojectTitle = '<a class="link-text" href="%url%" target="_blank">%data%</a>';
+const HTMLprojectDates = '<div class="date-text">%data%</div>';
 
-var HTMLprojectDescription = `<p>
+const HTMLprojectDescription = `<p>
                                 <br>%data%
                               </p>`
-var HTMLprojectImageStart = '<div class="project-images row"></div>';
+const HTMLprojectImageStart = '<div class="project-images row"></div>';
 
-var HTMLprojectImage = `<div class="small-12 medium-6 columns">
+const HTMLprojectImage = `<div class="small-12 medium-6 columns">
                           <img class="project-image" src="%data%">
                         </div>`;
 
 /** Format HTML and add to DOM... */
 
-var formattedProjectsHeader = HTMLprojectsHeader.replace('%data%', projects.header);
+const formattedProjectsHeader = HTMLprojectsHeader.replace('%data%', projects.header);
 $projects.append(formattedProjectsHeader);
 
-for (var project in projects.projects) {
+for (const project in projects.projects) {
 
   $projects.append(HTMLprojectStart);
 
-  let formattedTitle = HTMLprojectTitle.replace('%data%', projects.projects[project].title).replace('%url%', projects.projects[project].url);
+  const formattedTitle = HTMLprojectTitle.replace('%data%', projects.projects[project].title).replace('%url%', projects.projects[project].url);
   $('.project:last').append(formattedTitle);
 
-  let formattedDates = HTMLprojectDates.replace('%data%', projects.projects[project].dates);
+  const formattedDates = HTMLprojectDates.replace('%data%', projects.projects[project].dates);
   $('.project:last').append(formattedDates);
 
-  let formattedDescription = HTMLprojectDescription.replace('%data%', projects.projects[project].description);
+  const formattedDescription = HTMLprojectDescription.replace('%data%', projects.projects[project].description);
   $('.project:last').append(formattedDescription);
 
   $('.project:last').append(HTMLprojectImageStart);
 
   if (projects.projects[project].images) {
-    for (var image in projects.projects[project].images) {
-      let formattedImage = HTMLprojectImage.replace('%data%', projects.projects[project].images[image])
+    for (const image in projects.projects[project].images) {
+      const formattedImage = HTMLprojectImage.replace('%data%', projects.projects[project].images[image])
       $('.project-images:last').append(formattedImage);
     }
   }

@@ -70,24 +70,24 @@ const education =  {
  * HTML Helpers
  * @type {string}
  */
-var HTMLeducationHeader ='<h2>%data%</h2>';
+const HTMLeducationHeader ='<h2>%data%</h2>';
 
-// var HTMLformalHeader = '<h3>%data%</h3>';
-// var HTMLformalStart = '<div class="formal-entry content"></div>';
-// var HTMLformalSchool = '<a class="link-text" href="%url%" target="_blank">%data%</a>';
-// var HTMLformalQualification = '<div class="light-text">%data%</div>';
-// var HTMLformalDates = '<div class="date-text">%data%</div>';
-// var HTMLformalLocation = '<div class="location-text">%data%</div>';
+// const HTMLformalHeader = '<h3>%data%</h3>';
+// const HTMLformalStart = '<div class="formal-entry content"></div>';
+// const HTMLformalSchool = '<a class="link-text" href="%url%" target="_blank">%data%</a>';
+// const HTMLformalQualification = '<div class="light-text">%data%</div>';
+// const HTMLformalDates = '<div class="date-text">%data%</div>';
+// const HTMLformalLocation = '<div class="location-text">%data%</div>';
 
-var HTMLonlineHeader = '<h3>%data%</h3>';
-var HTMLonlineStart = '<div class="online-entry content"></div>';
-var HTMLonlineCourse = '<a class="link-text" href="%url%" target="_blank">%data%</a>';
-var HTMLonlineSchool = '<div class="light-text">%data%</div>';
-var HTMLonlineDates = '<div class="date-text">%data%</div>';
+const HTMLonlineHeader = '<h3>%data%</h3>';
+const HTMLonlineStart = '<div class="online-entry content"></div>';
+const HTMLonlineCourse = '<a class="link-text" href="%url%" target="_blank">%data%</a>';
+const HTMLonlineSchool = '<div class="light-text">%data%</div>';
+const HTMLonlineDates = '<div class="date-text">%data%</div>';
 
 /** Format HTML and add to DOM... */
 
-var formattedEducationHeader = HTMLeducationHeader.replace('%data%', education.educationHeader);
+const formattedEducationHeader = HTMLeducationHeader.replace('%data%', education.educationHeader);
 $education.append(formattedEducationHeader);
 
 // const formattedFormalHeader = HTMLformalHeader.replace('%data%', education.formalHeader);
@@ -109,7 +109,7 @@ $education.append(formattedEducationHeader);
 const formattedOnlineHeader = HTMLonlineHeader.replace('%data%', education.onlineHeader);
 $education.append(formattedOnlineHeader);
 
-for (var school in education.onlineSchools) {
+for (const school in education.onlineSchools) {
 
   $education.append(HTMLonlineStart);
 

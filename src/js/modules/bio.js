@@ -24,9 +24,9 @@ const bio = {
  * HTML Helpers
  * @type {string}
  */
-var HTMLheaderName = '<h1 id="name">%data%</h1>';
-var HTMLheaderRole = '<div class="role">%data%</div>';
-var HTMLbioPic = '<div class="bio-image" style="background-image: url(%data%)"></div>';
+const HTMLheaderName = '<h1 id="name">%data%</h1>';
+const HTMLheaderRole = '<div class="role">%data%</div>';
+const HTMLbioPic = '<div class="bio-image" style="background-image: url(%data%)"></div>';
 
 /** Format HTML and add to DOM... */
 
