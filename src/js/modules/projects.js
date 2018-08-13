@@ -20,7 +20,7 @@ const projects = {
       'title': 'Foundation 6 + React Boilerplate',
       'url': 'https://github.com/mikejoyceio/foundation-react-boilerplate',
       'dates': 'Aug 2018',
-      'description': 'A minimal Foundation for Sites 6 and React boilerplate with Webpack to streamline common front-end tasks.',
+      'description': 'A minimal Foundation for Sites 6 and React boilerplate.',
       'images': [
         '../dist/images/project-foundation-react-boilerplate-01.jpg',
         '../dist/images/project-foundation-react-boilerplate-02.jpg'
