@@ -57,7 +57,6 @@ $ yarn run prod
 ###### Documentation
 
 - [Foundation 6](https://foundation.zurb.com/sites/docs/)
-- [React](https://reactjs.org/docs/getting-started.html)
 - [Sass](https://sass-lang.com/guide)
 - [Webpack](https://webpack.js.org/concepts/)
 - [Yarn](https://yarnpkg.com/)
