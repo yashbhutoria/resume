@@ -1,0 +1,44 @@
+
+// References
+
+.references {
+  padding-bottom: 6.25rem;
+
+  blockquote {
+    border-color: color(off-white);
+    padding: 0 0 0 0.625rem;
+    margin: 1.2rem 0 4rem;
+
+    p {
+      color: color(blue-bayoux);
+    }
+
+    img {
+      height: 3.4375rem;
+      width: 3.4375rem;
+      border-radius: 999px;
+      border: 1px solid color(off-white);
+      margin: 0 10px 0 0;
+    }
+
+    cite {
+      display: inline-block;
+      font-size: 15px;
+      font-weight: 600;
+
+      &:before {
+        display: none;
+      }
+
+      span {
+        @include font-family(primary);
+        color: color(blue-bayoux);
+        opacity: 0.5;
+      }
+    }
+
+    a {
+      font-size: 15px;
+    }
+  }
+}

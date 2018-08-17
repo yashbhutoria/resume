@@ -6,6 +6,13 @@
   .project {
     margin: 0 0 2.5rem;
 
+    .project-date {
+      @include font-family(primary);
+      color: color(blue-bayoux);
+      font-size: 1.1rem;
+      margin: 0 0 20px;
+    }
+
     .project-images {
 
       .project-image {
@@ -15,6 +22,10 @@
         margin: 2rem auto 0;
         padding: 0.4rem;
       }
+    }
+
+    p {
+      margin: 0;
     }
   }
 }

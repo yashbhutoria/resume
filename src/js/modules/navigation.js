@@ -19,7 +19,8 @@ const navigation = {
     'work',
     'projects',
     'education',
-    'skills'
+    'skills',
+    'references'
   ]
 };
 

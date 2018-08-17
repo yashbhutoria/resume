@@ -70,7 +70,7 @@ const projects = {
       'title': 'World Sight Day',
       'url': 'http://wsd.seenow.org/',
       'dates': 'Nov 2017',
-      'description': 'World Sight Day campaign website for <a class="link-text" href="http://seenow.org/" target="_blank">SeeNow</a>. Sketch translation to HTML/CSS/JavaScript.',
+      'description': 'World Sight Day campaign website for <a href="http://seenow.org/" target="_blank">SeeNow</a>. Sketch translation to HTML/CSS/JavaScript.',
       'images': [
         '../dist/images/project-world-site-day-01.jpg',
         '../dist/images/project-world-site-day-02.jpg'
@@ -80,7 +80,7 @@ const projects = {
       'title': 'Meet Hope',
       'url': 'https://www.meethope.us/',
       'dates': 'Sep 2017',
-      'description': 'Meet Hope website for <a class="link-text" href="http://www.purpose.com/" target="_blank">Purpose</a>, which won an <a class="link-text" href="https://www.awwwards.com/sites/meet-hope" target="_blank">Awwwards Honorable Mention in 2017</a>. Sketch translation to HTML/CSS/JavaScript.',
+      'description': 'Meet Hope website for <a href="http://www.purpose.com/" target="_blank">Purpose</a>, which won an <a href="https://www.awwwards.com/sites/meet-hope" target="_blank">Awwwards Honorable Mention in 2017</a>. Sketch translation to HTML/CSS/JavaScript.',
       'images': [
         '../dist/images/project-meet-hope-01.jpg',
         '../dist/images/project-meet-hope-02.jpg'
@@ -130,7 +130,7 @@ const projects = {
       'title': 'iOpenDecision',
       'url': 'https://citygategis.com/products/iopengov',
       'dates': '2014 - Present',
-      'description': 'iOpenDecision is a web based application which enables the development of cost-benefit models which include a geographic component.  A collaborative approach is used to allow subject matter experts in different areas to come together and create a financial model.  This approach allows for a more comprehensive understanding of the nature of the costs and the valued benefits of a project. <br><br> The software is currently being used by The Maryland Department of Transportation (MDOT), a government agency in the U.S. state of Maryland',
+      'description': 'iOpenDecision is a web based application which enables the development of cost-benefit models which include a geographic component.  A collaborative approach is used to allow subject matter experts in different areas to come together and create a financial model.  This approach allows for a more comprehensive understanding of the nature of the costs and the valued benefits of a project. The software is currently being used by The Maryland Department of Transportation (MDOT), a government agency in the U.S. state of Maryland',
       'images': [
         '../dist/images/project-iopendecision-01.jpg',
         '../dist/images/project-iopendecision-02.jpg'
@@ -145,12 +145,10 @@ const projects = {
  */
 const HTMLprojectsHeader ='<h2>%data%</h2>';
 const HTMLprojectStart = '<div class="project content"></div>';
-const HTMLprojectTitle = '<a class="link-text" href="%url%" target="_blank">%data%</a>';
-const HTMLprojectDates = '<div class="date-text">%data%</div>';
+const HTMLprojectTitle = '<a href="%url%" target="_blank">%data%</a>';
+const HTMLprojectDates = '<div class="project-date">%data%</div>';
 
-const HTMLprojectDescription = `<p>
-                                <br>%data%
-                              </p>`
+const HTMLprojectDescription = '<p>%data%</p>';
 const HTMLprojectImageStart = '<div class="project-images row"></div>';
 
 const HTMLprojectImage = `<div class="small-12 medium-6 columns">

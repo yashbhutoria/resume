@@ -4,7 +4,7 @@
 .work {
 
   .employer {
-    margin: 0 0 1rem;
+    margin: 0;
 
     .employer-logo {
       border-radius: 5px;
@@ -13,6 +13,25 @@
       margin: 0 5px 10px 0;
       padding: 4px;
       width: 45px;
+    }
+
+    .employer-position {
+      @include font-family(primary);
+      color: color(blue-bayoux);
+      opacity: 0.5;
+    }
+
+    .employer-date {
+      @include font-family(primary);
+      color: color(blue-bayoux);
+      font-size: 1.1rem;
+    }
+
+    .employer-location {
+      @include font-family(primary);
+      color: color(blue-bayoux);
+      font-size: 1.1rem;
+      margin: 0 0 20px;
     }
   }
 }

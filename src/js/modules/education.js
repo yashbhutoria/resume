@@ -74,16 +74,16 @@ const HTMLeducationHeader ='<h2>%data%</h2>';
 
 // const HTMLformalHeader = '<h3>%data%</h3>';
 // const HTMLformalStart = '<div class="formal-entry content"></div>';
-// const HTMLformalSchool = '<a class="link-text" href="%url%" target="_blank">%data%</a>';
+// const HTMLformalSchool = '<a href="%url%" target="_blank">%data%</a>';
 // const HTMLformalQualification = '<div class="light-text">%data%</div>';
 // const HTMLformalDates = '<div class="date-text">%data%</div>';
 // const HTMLformalLocation = '<div class="location-text">%data%</div>';
 
 const HTMLonlineHeader = '<h3>%data%</h3>';
 const HTMLonlineStart = '<div class="online-entry content"></div>';
-const HTMLonlineCourse = '<a class="link-text" href="%url%" target="_blank">%data%</a>';
-const HTMLonlineSchool = '<div class="light-text">%data%</div>';
-const HTMLonlineDates = '<div class="date-text">%data%</div>';
+const HTMLonlineCourse = '<a href="%url%" target="_blank">%data%</a>';
+const HTMLonlineSchool = '<div class="education-school">%data%</div>';
+const HTMLonlineDates = '<div class="education-date">%data%</div>';
 
 /** Format HTML and add to DOM... */
 

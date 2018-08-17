@@ -3,4 +3,17 @@
 
 .education {
   padding: 0.3125rem;
+
+  .education-school {
+    @include font-family(primary);
+    color: color(blue-bayoux);
+    opacity: 0.5;
+  }
+
+  .education-date {
+    @include font-family(primary);
+    color: color(blue-bayoux);
+    font-size: 1.1rem;
+    margin: 0 0 20px;
+  }
 }

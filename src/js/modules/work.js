@@ -62,11 +62,11 @@ const work = {
 const HTMLworkHeader = `<h2>%data%</h2>`;
 const HTMLemployerStart = '<div class="employer content"></div>';
 const HTMLemployerLogo = '<img class="employer-logo" src="%data%">'
-const HTMLemployerName = '<a class="link-text" href="%url%" target="_blank">%data%';
-const HTMLemployerPosition = ' <span class="light-text"> - %data%</span></a>';
-const HTMLemployerDates = '<div class="date-text">%data%</div>';
-const HTMLemployerLocation = '<div class="location-text">%data%</div>';
-const HTMLemployerDescription = '<p><br>%data%</p>';
+const HTMLemployerName = '<a href="%url%" target="_blank">%data%';
+const HTMLemployerPosition = ' <span class="employer-position"> - %data%</span></a>';
+const HTMLemployerDates = '<div class="employer-date">%data%</div>';
+const HTMLemployerLocation = '<div class="employer-location">%data%</div>';
+const HTMLemployerDescription = '<p>%data%</p>';
 
 /** Format HTML and add to DOM... */
 

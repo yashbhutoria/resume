@@ -2,22 +2,15 @@
 // Links
 
 a {
+  @include font-family(primary);
   transition: all .3s ease;
+  color: color(cerulean);
+  font-size: 1.2rem;
+  font-weight: 600;
 
   &:hover,
   &:focus {
-
-  }
-
-  &.link-text {
-    @include font-family(primary);
+    background: color(snow-drift);
     color: color(cerulean);
-    font-size: 1.2rem;
-    font-weight: 600;
-
-    &:hover {
-      background: color(snow-drift);
-      color: color(cerulean);
-    }
   }
 }

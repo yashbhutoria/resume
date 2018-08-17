@@ -13,9 +13,10 @@ import 'font-awesome/scss/font-awesome.scss';
  * Import modules
  */
 import 'bio';
-import 'skills';
-import 'navigation';
 import 'contacts';
-import 'work';
-import 'projects';
 import 'education';
+import 'navigation';
+import 'projects';
+import 'references';
+import 'skills';
+import 'work';
