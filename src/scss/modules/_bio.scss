@@ -7,7 +7,7 @@
 
   h1 {
     font-size: 1.5625rem;
-    margin-bottom: 1rem;
+    margin: 2rem 0 1rem;
     text-align: center;
 
     @include breakpoint(medium) {
@@ -26,17 +26,17 @@
     border-radius: 999px;
     border: 2px solid color(off-white);
     display: block;
+    height: 9.375rem;
     margin: auto;
-    width: 150px;
-    height: 150px;
+    width: 9.375rem;
 
     @include breakpoint(medium) {
 
     }
 
     @include breakpoint(large) {
-      width: 165px;
-      height: 165px;
+      height: 10.3125rem;
+      width: 10.3125rem;
     }
   }
 }
