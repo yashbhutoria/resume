@@ -123,9 +123,14 @@ const skills = {
  * @type {string}
  */
 const HTMLskillsHeader = '<h2>%data%</h2>';
-const HTMLskillsSubHeader = '<h3 class="light-text">%data%</h3>';
+const HTMLskillsStart = `<div class="small-12 medium-6 column end">
+                          <div class="skill">
+
+                          </div>
+                        </div>`;
+const HTMLskillsSubHeader = '<h3 class="skill-heading">%data%</h3>';
 const HTMLskillsList = '<ul id="skillsList%data%"></ul>';
-const HTMLskillsItem = '<li id="">- %data%</li>';
+const HTMLskillsItem = '<li id=""><span>-</span> %data%</li>';
 
 /** Format HTML and add to DOM... */
 
@@ -134,11 +139,13 @@ $skills.append(formattedSkillsHeader);
 
 for (const field in skills.fields) {
 
+  $skills.append(HTMLskillsStart);
+
   const formattedSubHeader = HTMLskillsSubHeader.replace('%data%', skills.fields[field].field)
-  $skills.append(formattedSubHeader);
+  $('.skill:last').append(formattedSubHeader);
 
   const formattedSkillsList = HTMLskillsList.replace('%data%', field);
-  $skills.append(formattedSkillsList);
+  $('.skill:last').append(formattedSkillsList);
 
   for (const skill in skills.fields[field].skills) {
     const formattedSkillsItem = HTMLskillsItem.replace('%data%', skills.fields[field].skills[skill]);
@@ -146,5 +153,3 @@ for (const field in skills.fields) {
   }
 
 }
-
-
