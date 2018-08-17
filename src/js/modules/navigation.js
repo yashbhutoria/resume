@@ -16,6 +16,7 @@ const $body = $('html, body');
  */
 const navigation = {
   'nav': [
+    'summary',
     'work',
     'projects',
     'education',

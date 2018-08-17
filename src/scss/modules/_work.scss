@@ -5,6 +5,11 @@
 
   .employer {
     margin: 0;
+    padding: 0 0 1.3rem;
+
+    &:last-child {
+      padding-bottom: 0;
+    }
 
     .employer-logo {
       border-radius: 5px;

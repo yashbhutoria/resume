@@ -6,6 +6,10 @@
   .project {
     margin: 0 0 2.5rem;
 
+    &:last-child {
+      margin: 0 0 1.25rem;
+    }
+
     .project-date {
       @include font-family(primary);
       color: color(blue-bayoux);

@@ -19,4 +19,5 @@ import 'navigation';
 import 'projects';
 import 'references';
 import 'skills';
+import 'summary';
 import 'work';

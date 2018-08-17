@@ -1,8 +1,13 @@
 
 // Content
 
-.wrapper {
-   padding: 0;
+.main-content {
+    border: medium none;
+    max-width: 75rem;
+
+    @include breakpoint(large) {
+      padding-left: 16.875rem;
+  }
 }
 
 .left-content {
@@ -28,16 +33,11 @@
     }
 }
 
-.main-content {
-    border: medium none;
-    max-width: 75rem;
-
-    @include breakpoint(large) {
-      padding-left: 16.875rem;
-  }
-}
-
 .content {
   margin: 0.65rem 0;
-  padding: 0.65rem 0;
+  padding: 0 0 0.65rem;
+}
+
+.wrapper {
+   padding: 0;
 }
