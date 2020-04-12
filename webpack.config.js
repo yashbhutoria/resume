@@ -18,6 +18,13 @@ const webpack = require('webpack');
 const path = require('path');
 
 /**
+ * Clean Webpack
+ * @type {Object}
+ * @see {@link @see {@link https://www.npmjs.com/package/clean-webpack-plugin}}
+ */
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
+
+/**
  * Plugins
  * @type {Object}
  */
@@ -28,51 +35,49 @@ const plugins = {
    * @type {[Object}
    * @see {@link https://www.npmjs.com/package/extract-text-webpack-plugin}
    */
-  extractText: require('extract-text-webpack-plugin'),
-
-  /**
-   * Clean Webpack
-   * @type {Object}
-   * @see {@link @see {@link https://www.npmjs.com/package/clean-webpack-plugin}}
-   */
-  cleanWebpack: require('clean-webpack-plugin'),
+  ExtractText: require('extract-text-webpack-plugin'),
 
   /**
    * Uglify JS
    * @type {Object}
    * @see {@link https://www.npmjs.com/package/uglifyjs-webpack-plugin}
    */
-  uglifyJs: require('uglifyjs-webpack-plugin'),
+  UglifyJs: require('uglifyjs-webpack-plugin'),
 
   /**
    * Optimize CSS
    * @type {Object}
    * @see {@link https://www.npmjs.com/package/optimize-css-assets-webpack-plugin}
    */
-  optimizeCSS: require('optimize-css-assets-webpack-plugin'),
+  OptimizeCSS: require('optimize-css-assets-webpack-plugin'),
 
   /**
    * Imagemin
    * @type {Object}
    * @see {@link https://www.npmjs.com/package/imagemin-webpack-plugin}
    */
-  imageMin: require('imagemin-webpack-plugin').default,
+  ImageMin: require('imagemin-webpack-plugin').default,
 
   /**
    * Autoprefixer
    * @type {Object}
    * @see {@link https://www.npmjs.com/package/autoprefixer}
    */
-  autoprefixer: require('autoprefixer'),
+  Autoprefixer: require('autoprefixer'),
 
   /**
    * Favicons
    * @type {Object}
    @see {@link https://www.npmjs.com/package/favicons-webpack-plugin}
    */
-  favicons: require('favicons-webpack-plugin'),
+  Favicons: require('favicons-webpack-plugin'),
 
-  copyWebpack: require('copy-webpack-plugin')
+  /**
+   * Copy
+   * @type {Object}
+   @see {@link https://www.npmjs.com/package/copy-webpack-plugin}
+   */
+  Copy: require('copy-webpack-plugin')
 
 };
 
@@ -107,13 +112,14 @@ module.exports = {
             options: {
               name: '[name].[ext]',
               useRelativePath: true,
-              publicPath: '../fonts'
+              publicPath: '../fonts',
+              outputPath: 'fonts/'
             }
           }
         ]
       },
       {
-        test: /\.(jpe?g|png|gif|svg)$/i,
+        test: /\.(jpe?g|png|gif)$/i,
         loader: 'file-loader',
         options: {
           name: '[name].[ext]',
@@ -127,14 +133,14 @@ module.exports = {
           {
             loader: 'babel-loader',
             options: {
-              presets: [ 'env' ]
+              presets: [ '@babel/preset-env' ]
             }
           }
         ]
       },
       {
         test: /\.scss$/,
-        use: plugins.extractText.extract({
+        use: plugins.ExtractText.extract({
           fallback: 'style-loader',
           use: [
             {
@@ -144,7 +150,7 @@ module.exports = {
               loader: 'postcss-loader',
               options: {
                 plugins: () => [
-                  plugins.autoprefixer
+                  plugins.Autoprefixer
                 ]
               }
             },
@@ -157,13 +163,15 @@ module.exports = {
             {
               loader: 'sass-loader',
               options: {
-                includePaths: [
-                  'node_modules/',
-                  'node_modules/motion-ui/src',
-                  'node_modules/foundation-sites/scss',
-                  'src/scss'
-                ],
-                sourceMap: true
+                sourceMap: true,
+                sassOptions: {
+                  includePaths: [
+                    'node_modules/',
+                    'node_modules/motion-ui/src',
+                    'node_modules/foundation-sites/scss',
+                    'src/scss'
+                  ],
+                }
               }
             }
           ]
@@ -173,22 +181,20 @@ module.exports = {
   },
   optimization: {
     minimizer: [
-      new plugins.uglifyJs({
+      new plugins.UglifyJs({
         cache: true,
         parallel: true,
         sourceMap: true
       }),
-      new plugins.optimizeCSS({}),
+      new plugins.OptimizeCSS({}),
     ]
   },
   plugins: [
-    new plugins.cleanWebpack([
-      `${config.dist}/*`
-    ]),
-    new plugins.extractText(
+    new CleanWebpackPlugin,
+    new plugins.ExtractText(
       'css/app.css'
     ),
-    new plugins.copyWebpack([
+    new plugins.Copy([
       {from: 'src/images', to:'images'}
     ]),
     new webpack.ProvidePlugin({
@@ -196,10 +202,10 @@ module.exports = {
       jQuery: 'jquery',
       'window.jQuery': 'jquery'
     }),
-    new plugins.imageMin({
+    new plugins.ImageMin({
       test: 'images/**'
     }),
-    new plugins.favicons({
+    new plugins.Favicons({
       logo: `${config.src}/favicon/favicon.png`,
       prefix: 'favicons/',
       emitStats: false,
