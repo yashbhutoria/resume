@@ -126,16 +126,6 @@ const projects = {
     //     'https://placehold.it/377x250'
     //   ]
     // },
-    {
-      'title': 'iOpenDecision',
-      'url': 'https://citygategis.com/products/iopengov',
-      'dates': '2014 - Present',
-      'description': 'iOpenDecision is a web based application which enables the development of cost-benefit models which include a geographic component.  A collaborative approach is used to allow subject matter experts in different areas to come together and create a financial model.  This approach allows for a more comprehensive understanding of the nature of the costs and the valued benefits of a project. The software is currently being used by The Maryland Department of Transportation (MDOT), a government agency in the U.S. state of Maryland',
-      'images': [
-        '../dist/images/project-iopendecision-01.jpg',
-        '../dist/images/project-iopendecision-02.jpg'
-      ]
-    },
   ]
 };
 
