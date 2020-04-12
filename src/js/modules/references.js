@@ -27,8 +27,8 @@ const references = {
     {
       'name': 'Frank Conry',
       'profileImage': '../dist/images/profile-frank.jpg',
-      'company': 'Citygate GIS',
-      'position': 'CTO',
+      'company': 'Dealer Inspire',
+      'position': 'Director Of Engineering',
       'email': 'frank@citygategis.com',
       'quote': `<p>Mike was an exceptional employee throughout his tenure at Citygate GIS. He started with us quite junior but grew professionally at an impressive pace to where he was taking leadership roles with us and mentoring other team members before long.</p>
                 <p>What really set Mike apart at Citygate was twofold. First his continued zeal for new technologies and desire to improve our code and coding practices by leveraging them and second his unusual ability to think of the needs of the business and direct his attention toward those tasks that were most mission critical without needing any guidance. This made him exceptionally valuable because he could be given wide latitude to self direct and could be relied upon to seek requirements or direction when they were needed or to doggedly pursue the right tasks when they were not.</p>
