@@ -17,6 +17,15 @@ const work = {
   'header': 'Work',
   'employers': [
     {
+      'name': 'John\'s Mustang',
+      'logo': '../dist/images/logo-johns-mustang.jpg',
+      'url': 'http://johnsmustang.com',
+      'position': 'Director Of Technical Operations (Remote)',
+      'location': 'Houston TX, USA',
+      'dates': 'Jan 2019 - Present',
+      'description': 'Coordinating and participating in projects to design, develop, program, test, launch and maintain technical systems, workflows and solutions.'
+    },
+    {
       'name': 'CityGate GIS',
       'logo': '../dist/images/logo-citygate.jpg',
       'url': 'http://citygategis.com/',
@@ -31,7 +40,7 @@ const work = {
       'url': 'http://johnsmustang.com',
       'position': 'Web Developer (Remote)',
       'location': 'Houston TX, USA',
-      'dates': '2015 - Present',
+      'dates': '2015 - Jan 2019',
       'description': 'General web development tasks and maintenance of an eCommerce platform built with Netsuite and Magento.'
     },
     {
